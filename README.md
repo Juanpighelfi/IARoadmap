@@ -11,7 +11,7 @@ El contenido esta organizado para tres usos:
 ## Abrir en Obsidian
 
 1. Instala Obsidian: https://obsidian.md/
-2. Abre esta carpeta como vault: `roadmap-ia-2026`.
+2. Abre esta carpeta como vault: `IARoadmap`.
 3. Empieza por [Roadmap de IA 2026](Roadmap%20de%20IA%202026.md).
 4. Abre [Mapa visual.canvas](00-MOC/Mapa%20visual.canvas) para ver el recorrido completo.
 5. Usa el grafo local de Obsidian para ver relaciones entre niveles, rutas y recursos.
