@@ -1,0 +1,1267 @@
+﻿Working directory: C:\Users\agusm\Downloads\proyectos\ml-course\modulo_0
+
+============================================================
+  TESTING: conceptos\01_algebra_lineal_para_ml.py
+============================================================
+============================================================
+1´©ÅÔâú  VECTORES
+============================================================
+
+v = [3 2]
+w = [1 4]
+v + w = [4 6]
+2 * v = [6 4]
+v ┬À w = 11
+|v| = 3.6056
+
+============================================================
+2´©ÅÔâú  MATRICES COMO TRANSFORMACIONES LINEALES
+============================================================
+
+Determinantes de cada transformaci├│n:
+  Identidad      : det =   1.00, rango = 2
+  Escala         : det =   1.00, rango = 2
+  Rotaci├│n       : det =   1.00, rango = 2
+  Shear          : det =   1.00, rango = 2
+  Reflexi├│n      : det =  -1.00, rango = 2
+  Compresi├│n     : det =   0.00, rango = 1
+
+============================================================
+3´©ÅÔâú  COMPOSICI├ôN DE TRANSFORMACIONES
+============================================================
+R_30 (rotaci├│n 30┬░):
+[[ 0.866 -0.5  ]
+ [ 0.5    0.866]]
+
+S_2x (escala 2x en X):
+[[2 0]
+ [0 1]]
+
+S_2x @ R_30 (primero rotar, luego escalar):
+[[ 1.732 -1.   ]
+ [ 0.5    0.866]]
+
+┬┐S┬ÀR == R┬ÀS? False ÔåÉ ┬íNO conmutan!
+S┬ÀR =
+[[ 1.732 -1.   ]
+ [ 0.5    0.866]]
+R┬ÀS =
+[[ 1.732 -0.5  ]
+ [ 1.     0.866]]
+
+============================================================
+4´©ÅÔâú  EIGENVALORES Y EIGENVECTORES
+============================================================
+
+Matriz A:
+[[3 1]
+ [0 2]]
+
+Eigenvalores: [3. 2.]
+
+Eigenvectores (columnas):
+[[ 1.         -0.70710678]
+ [ 0.          0.70710678]]
+
+  Eigenvector v1 = [1. 0.]
+  ╬╗1 = 3.0
+  A┬Àv1 = [3. 0.]
+  ╬╗1┬Àv1 = [3. 0.]
+  ┬┐A┬Àv = ╬╗┬Àv? True
+
+  Eigenvector v2 = [-0.7071  0.7071]
+  ╬╗2 = 2.0
+  A┬Àv2 = [-1.4142  1.4142]
+  ╬╗2┬Àv2 = [-1.4142  1.4142]
+  ┬┐A┬Àv = ╬╗┬Àv? True
+
+============================================================
+5´©ÅÔâú  RANGO DE UNA MATRIZ
+============================================================
+W_full:
+[[1 2]
+ [3 5]]
+  Rango: 2
+  Determinante: -1.00
+
+W_low (fila 2 = 2 ├ù fila 1):
+[[1 2]
+ [2 4]]
+  Rango: 1
+  Determinante: 0.00
+
+--- Simulaci├│n LoRA ---
+W_original: shape=(100, 100), rango=100
+A: shape=(100, 4)
+B: shape=(4, 100)
+╬öW = A┬ÀB: shape=(100, 100), rango=4
+
+Par├ímetros W completo: 10,000 (100├ù100)
+Par├ímetros LoRA: 800 (100├ù4 + 4├ù100)
+Reducci├│n: 8.0% de los par├ímetros originales
+
+============================================================
+­ƒôï RESUMEN ÔÇö ├üLGEBRA LINEAL PARA ML
+============================================================
+
+ÔöîÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÉ
+Ôöé  CONCEPTO              Ôöé  EN ML SIGNIFICA...                    Ôöé
+Ôö£ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöñ
+Ôöé  Vector                Ôöé  Un punto de datos o un peso           Ôöé
+Ôöé  Producto punto        Ôöé  "Cu├ínto coinciden" input y pesos      Ôöé
+Ôöé  Matriz                Ôöé  Una transformaci├│n (capa de la red)   Ôöé
+Ôöé  Multiplicaci├│n mat.   Ôöé  Composici├│n de capas (forward pass)   Ôöé
+Ôöé  Determinante          Ôöé  ┬┐La transformaci├│n pierde info?       Ôöé
+Ôöé  Rango                 Ôöé  Dimensionalidad ├║til de la salida     Ôöé
+Ôöé  Eigenvalores          Ôöé  Estabilidad de gradientes / PCA       Ôöé
+Ôöé  Eigenvectores         Ôöé  Direcciones "naturales" de los datos  Ôöé
+Ôöé  Matriz de covarianza  Ôöé  Estructura/correlaci├│n de features    Ôöé
+Ôöé  SVD                   Ôöé  Compresi├│n de matrices (LoRA)         Ôöé
+ÔööÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÿ
+
+­ƒÄ» SIGUIENTE PASO: Ve a challenges/ y completa:
+   - challenge_1_matmul.py     (ya hecho Ô£à)
+   - challenge_2_pca_manual.py
+   - challenge_3_transformaciones.py
+
+Ô£à Gu├¡a conceptual completada. ┬íA los challenges!
+
+  Ô£à conceptos\01_algebra_lineal_para_ml.py: PASSED
+
+============================================================
+  TESTING: conceptos\02_calculo_y_gradientes.py
+============================================================
+============================================================
+1´©ÅÔâú  DERIVADAS Y GRADIENT DESCENT
+============================================================
+
+--- Gradient Descent en acci├│n ---
+  Step  0: w =  2.1460, f(w) =  4.9138, grad =  7.0798
+  Step  1: w =  1.6350, f(w) =  0.7102, grad = 10.2202
+  Step  2: w =  1.4141, f(w) =  0.2166, grad =  4.4185
+  Step  3: w =  1.4086, f(w) =  0.2163, grad =  0.1099
+  Step  4: w =  1.4080, f(w) =  0.2163, grad =  0.0111
+  Step  9: w =  1.4080, f(w) =  0.2163, grad =  0.0000
+  Step 14: w =  1.4080, f(w) =  0.2163, grad =  0.0000
+  Step 19: w =  1.4080, f(w) =  0.2163, grad = -0.0000
+  Step 24: w =  1.4080, f(w) =  0.2163, grad = -0.0000
+  Step 29: w =  1.4080, f(w) =  0.2163, grad = -0.0000
+
+============================================================
+2´©ÅÔâú  LA REGLA DE LA CADENA
+============================================================
+
+Mini red neuronal: x ÔåÆ (W┬Àx + b) ÔåÆ sigmoid ÔåÆ MSE Loss
+
+Funciones encadenadas:
+  z = W┬Àx + b         (transformaci├│n lineal)
+  a = ¤â(z)            (activaci├│n sigmoid)
+  L = (a - y)┬▓        (loss MSE)
+
+Para actualizar W, necesitamos dL/dW:
+  dL/dW = dL/da ┬À da/dz ┬À dz/dW
+
+Forward pass:
+  z = W┬Àx + b = 0.5┬À2.0 + -0.1 = 0.9
+  a = ¤â(z) = ¤â(0.9) = 0.710950
+  L = (a - y)┬▓ = (0.710950 - 1.0)┬▓ = 0.083550
+
+Backward pass (Regla de la Cadena):
+  dL/da = 2(a - y) = 2(0.710950 - 1.0) = -0.578101
+  da/dz = ¤â(z)(1 - ¤â(z)) = 0.710950┬À0.289050 = 0.205500
+  dz/dW = x = 2.0
+  dL/dW = dL/da ┬À da/dz ┬À dz/dW = -0.578101 ┬À 0.205500 ┬À 2.0 = -0.237600
+
+  W_nuevo = W - lr┬ÀdL/dW = 0.5 - 0.1┬À-0.237600 = 0.523760
+
+    ÔöîÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÉ
+    Ôöé                GRAFO COMPUTACIONAL                        Ôöé
+    Ôöé                                                           Ôöé
+    Ôöé   x ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÉ                                                Ôöé
+    Ôöé           Ôö£ÔöÇÔåÆ [z = W┬Àx + b] ÔöÇÔöÇÔåÆ [a = ¤â(z)] ÔöÇÔöÇÔåÆ [L=(a-y)┬▓]Ôöé
+    Ôöé   W ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÿ        Ôöé                  Ôöé              Ôöé     Ôöé
+    Ôöé   b ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÿ        Ôöé                  Ôöé              Ôöé     Ôöé
+    Ôöé                   Ôöé                  Ôöé              Ôöé     Ôöé
+    Ôöé   BACKWARD:       Ôöé                  Ôöé              Ôöé     Ôöé
+    Ôöé   ÔåÉÔöÇÔöÇ dz/dW=x ÔåÉÔöÇÔöÇ da/dz=¤â'(z) ÔåÉÔöÇÔöÇ dL/da=2(a-y) ÔåÉÔöÇÔöÇÔöé     Ôöé
+    ÔööÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÿ
+
+
+============================================================
+3´©ÅÔâú  FUNCIONES DE ACTIVACI├ôN
+============================================================
+
+­ƒöæ OBSERVACIONES CLAVE:
+
+1. SIGMOID: La derivada m├íxima es 0.25. Si apilamos 10 sigmoid,
+   el gradiente se multiplica: 0.25^10 = 0.0000009536 ÔåÆ ┬íDESAPARECE!
+   Esto es el "vanishing gradient problem".
+
+2. ReLU: La derivada es 0 o 1. No hay multiplicaci├│n de fracciones peque├▒as. 
+   PERO si z < 0, la derivada es 0 ÔåÆ la neurona "muere" y nunca m├ís recibe gradientes.
+
+3. SWISH: Balance entre sigmoid (suave) y ReLU (eficiente).
+   Tiene un peque├▒o dip negativo que funciona como regularizaci├│n.
+
+
+============================================================
+4´©ÅÔâú  GRADIENTE EN M├ÜLTIPLES DIMENSIONES
+============================================================
+
+­ƒöæ OBSERVA:
+  - El gradiente desciende M├üS R├üPIDO en la direcci├│n de y (la "pendiente" es mayor)
+  - Esto causa un camino "zigzagueante" ÔÇö por eso Adam/AdamW adaptan el lr por par├ímetro
+  - El learning rate controla el tama├▒o de cada paso:
+    ÔÇó lr muy alto ÔåÆ oscila y no converge
+    ÔÇó lr muy bajo ÔåÆ converge pero muy lento
+
+
+============================================================
+­ƒôï RESUMEN ÔÇö C├üLCULO PARA ML
+============================================================
+
+ÔöîÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÉ
+Ôöé CONCEPTO              Ôöé EN ML SIGNIFICA...                  Ôöé
+Ôö£ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöñ
+Ôöé Derivada f'(x)        Ôöé ┬┐Cu├ínto cambia la loss si muevo w? Ôöé
+Ôöé Regla de la cadena    Ôöé = Backpropagation                   Ôöé
+Ôöé Gradiente Ôêçf          Ôöé Direcci├│n de mayor cambio           Ôöé
+Ôöé -Ôêçf                   Ôöé Direcci├│n para reducir la loss      Ôöé
+Ôöé Learning rate         Ôöé Tama├▒o del paso en esa direcci├│n    Ôöé
+Ôöé Sigmoid'              Ôöé max 0.25 ÔåÆ vanishing gradient       Ôöé
+Ôöé ReLU'                 Ôöé 0 o 1 ÔåÆ no vanishing, pero muertas Ôöé
+Ôöé Computational Graph   Ôöé DAG de operaciones para autograd    Ôöé
+ÔööÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÿ
+
+­ƒÄ» SIGUIENTE PASO: Ve a challenges/ y completa:
+   - challenge_4_gradientes_manuales.py
+   - challenge_5_autograd_verify.py
+   - challenge_6_vanishing_gradient.py
+
+
+  Ô£à conceptos\02_calculo_y_gradientes.py: PASSED
+
+============================================================
+  TESTING: conceptos\03_probabilidad_y_loss.py
+============================================================
+============================================================
+1´©ÅÔâú  DISTRIBUCIONES DE PROBABILIDAD
+============================================================
+
+  Distribuci├│n real (one-hot): {'Gato': np.float64(1.0), 'Perro': np.float64(0.0), 'P├íjaro': np.float64(0.0), 'Pez': np.float64(0.0)}
+
+  Modelo bueno:  {'Gato': np.float64(0.85), 'Perro': np.float64(0.05), 'P├íjaro': np.float64(0.05), 'Pez': np.float64(0.05)}
+  Modelo medio:  {'Gato': np.float64(0.4), 'Perro': np.float64(0.3), 'P├íjaro': np.float64(0.2), 'Pez': np.float64(0.1)}
+  Modelo malo:   {'Gato': np.float64(0.05), 'Perro': np.float64(0.6), 'P├íjaro': np.float64(0.25), 'Pez': np.float64(0.1)}
+
+============================================================
+2´©ÅÔâú  ENTROP├ìA
+============================================================
+
+  Distribuci├│n                                  | Entrop├¡a (bits)
+  --------------------------------------------- | ---------------
+  Certeza total [1,0,0,0]                       |    -0.0000 bits  
+  Casi seguro [0.95, 0.02, 0.02, 0.01]          |     0.3625 bits  ÔûêÔûêÔûê
+  Inseguro [0.4, 0.3, 0.2, 0.1]                 |     1.8464 bits  ÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûê
+  Uniforme [0.25, 0.25, 0.25, 0.25]             |     2.0000 bits  ÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûê
+
+  ­ƒöæ OBSERVA: La entrop├¡a m├íxima para 4 clases es logÔéé(4) = 2 bits.
+     Eso ocurre con la distribuci├│n uniforme (m├íxima incertidumbre).
+     
+     En ML, queremos que nuestro modelo tenga BAJA entrop├¡a en sus
+     predicciones ÔåÆ que est├® "seguro" de su respuesta.
+
+
+============================================================
+3´©ÅÔâú  CROSS-ENTROPY
+============================================================
+  H(p, q_Bueno) = -log(0.85) = 0.1625
+  H(p, q_Medio) = -log(0.40) = 0.9163
+  H(p, q_Malo ) = -log(0.05) = 2.9957
+
+  ­ƒöæ OBSERVA:
+  - Modelo bueno (q[gato]=0.85): loss = 0.16 (baja)
+  - Modelo medio (q[gato]=0.40): loss = 0.92 (media)
+  - Modelo malo  (q[gato]=0.05): loss = 3.00 (┬íMUY alta!)
+  
+  Cross-entropy penaliza MUCHO las predicciones incorrectas y confiadas.
+  Esto es exactamente lo que queremos: que el modelo aprenda r├ípido de sus
+  peores errores.
+
+
+============================================================
+4´©ÅÔâú  KL DIVERGENCE
+============================================================
+
+  P =  [0.7 0.2 0.1]
+  Q1 = [0.6 0.3 0.1] (cercana)
+  Q2 = [0.1 0.1 0.8] (lejana)
+
+  KL(P || Q1) = 0.0268  (Q1 Ôëê P ÔåÆ KL bajo)
+  KL(P || Q2) = 1.2928  (Q2 Ôëá P ÔåÆ KL alto)
+
+  KL(Q1 || P) = 0.0291
+  ┬┐KL(P||Q1) == KL(Q1||P)? NO ÔÇö ┬íKL no es sim├®trica!
+
+  ­ƒöæ ┬┐Por qu├® la asimetr├¡a importa?
+     
+     KL(P || Q) penaliza cuando Q asigna BAJA probabilidad donde P asigna ALTA.
+     ÔåÆ "No te olvides de lo importante" (mode-covering)
+     
+     KL(Q || P) penaliza cuando Q asigna ALTA probabilidad donde P asigna BAJA.
+     ÔåÆ "No inventes cosas falsas" (mode-seeking)
+     
+     En VAEs se usa KL(Q || P) porque queremos que el encoder
+     no "invente" regiones del espacio latente que el prior no cubre.
+
+
+============================================================
+5´©ÅÔâú  SOFTMAX
+============================================================
+
+  Logits:         [2.  1.  0.1]
+  Softmax:        [0.659  0.2424 0.0986]
+  Suma:           1.000000
+
+  --- Efecto de la Temperatura ---
+  temperature < 1: m├ís confiado (m├ís pico)
+  temperature > 1: m├ís uniforme (m├ís suave)
+  T= 0.1: [1. 0. 0.] ÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûê
+  T= 0.5: [0.864 0.117 0.019] ÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûê
+  T= 1.0: [0.659 0.242 0.099] ÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûê
+  T= 2.0: [0.502 0.304 0.194] ÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûê
+  T=10.0: [0.366 0.331 0.303] ÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûê
+
+============================================================
+­ƒôï RESUMEN ÔÇö PROBABILIDAD Y LOSS FUNCTIONS
+============================================================
+
+ÔöîÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÉ
+Ôöé CONCEPTO         Ôöé EN ML SIGNIFICA...                     Ôöé
+Ôö£ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöñ
+Ôöé Entrop├¡a H(p)    Ôöé Incertidumbre de la distribuci├│n real  Ôöé
+Ôöé Cross-Entropy     Ôöé Loss function para clasificaci├│n       Ôöé
+Ôöé KL Divergence     Ôöé "Distancia" entre distribuciones       Ôöé
+Ôöé Softmax           Ôöé Convertir logits ÔåÆ probabilidades      Ôöé
+Ôöé Temperatura       Ôöé Controlar "confianza" del modelo       Ôöé
+Ôöé One-hot encoding  Ôöé Distribuci├│n real para labels          Ôöé
+Ôöé -log(q_correcto)  Ôöé Simplificaci├│n de CE con one-hot       Ôöé
+ÔööÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÿ
+
+Relaci├│n: H(p,q) = H(p) + KL(p||q)
+  ÔåÆ Minimizar cross-entropy = Minimizar KL divergence
+    (porque H(p) es constante para los datos de entrenamiento)
+
+­ƒÄ» SIGUIENTE: challenges 7, 8, 9
+
+
+  Ô£à conceptos\03_probabilidad_y_loss.py: PASSED
+
+============================================================
+  TESTING: challenges\challenge_1_matmul.py
+============================================================
+============================================================
+­ƒº¬ VERIFICACI├ôN DE IMPLEMENTACIONES
+============================================================
+
+A ((3, 4)):
+[[6 3 7 4]
+ [6 9 2 6]
+ [7 4 3 7]]
+
+B ((4, 2)):
+[[7 2]
+ [5 4]
+ [1 7]
+ [5 1]]
+
+Ô£à NumPy (A @ B):
+[[ 84  77]
+ [119  68]
+ [107  58]]
+
+  Fila ├ù Columna: Ô£à CORRECTO
+
+  Combinaci├│n Columnas: Ô£à CORRECTO
+
+  Semi-vectorizada: Ô£à CORRECTO
+
+============================================================
+ÔÅ▒´©Å  BENCHMARK DE VELOCIDAD
+============================================================
+
+  Matrices 5├ù5:
+    Fila ├ù Columna           : 0.0001s
+    Combinaci├│n Columnas     : 0.0000s
+    Semi-vectorizada         : 0.0001s
+    NumPy (@)                : 0.000005s
+
+  Matrices 10├ù10:
+    Fila ├ù Columna           : 0.0004s
+    Combinaci├│n Columnas     : 0.0002s
+    Semi-vectorizada         : 0.0003s
+    NumPy (@)                : 0.000004s
+
+  Matrices 30├ù30:
+    Fila ├ù Columna           : 0.0108s
+    Combinaci├│n Columnas     : 0.0016s
+    Semi-vectorizada         : 0.0030s
+    NumPy (@)                : 0.000022s
+
+============================================================
+­ƒºá REFLEXI├ôN
+============================================================
+
+1. ┬┐Por qu├® NumPy @ es MILES de veces m├ís r├ípido que los loops de Python?
+   ÔåÆ NumPy usa BLAS (Basic Linear Algebra Subprograms) implementado en C/Fortran
+   ÔåÆ Accede a la memoria de forma contigua (cache-friendly)
+   ÔåÆ Puede usar instrucciones SIMD del procesador (SSE, AVX)
+
+2. ┬┐Cu├íntas operaciones de multiplicaci├│n hace matmul para matrices n├ùn?
+   ÔåÆ n┬│ multiplicaciones. Para n=1000: ┬ímil millones de multiplicaciones!
+   ÔåÆ Por eso las GPUs son esenciales: est├ín dise├▒adas para matmul masivo.
+
+3. ┬┐Qu├® enfoque (fila├ùcolumna vs combinaci├│n de columnas) te parece 
+   m├ís intuitivo para entender redes neuronales?
+   ÔåÆ La combinaci├│n de columnas es la visi├│n de 3Blue1Brown y es m├ís
+     geom├®trica: cada columna del resultado es un punto transformado.
+
+
+­ƒÅï´©Å BONUS: Tests de edge cases
+  Vector(1├ù3) ├ù Matriz(3├ù2) = [40. 46.] | expected: [40 46] | Ô£à True
+  Matriz(3├ù2) ├ù Vector(2├ù1) = [23. 53. 83.] | expected: [23 53 83] | Ô£à True
+
+Ô£à Challenge 1 completado!
+
+  Ô£à challenges\challenge_1_matmul.py: PASSED
+
+============================================================
+  TESTING: challenges\challenge_2_pca_manual.py
+============================================================
+============================================================
+­ƒÅå CHALLENGE 2: PCA Manual
+============================================================
+
+Datos originales: (200, 5) ÔåÆ 200 muestras, 5 features
+Media por feature: [-0.097 -0.107  0.004  0.038  0.013]
+Std por feature:   [2.829 1.841 0.509 0.286 0.103]
+
+Ô£à Datos centrados. Nueva media: [-0.  0.  0.  0. -0.]
+
+┬┐Covarianza manual Ôëê NumPy? True
+
+Matriz de Covarianza ((5, 5)):
+[[ 8.046  5.138  0.078 -0.037 -0.027]
+ [ 5.138  3.407  0.078 -0.014 -0.019]
+ [ 0.078  0.078  0.26   0.025  0.   ]
+ [-0.037 -0.014  0.025  0.082  0.003]
+ [-0.027 -0.019  0.     0.003  0.011]]
+
+Eigenvalores (varianza por componente):
+  PC1: ╬╗ = 11.3654
+  PC2: ╬╗ = 0.2658
+  PC3: ╬╗ = 0.0877
+  PC4: ╬╗ = 0.0764
+  PC5: ╬╗ = 0.0103
+
+Eigenvectores (componentes principales, por columnas):
+[[-0.84  -0.082 -0.478 -0.243 -0.009]
+ [-0.542  0.11   0.747  0.369  0.019]
+ [-0.01   0.98  -0.185  0.068  0.001]
+ [ 0.003  0.142  0.424 -0.893 -0.046]
+ [ 0.003  0.003  0.001 -0.05   0.999]]
+
+Varianza explicada por componente:
+  PC1:  96.3% | acumulada:  96.3% | ÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûê
+  PC2:   2.3% | acumulada:  98.5% | Ôûê
+  PC3:   0.7% | acumulada:  99.3% | 
+  PC4:   0.6% | acumulada:  99.9% | 
+  PC5:   0.1% | acumulada: 100.0% | 
+
+Proyecci├│n: (200, 5) ÔåÆ (200, 2)
+Varianza capturada: 98.5%
+
+============================================================
+­ƒº¬ VERIFICACI├ôN CON SKLEARN
+============================================================
+
+Varianza explicada (nuestro PCA): [0.9627 0.0225]
+Varianza explicada (sklearn):    [0.9627 0.0225]
+
+┬┐Coinciden? True
+
+============================================================
+­ƒÅï´©Å  BONUS: Reconstrucci├│n de datos
+============================================================
+
+Error cuadr├ítico medio de reconstrucci├│n: 0.034723
+Comparado con la varianza total de los datos: 2.352961
+Ratio de compresi├│n: 2/5 = 40% de las dimensiones originales
+
+============================================================
+­ƒºá REFLEXI├ôN
+============================================================
+
+1. ┬┐Cu├íntas componentes necesitar├¡as para capturar el 99% de la varianza?
+   ÔåÆ Mira el scree plot. Probablemente 2-3 componentes son suficientes.
+
+2. ┬┐Qu├® pasa si tus datos NO est├ín centrados antes de PCA?
+   ÔåÆ La primera componente principal apuntar├¡a hacia la media en lugar
+     de hacia la direcci├│n de m├íxima varianza. ┬íResultado incorrecto!
+
+3. ┬┐PCA funciona bien con datos no lineales?
+   ÔåÆ NO. PCA solo encuentra direcciones LINEALES.
+   ÔåÆ Para datos no lineales: t-SNE, UMAP, Kernel PCA.
+
+4. ┬┐Cu├índo usar PCA en un pipeline de ML?
+   ÔåÆ Cuando tienes MUCHAS features correlacionadas (ej: im├ígenes).
+   ÔåÆ Como preprocesamiento antes de un clasificador.
+   ÔåÆ Para visualizaci├│n de datos de alta dimensi├│n.
+   ÔåÆ CUIDADO: No siempre mejora el rendimiento. Las features que PCA
+     descarta (baja varianza) a veces son las m├ís discriminativas.
+
+Ô£à Challenge 2 completado.
+   Siguiente: challenge_3_transformaciones.py
+
+
+  Ô£à challenges\challenge_2_pca_manual.py: PASSED
+
+============================================================
+  TESTING: challenges\challenge_3_transformaciones.py
+============================================================
+============================================================
+­ƒÅå CHALLENGE 3: Transformaciones Lineales Visuales
+============================================================
+
+============================================================
+PARTE 2: Matrices de Rotaci├│n
+============================================================
+
+R(30┬░) =
+[[ 0.866 -0.5  ]
+ [ 0.5    0.866]]
+
+det(R) = 1.000000  (deber├¡a ser 1.0)
+
+R @ R^T =
+[[ 1. -0.]
+ [-0.  1.]]  (deber├¡a ser Identidad)
+
+R^(-1) =
+[[ 0.866  0.5  ]
+ [-0.5    0.866]]
+
+R^T =
+[[ 0.866  0.5  ]
+ [-0.5    0.866]]
+
+┬┐R^(-1) == R^T? True  ÔåÉ Matrices ortogonales!
+
+============================================================
+PARTE 3: Composici├│n ÔÇö El Orden Importa
+============================================================
+S @ R45 (rotar, luego escalar):
+[[ 1.414 -1.414]
+ [ 0.354  0.354]]
+
+R45 @ S (escalar, luego rotar):
+[[ 1.414 -0.354]
+ [ 1.414  0.354]]
+
+┬┐Son iguales? False
+
+============================================================
+PARTE 4: Una Capa de Red Neuronal en 2D
+============================================================
+
+============================================================
+­ƒºá REFLEXI├ôN FINAL
+============================================================
+
+1. ┬┐Qu├® pasa geom├®tricamente cuando det(A) = 0?
+   ÔåÆ El espacio se "aplasta" a una dimensi├│n menor.
+   ÔåÆ Se PIERDE informaci├│n (no se puede invertir A).
+   ÔåÆ Conexi├│n ML: una capa con pesos de rango bajo pierde representaciones.
+
+2. ┬┐Qu├® pasa cuando det(A) < 0?
+   ÔåÆ La transformaci├│n INVIERTE la orientaci├│n (como un espejo).
+
+3. ┬┐Por qu├® las no-linealidades (ReLU, sigmoid) son necesarias?
+   ÔåÆ Sin ellas, N capas lineales = 1 capa lineal.
+   ÔåÆ La no-linealidad permite "doblar" el espacio para crear
+     fronteras de decisi├│n complejas.
+
+4. ┬┐C├│mo se conecta esto con el entrenamiento?
+   ÔåÆ El SGD ajusta W para que la transformaci├│n lleve los datos
+     a un espacio donde sean f├ícilmente separables.
+   ÔåÆ Cada iteraci├│n "mejora" la transformaci├│n un poquito.
+
+Ô£à Challenge 3 completado.
+   
+­ƒÄ» Has terminado la Semana 1 (├ülgebra Lineal para Redes).
+   Criterio de ├®xito: ┬┐Puedes explicar qu├® hace geom├®tricamente
+   W┬Àx para cualquier matriz W de 2├ù2?
+
+
+  Ô£à challenges\challenge_3_transformaciones.py: PASSED
+
+============================================================
+  TESTING: challenges\challenge_4_gradientes_manuales.py
+============================================================
+============================================================
+­ƒÅå CHALLENGE 4: Gradientes Manuales
+============================================================
+
+--- FORWARD PASS ---
+z = W @ x + b = [[ 0.5 -0.3]] @ [1. 2.] + [0.1]
+  = 0.5*1.0 + -0.3*2.0 + 0.1
+  = 0.5 + -0.6 + 0.1
+  = [2.77555756e-17]
+
+a = sigmoid(z) = 1 / (1 + exp(-0.0000))
+  = [0.5]
+
+L = (a - y_true)┬▓ = (0.500000 - 0.8)┬▓
+  = [0.09]
+
+--- BACKWARD PASS ---
+
+Paso a paso con la regla de la cadena:
+
+  1) dL/da = 2(a - y_true) = 2(0.500000 - 0.8)
+     = [-0.6]
+
+  2) da/dz = sigmoid(z) ┬À (1 - sigmoid(z)) = 0.500000 ┬À 0.500000
+     = [0.25]
+
+  3) dL/dz = dL/da ┬À da/dz = -0.600000 ┬À 0.250000
+     = [-0.15]
+
+  4) dL/dW = dL/dz ┬À x^T
+     dL/dW[0,0] = -0.150000 ┬À 1.0 = -0.150000
+     dL/dW[0,1] = -0.150000 ┬À 2.0 = -0.300000
+     dL/dW = [[-0.15 -0.3 ]]
+
+  5) dL/db = dL/dz = [-0.15]
+
+--- ACTUALIZACI├ôN (lr=0.1) ---
+  W_nuevo = W - lr┬ÀdL/dW = [[ 0.5 -0.3]] - 0.1┬À[[-0.15 -0.3 ]]
+         = [[ 0.515 -0.27 ]]
+  b_nuevo = b - lr┬ÀdL/db = [0.1] - 0.1┬À[-0.15]
+         = [0.115]
+
+  Loss anterior: 0.090000
+  Loss nueva:    0.077015
+  ┬┐La loss baj├│? Ô£à S├ì
+
+============================================================
+ENTRENAMIENTO COMPLETO (gradientes manuales)
+============================================================
+  Epoch    0: loss = 0.09000000, a = 0.500000, W = [ 0.575 -0.15 ]
+  Epoch    1: loss = 0.03585750, a = 0.610639, W = [ 0.62002222 -0.05995556]
+  Epoch    2: loss = 0.01622149, a = 0.672636, W = [ 0.64806727 -0.00386547]
+  Epoch    3: loss = 0.00836116, a = 0.708561, W = [0.66694972 0.03389945]
+  Epoch    4: loss = 0.00470701, a = 0.731392, W = [0.68042821 0.06085643]
+  Epoch  200: loss = 0.00000000, a = 0.800000, W = [0.73104906 0.16209812]
+  Epoch  400: loss = 0.00000000, a = 0.800000, W = [0.73104906 0.16209812]
+  Epoch  600: loss = 0.00000000, a = 0.800000, W = [0.73104906 0.16209812]
+  Epoch  800: loss = 0.00000000, a = 0.800000, W = [0.73104906 0.16209812]
+  Epoch  999: loss = 0.00000000, a = 0.800000, W = [0.73104906 0.16209812]
+
+  Predicci├│n final: 0.800000
+  Target: 0.8
+
+============================================================
+­ƒºá REFLEXI├ôN
+============================================================
+
+1. ┬┐Qu├® pasar├¡a si usaras lr=10? ┬┐Y lr=0.001?
+   ÔåÆ lr=10: La loss probablemente OSCILA porque los pasos son demasiado grandes
+   ÔåÆ lr=0.001: Converge pero MUY lento
+
+2. ┬┐Por qu├® dz/dW = x y no W?
+   ÔåÆ Porque z = W┬Àx + b. La derivada de W┬Àx respecto a W es x.
+   ÔåÆ Pi├®nsalo as├¡: z es una funci├│n LINEAL de W, con "pendiente" x.
+
+3. ┬┐Cu├íntas multiplicaciones hace el backward pass vs el forward pass?
+   ÔåÆ Aproximadamente la misma cantidad. Backprop es eficiente porque
+     reutiliza los valores calculados en el forward (z, a).
+
+4. En una red de N capas, ┬┐cu├íntas reglas de la cadena se aplican?
+   ÔåÆ N reglas de la cadena encadenadas. Si la derivada de cada paso
+     es < 1, el gradiente final puede ser 0.25^N ÔåÆ ┬ívanishing gradient!
+
+Ô£à Challenge 4 completado.
+   Siguiente: challenge_5_autograd_verify.py
+
+
+  Ô£à challenges\challenge_4_gradientes_manuales.py: PASSED
+
+============================================================
+  TESTING: challenges\challenge_5_autograd_verify.py
+============================================================
+============================================================
+­ƒÅå CHALLENGE 5: Verificaci├│n con PyTorch Autograd
+============================================================
+
+--- PARTE 1: Reproducir el Challenge 4 con PyTorch ---
+Forward pass (PyTorch):
+  z = -0.000000
+  a = 0.500000
+  L = 0.090000
+
+Gradientes (PyTorch autograd):
+  dL/dW = tensor([[-0.1500, -0.3000]])
+  dL/db = tensor([-0.1500])
+
+--- COMPARACI├ôN con gradientes manuales ---
+  dL/dW (manual)  = [[-0.15 -0.3 ]]
+  dL/dW (PyTorch) = [[-0.15 -0.3 ]]
+  ┬┐Coinciden? True
+
+  dL/db (manual)  = [-0.15]
+  dL/db (PyTorch) = [-0.15]
+  ┬┐Coinciden? True
+
+============================================================
+PARTE 2: Funci├│n compuesta f(x,y) = x┬▓y + sin(y)
+============================================================
+
+  f(3, 2) = 18.909298
+
+  Ôêéf/Ôêéx:
+    Anal├¡tico: 2xy = 2┬À3┬À2 = 12.0
+    Autograd:  12.000000
+    ┬┐Coinciden? True
+
+  Ôêéf/Ôêéy:
+    Anal├¡tico: x┬▓+cos(y) = 9+cos(2) = 8.583853
+    Autograd:  8.583853
+    ┬┐Coinciden? True
+
+============================================================
+PARTE 3: Derivada segunda con create_graph=True
+============================================================
+
+  f(x) = x┬│ + 2x
+  f(2) = 12.0
+
+  f'(x) = 3x┬▓ + 2
+  f'(2) anal├¡tico = 14
+  f'(2) autograd  = 14.0
+
+  f''(x) = 6x
+  f''(2) anal├¡tico = 12
+  f''(2) autograd  = 12.0
+
+============================================================
+PARTE 4: Trampas de Autograd ÔÇö ┬íCuidado!
+============================================================
+
+  CASO 1: Operaciones in-place
+    Ô£à Error esperado: operaci├│n in-place rompe el grafo
+    Mensaje: a leaf Variable that requires grad is being used in an in-place operation....
+
+  CASO 2: .numpy() desconecta del grafo
+    Ô£à .detach().numpy() funciona: [4.]
+    PERO: z_np2 ya no est├í conectado al grafo ÔåÆ no recibir├í gradientes
+
+  CASO 3: .detach() ÔÇö desconexi├│n intencional
+    y = x┬▓ = 4.0
+    z = y.detach() = 4.0 (desconectado)
+    w = z * 3 = 12.0
+    z.requires_grad = False
+
+    ┬┐Cu├índo usar .detach()?
+    - Para usar un tensor como "constante" en un c├│mputo
+    - Para ahorrar memoria (no registrar operaciones innecesarias)
+    - En GANs: para no propagar gradientes al generator cuando entrenas el discriminator
+    
+  CASO 4: Acumulaci├│n de gradientes ÔÇö EL BUG M├üS COM├ÜN
+    Iteraci├│n 0: grad = 4.0
+    Iteraci├│n 1: grad = 8.0
+    Iteraci├│n 2: grad = 12.0
+
+    SOLUCI├ôN: usar grad.zero_() al inicio de cada iteraci├│n
+    Iteraci├│n 0: grad = 4.0
+    Iteraci├│n 1: grad = 4.0
+    Iteraci├│n 2: grad = 4.0
+
+============================================================
+­ƒºá REFLEXI├ôN
+============================================================
+
+1. ┬┐Por qu├® PyTorch acumula gradientes por defecto?
+   ÔåÆ Para soportar mini-batches: puedes hacer forward + backward
+     varias veces y LUEGO actualizar (gradient accumulation).
+   ÔåÆ ├Ütil cuando tu batch no cabe en memoria de GPU.
+
+2. ┬┐Qu├® diferencia hay entre .backward() y torch.autograd.grad()?
+   ÔåÆ .backward() acumula gradientes en .grad de cada tensor
+   ÔåÆ torch.autograd.grad() retorna los gradientes directamente
+   ÔåÆ .grad() es m├ís limpio para c├ílculos espec├¡ficos
+
+3. ┬┐Cu├índo NO necesitas tracking de gradientes?
+   ÔåÆ Durante evaluaci├│n (inference): usa torch.no_grad()
+   ÔåÆ Para m├®tricas y logging
+   ÔåÆ Esto ahorra memoria y es m├ís r├ípido
+
+Ô£à Challenge 5 completado.
+   Siguiente: challenge_6_vanishing_gradient.py
+
+
+  Ô£à challenges\challenge_5_autograd_verify.py: PASSED
+
+============================================================
+  TESTING: challenges\challenge_6_vanishing_gradient.py
+============================================================
+============================================================
+­ƒÅå CHALLENGE 6: Vanishing Gradient
+============================================================
+
+--- PARTE 1: Apilar sigmoids (NumPy) ---
+
+  x = 0.5
+   Capas |       Salida |       Gradiente |  log10(grad)
+  ------ | ------------ | --------------- | ------------
+       1 |   0.62245933 |        2.35e-01 |         -0.6
+       2 |   0.65077768 |        5.34e-02 |         -1.3
+       5 |   0.65895210 |        6.08e-04 |         -3.2
+      10 |   0.65904601 |        3.48e-07 |         -6.5
+      15 |   0.65904607 |        2.00e-10 |         -9.7
+      20 |   0.65904607 |        1.14e-13 |        -12.9
+      30 |   0.65904607 |        3.75e-20 |        -19.4
+      50 |   0.65904607 |        4.04e-33 |        -32.4
+
+  ­ƒöæ OBSERVA: Con 20 capas, el gradiente es ~10Ôü╗┬╣┬▓
+     ÔåÆ Los pesos de las primeras capas NUNCA se actualizan
+     ÔåÆ La red no puede aprender features profundas
+     ÔåÆ ┬íEsta es la raz├│n por la que las redes profundas no funcionaban antes de 2010!
+
+
+============================================================
+PARTE 2: Verificaci├│n con PyTorch Autograd
+============================================================
+   1 sigmoids: grad = 2.35e-01
+   5 sigmoids: grad = 6.08e-04
+  10 sigmoids: grad = 3.48e-07
+  20 sigmoids: grad = 1.14e-13
+  50 sigmoids: grad = 4.04e-33
+
+============================================================
+PARTE 3: Sigmoid vs ReLU vs Tanh ÔÇö Flujo de Gradientes
+============================================================
+
+============================================================
+PARTE 4: Red real ÔÇö Sigmoid vs ReLU
+============================================================
+
+============================================================
+­ƒºá REFLEXI├ôN
+============================================================
+
+1. ┬┐Por qu├® 20 sigmoids apiladas causan vanishing gradient?
+   ÔåÆ ¤â'(z) Ôêê (0, 0.25]. Al multiplicar N veces: 0.25^N ÔåÆ 0 r├ípidamente.
+   ÔåÆ A las 12 capas ya estamos en ~10Ôü╗ÔüÀ, la precisi├│n de float32.
+
+2. ┬┐ReLU resuelve completamente el problema?
+   ÔåÆ Para gradientes positivos, s├¡: la derivada es exactamente 1.
+   ÔåÆ PERO: si la entrada es negativa, la derivada es 0 ÔåÆ "neurona muerta"
+   ÔåÆ Soluciones: LeakyReLU, ELU, GELU (usada en Transformers).
+
+3. ┬┐Qu├® m├ís ayuda contra vanishing gradient?
+   ÔåÆ Skip connections (ResNet): grad = Ôêéf/Ôêéx + 1 (el +1 evita que desaparezca)
+   ÔåÆ BatchNorm: normaliza activaciones ÔåÆ mantiene gradientes en rango ├║til
+   ÔåÆ Inicializaci├│n correcta (He/Xavier): empieza con gradientes de escala 1
+   ÔåÆ Gradient clipping: pone un tope superior (contra exploding gradient)
+
+4. ┬┐El exploding gradient es el problema opuesto?
+   ÔåÆ S├¡: si los eigenvalores del Jacobiano son > 1, los gradientes CRECEN.
+   ÔåÆ El gradiente se va a infinito ÔåÆ NaN en los pesos ÔåÆ modelo roto.
+   ÔåÆ Soluci├│n: gradient clipping con clip_grad_norm_().
+
+Ô£à Challenge 6 completado.
+   Siguiente: challenge_7_cross_entropy.py (Semana 3: Probabilidad)
+
+
+  Ô£à challenges\challenge_6_vanishing_gradient.py: PASSED
+
+============================================================
+  TESTING: challenges\challenge_7_cross_entropy.py
+============================================================
+============================================================
+­ƒÅå CHALLENGE 7: Cross-Entropy
+============================================================
+
+--- Verificaci├│n ---
+  BCE(y=1, ┼À=0.99) = 0.010050  (baja: confiado y correcto)
+  BCE(y=1, ┼À=0.50) = 0.693147  (media: indeciso)
+  BCE(y=1, ┼À=0.01) = 4.605170  (┬íALTA: confiado e incorrecto!)
+  BCE(y=0, ┼À=0.01) = 0.010050  (baja: confiado y correcto)
+  BCE(y=0, ┼À=0.99) = 4.605170  (┬íALTA: confiado e incorrecto!)
+
+  ­ƒöæ OBSERVACI├ôN CRUCIAL:
+  
+  Cuando el modelo est├í muy equivocado Y confiado (ej: y=1, ┼À=0.01),
+  el gradiente es ENORME. Esto significa que:
+  
+  1. El modelo aprende M├üS R├üPIDO de sus peores errores
+  2. Los errores confiados son los que m├ís "tiran" de los pesos
+  3. Esto es DESEABLE: queremos corregir los errores graves primero
+  
+  Compara esto con MSE en el siguiente challenge...
+
+
+============================================================
+PARTE 3: Categorical Cross-Entropy
+============================================================
+
+  Label real: [1 0 0 0]
+  Predicci├│n      |   q_correcto |   CCE Loss
+  --------------- | ------------ | ----------
+  Perfecta        |       0.9900 |     0.0101  
+  Buena           |       0.8500 |     0.1625  
+  Mediocre        |       0.4000 |     0.9163  ÔûêÔûêÔûêÔûê
+  Mala            |       0.0500 |     2.9957  ÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûê
+  Desastrosa      |       0.0100 |     4.6052  ÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûê
+
+============================================================
+PARTE 4: BCE con batch
+============================================================
+
+  Muestra | y_true | y_pred |     Loss |                Notas
+  ------- | ------ | ------ | -------- | --------------------
+        0 |      1 |   0.90 |   0.1054 | Ô£à Correcto
+        1 |      0 |   0.10 |   0.1054 | Ô£à Correcto
+        2 |      1 |   0.70 |   0.3567 | Ô£à Correcto
+        3 |      1 |   0.30 |   1.2040 | ÔØî Error confiado!
+        4 |      0 |   0.20 |   0.2231 | Ô£à Correcto
+        5 |      0 |   0.80 |   1.6094 | ÔØî Error confiado!
+        6 |      1 |   0.95 |   0.0513 | Ô£à Correcto
+        7 |      0 |   0.05 |   0.0513 | Ô£à Correcto
+
+  Loss promedio del batch: 0.4633
+  Loss m├íx (peor error):  1.6094 ÔåÉ muestra 5
+
+============================================================
+­ƒºá REFLEXI├ôN
+============================================================
+
+1. ┬┐Qu├® pasa si la predicci├│n es EXACTAMENTE 0 o 1?
+   ÔåÆ log(0) = -Ôê× ÔåÆ loss infinita ÔåÆ gradientes NaN ÔåÆ modelo roto
+   ÔåÆ Por eso usamos clipping: np.clip(y_pred, epsilon, 1-epsilon)
+
+2. ┬┐Por qu├® se usa log en la loss y no simplemente |y - ┼À|?
+   ÔåÆ log penaliza exponencialmente los errores confiados
+   ÔåÆ |y - ┼À| = 0.99 si ┼À=0.01, pero -log(0.01) = 4.6
+   ÔåÆ La penalizaci├│n logar├¡tmica es mucho m├ís agresiva con errores graves
+
+3. ┬┐Cross-entropy y negative log-likelihood son lo mismo?
+   ÔåÆ S├ì (para clasificaci├│n con softmax + one-hot labels)
+   ÔåÆ Minimizar CE = Maximizar la likelihood de los datos
+   ÔåÆ Es el principio de Maximum Likelihood Estimation (MLE)
+
+Ô£à Challenge 7 completado.
+   Siguiente: challenge_8_mse_vs_ce.py
+
+
+  Ô£à challenges\challenge_7_cross_entropy.py: PASSED
+
+============================================================
+  TESTING: challenges\challenge_8_mse_vs_ce.py
+============================================================
+============================================================
+­ƒÅå CHALLENGE 8: MSE vs Cross-Entropy
+============================================================
+
+--- Comparaci├│n de Loss y Gradientes (y_true = 1) ---
+      z |   ┼À=¤â(z) |   MSE Loss |   BCE Loss |   MSE grad |   BCE grad
+  ----- | -------- | ---------- | ---------- | ---------- | ----------
+   -5.0 |   0.0068 |     0.9865 |     4.9968 |  -0.013337 |  -0.993240
+   -3.0 |   0.0477 |     0.9069 |     3.0429 |  -0.086513 |  -0.952302
+   -1.0 |   0.2693 |     0.5339 |     1.3118 |  -0.287581 |  -0.730664
+    0.0 |   0.4970 |     0.2530 |     0.6992 |  -0.251494 |  -0.503006
+    1.0 |   0.7307 |     0.0725 |     0.3138 |  -0.106007 |  -0.269336
+    3.0 |   0.9523 |     0.0023 |     0.0489 |  -0.004333 |  -0.047698
+    5.0 |   0.9932 |     0.0000 |     0.0068 |  -0.000091 |  -0.006760
+
+  ­ƒöæ EL PROBLEMA DEL MSE PARA CLASIFICACI├ôN:
+  
+  Cuando la predicci├│n es MUY incorrecta (z = -5, ┼À Ôëê 0, y = 1):
+  
+  ÔöîÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔö¼ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔö¼ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÉ
+  Ôöé             Ôöé  MSE grad    Ôöé  BCE grad   Ôöé
+  Ôö£ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔö╝ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔö╝ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöñ
+  Ôöé  z = -5     Ôöé  Ôëê 0.0001   Ôöé  Ôëê -1.0     Ôöé
+  Ôöé  Modelo se  Ôöé  PARALIZA   Ôöé  CORRIGE    Ôöé
+  Ôöé  equivoca   Ôöé  (saturado) Ôöé  R├üPIDO     Ôöé
+  ÔööÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔö┤ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔö┤ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÿ
+  
+  ┬┐Por qu├®?
+  - MSE grad = 2(┼À-y) ┬À ¤â'(z)
+  - ¤â'(z) Ôëê 0 cuando |z| >> 0 (sigmoid est├í saturada)
+  - El gradiente es producto de dos t├®rminos ÔåÆ se anula
+  
+  - BCE grad = ┼À - y
+  - La derivada de sigmoid se cancela con la del log
+  - El gradiente siempre es proporcional al error ÔåÆ NO se satura
+
+
+============================================================
+PARTE 3: Entrenamiento comparativo
+============================================================
+
+  Accuracy final:
+    BCE: 100.0%
+    MSE: 99.5%
+
+============================================================
+­ƒºá REFLEXI├ôN
+============================================================
+
+1. ┬┐Entonces MSE nunca sirve?
+   ÔåÆ Para REGRESI├ôN s├¡: predecir precios, temperaturas, etc.
+   ÔåÆ Para CLASIFICACI├ôN: usa siempre cross-entropy.
+
+2. ┬┐Hay casos donde BCE no es ideal?
+   ÔåÆ Clases muy desbalanceadas: BCE da mucho peso a la clase mayoritaria
+   ÔåÆ Soluci├│n: Focal Loss (penaliza m├ís los ejemplos dif├¡ciles)
+   ÔåÆ Soluci├│n: Class weights (ponderar la loss por frecuencia inversa)
+
+3. ┬┐Qu├® loss usa PyTorch internamente?
+   ÔåÆ nn.CrossEntropyLoss() = LogSoftmax + NLLLoss
+   ÔåÆ Acepta LOGITS (antes de softmax), no probabilidades
+   ÔåÆ nn.BCEWithLogitsLoss() = Sigmoid + BCE (m├ís estable num├®ricamente)
+
+Ô£à Challenge 8 completado.
+   Siguiente: challenge_9_kl_divergence.py
+
+
+  Ô£à challenges\challenge_8_mse_vs_ce.py: PASSED
+
+============================================================
+  TESTING: challenges\challenge_9_kl_divergence.py
+============================================================
+============================================================
+­ƒÅå CHALLENGE 9: KL Divergence
+============================================================
+
+--- PARTE 1: C├ílculo paso a paso ---
+
+  P  = [0.7 0.2 0.1]
+  Q1 = [0.6 0.3 0.1]
+  Q2 = [0.1 0.1 0.8]
+
+  KL(P || Q1) paso a paso:
+    P[0]┬Àlog(P[0]/Q1[0]) = 0.7┬Àlog(0.7/0.6) = 0.7┬À0.1542 = 0.1079
+    P[1]┬Àlog(P[1]/Q1[1]) = 0.2┬Àlog(0.2/0.3) = 0.2┬À-0.4055 = -0.0811
+    P[2]┬Àlog(P[2]/Q1[2]) = 0.1┬Àlog(0.1/0.1) = 0.1┬À0.0000 = 0.0000
+    TOTAL: KL(P||Q1) = 0.0268
+
+  KL(P || Q2) paso a paso:
+    P[0]┬Àlog(P[0]/Q2[0]) = 0.7┬Àlog(0.7/0.1) = 0.7┬À1.9459 = 1.3621
+    P[1]┬Àlog(P[1]/Q2[1]) = 0.2┬Àlog(0.2/0.1) = 0.2┬À0.6931 = 0.1386
+    P[2]┬Àlog(P[2]/Q2[2]) = 0.1┬Àlog(0.1/0.8) = 0.1┬À-2.0794 = -0.2079
+    TOTAL: KL(P||Q2) = 1.2928
+
+  KL(Q1 || P) paso a paso:
+    Q1[0]┬Àlog(Q1[0]/P[0]) = 0.6┬Àlog(0.6/0.7) = 0.6┬À-0.1542 = -0.0925
+    Q1[1]┬Àlog(Q1[1]/P[1]) = 0.3┬Àlog(0.3/0.2) = 0.3┬À0.4055 = 0.1216
+    Q1[2]┬Àlog(Q1[2]/P[2]) = 0.1┬Àlog(0.1/0.1) = 0.1┬À0.0000 = 0.0000
+    TOTAL: KL(Q1||P) = 0.0291
+
+  RESULTADOS:
+    KL(P || Q1) = 0.0268  ÔåÉ Q1 aproxima bien a P
+    KL(P || Q2) = 1.2928  ÔåÉ Q2 aproxima mal a P
+    KL(Q1 || P) = 0.0291  ÔåÉ ┬íDiferente de KL(P||Q1)!
+    
+  ┬┐KL(P||Q1) == KL(Q1||P)? NO ÔåÉ ┬íKL NO es sim├®trica!
+
+
+============================================================
+PARTE 2: Forward KL vs Reverse KL
+============================================================
+
+============================================================
+PARTE 3: KL en VAEs
+============================================================
+
+  Caso                                          |       KL
+  --------------------------------------------- | --------
+  ╬╝=0, ¤â=1 (exacto al prior)                    |  -0.0000  
+  ╬╝=0, ¤â=0.5 (m├ís estrecha)                     |   0.3181  
+  ╬╝=2, ¤â=1 (desplazada)                         |   2.0000  ÔûêÔûêÔûêÔûêÔûêÔûê
+  ╬╝=0, ¤â=3 (m├ís ancha)                          |   2.9014  ÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûê
+  ╬╝=3, ¤â=0.1 (desplazada + estrecha)            |   6.3076  ÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûêÔûê
+
+  ­ƒöæ OBSERVA:
+  - KL = 0 cuando q = p exactamente (╬╝=0, ¤â=1)
+  - Desplazar la media (╬╝ Ôëá 0) aumenta KL mucho
+  - Cambiar la varianza (¤â Ôëá 1) tambi├®n aumenta KL
+  - En VAEs, este t├®rmino "tira" de q hacia N(0,1),
+    forzando un espacio latente organizado y continuo
+
+
+============================================================
+PARTE 4: H(P,Q) = H(P) + KL(P||Q)
+============================================================
+
+  H(P)      = 0.801819
+  KL(P||Q1) = 0.026812
+  H(P,Q1)   = 0.828631
+  H(P) + KL = 0.828631
+
+  ┬┐H(P,Q) == H(P) + KL(P||Q)? True ÔåÉ ┬íÔ£à Verificado!
+
+============================================================
+­ƒºá REFLEXI├ôN
+============================================================
+
+1. ┬┐Por qu├® la asimetr├¡a de KL importa en la pr├íctica?
+   ÔåÆ forward KL (KL(P||Q)): Usado en entrenamiento de modelos generativos
+     cuando quieres cubrir TODA la distribuci├│n real.
+   ÔåÆ reverse KL (KL(Q||P)): Usado en VAEs y destilaci├│n, donde prefieres
+     que Q sea precisa aunque no cubra todo P.
+
+2. ┬┐KL puede ser negativa?
+   ÔåÆ NO. KL ÔëÑ 0 siempre (desigualdad de Gibbs).
+   ÔåÆ Si tu implementaci├│n da KL < 0, hay un bug de precisi├│n num├®rica.
+
+3. ┬┐Cu├índo usar KL vs cross-entropy?
+   ÔåÆ Para ENTRENAMIENTO: da igual, son equivalentes.
+   ÔåÆ Para COMPARACI├ôN entre modelos: KL es m├ís interpretable 
+     (0 = perfecto, m├ís alto = peor).
+   ÔåÆ Para REGULARIZACI├ôN (VAEs): KL directamente.
+
+4. Conexi├│n con RLHF (Fine-tuning de LLMs):
+   ÔåÆ Al hacer RLHF, se a├▒ade un t├®rmino KL(¤Ç_RL || ¤Ç_base)
+   ÔåÆ Esto evita que el modelo RL se desv├¡e mucho del modelo base
+   ÔåÆ Sin este t├®rmino, el modelo "olvida" el lenguaje natural
+
+Ô£à Challenge 9 completado.
+   
+­ƒÄ» ┬íSemana 3 completada! Siguiente: proyecto/backprop_from_scratch.py
+
+
+  Ô£à challenges\challenge_9_kl_divergence.py: PASSED
+
+============================================================
+  TESTING: proyecto/backprop_from_scratch.py
+============================================================
+============================================================
+­ƒö¿ PROYECTO: Backpropagation desde Cero
+============================================================
+
+  Dataset: make_moons
+  Train: 800 muestras
+  Test:  200 muestras
+  Features: 2
+
+============================================================
+­ƒÜÇ ENTRENAMIENTO
+============================================================
+
+  Arquitectura: Input(2) ÔåÆ Dense(16, ReLU) ÔåÆ Dense(8, ReLU) ÔåÆ Dense(1, Sigmoid)
+  Par├ímetros totales: 193
+
+  Entrenando por 2000 epochs con lr=0.05...
+  Epoch    0 | Loss: 1.2444 | Acc: 0.4950
+  Epoch    1 | Loss: 1.1506 | Acc: 0.4900
+  Epoch    2 | Loss: 1.0701 | Acc: 0.4875
+  Epoch    3 | Loss: 1.0010 | Acc: 0.4850
+  Epoch    4 | Loss: 0.9416 | Acc: 0.4825
+  Epoch  200 | Loss: 0.3081 | Acc: 0.8538
+  Epoch  400 | Loss: 0.2744 | Acc: 0.8662
+  Epoch  600 | Loss: 0.2608 | Acc: 0.8775
+  Epoch  800 | Loss: 0.2516 | Acc: 0.8850
+  Epoch 1000 | Loss: 0.2422 | Acc: 0.8925
+  Epoch 1200 | Loss: 0.2314 | Acc: 0.9038
+  Epoch 1400 | Loss: 0.2178 | Acc: 0.9175
+  Epoch 1600 | Loss: 0.2024 | Acc: 0.9263
+  Epoch 1800 | Loss: 0.1849 | Acc: 0.9325
+  Epoch 1999 | Loss: 0.1657 | Acc: 0.9400
+
+============================================================
+­ƒôè RESULTADOS
+============================================================
+
+  Test Accuracy: 0.9550
+  Test Loss:     0.1430
+  Ô£à OBJETIVO CUMPLIDO
+
+============================================================
+­ƒöì INSPECCI├ôN DE PESOS
+============================================================
+
+  Capa 0: W(2, 16), b(1, 16)
+    |W| medio: 0.7955
+    |b| medio: 0.2843
+    W rango:   [-1.9772, 1.9407]
+
+  Capa 1: W(16, 8), b(1, 8)
+    |W| medio: 0.3047
+    |b| medio: 0.2598
+    W rango:   [-0.9234, 1.0478]
+
+  Capa 2: W(8, 1), b(1, 1)
+    |W| medio: 0.7679
+    |b| medio: 1.1764
+    W rango:   [-2.0975, 1.5775]
+
+============================================================
+­ƒº¬ GRADIENT CHECKING
+============================================================
+
+  Usando ╬Á = 1e-05
+  Capa 0: max diff relativa = 5.17e-10 Ô£à
+  Capa 1: max diff relativa = 2.47e-11 Ô£à
+
+============================================================
+­ƒÅå RESUMEN DEL PROYECTO
+============================================================
+
+Lo que has implementado:
+  Ô£à Forward pass con ReLU + Sigmoid
+  Ô£à Binary Cross-Entropy Loss
+  Ô£à Backward pass completo con regla de la cadena
+  Ô£à He initialization
+  Ô£à Gradient checking num├®rico
+  Ô£à Visualizaci├│n de frontera de decisi├│n
+
+Lo que deber├¡as poder explicar:
+  ÔØô ┬┐Por qu├® se transpone a_prev y no dz en dW = a_prev.T @ dz?
+  ÔØô ┬┐Qu├® pasar├¡a con pesos iniciales todos 0?
+  ÔØô ┬┐Por qu├® ReLU en capas ocultas y Sigmoid en la salida?
+  ÔØô ┬┐Qu├® es He init y por qu├® sqrt(2/n_in)?
+  ÔØô ┬┐C├│mo se relaciona cada l├¡nea del backward con la regla de la cadena?
+
+­ƒÄ» HITO DE CARRERA DESBLOQUEADO:
+   Capacidad de depurar problemas de entrenamiento a nivel de gradientes.
+   Entender vanishing/exploding gradients.
+   Leer secciones matem├íticas de papers sin bloqueo.
+   
+­ƒÅü ┬íM├ôDULO 0 COMPLETADO! ÔåÆ Siguiente: M├│dulo 1 (DNN con PyTorch)
+
+
+  Ô£à backprop_from_scratch.py: PASSED
+
+
+============================================================
+  ­ƒôè RESUMEN DE TESTS
+============================================================
+  Ô£à PASS
+  Ô£à PASS
+  Ô£à PASS
+  Ô£à PASS
+  Ô£à PASS
+  Ô£à PASS
+  Ô£à PASS
+  Ô£à PASS
+  Ô£à PASS
+  Ô£à PASS
+  Ô£à PASS
+  Ô£à PASS
+  Ô£à PASS
+
+  13/13 archivos ejecutados correctamente
+  ­ƒÄë ┬íTODO FUNCIONA!
