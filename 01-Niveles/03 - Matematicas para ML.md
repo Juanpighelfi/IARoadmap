@@ -4,6 +4,9 @@ tags:
   - matematicas
   - ml
 duracion: 4-10 semanas
+estado: pendiente
+inicio:
+fin:
 ---
 
 # 03 - Matematicas para ML
@@ -30,9 +33,12 @@ Puedes leer una explicacion de loss, gradiente, embedding o attention sin quedar
 
 ## Recursos
 
-- 3Blue1Brown Linear Algebra: https://www.3blue1brown.com/topics/linear-algebra
-- Mathematics for Machine Learning: https://mml-book.github.io/
-- StatQuest: https://www.youtube.com/user/joshstarmer
+- 3Blue1Brown Linear Algebra: <https://www.3blue1brown.com/topics/linear-algebra>
+- Mathematics for Machine Learning: <https://mml-book.github.io/>
+- StatQuest: <https://www.youtube.com/user/joshstarmer>
+- 3Blue1Brown, Essence of Calculus: <https://www.3blue1brown.com/topics/calculus>
+- Andrej Karpathy, Neural Networks Zero to Hero (micrograd es la mejor puerta entre
+  este nivel y el 05): <https://karpathy.ai/zero-to-hero.html>
 
 ## Siguiente
 

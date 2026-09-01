@@ -5,6 +5,9 @@ tags:
   - vision
   - audio
 duracion: 4-10 semanas
+estado: pendiente
+inicio:
+fin:
 ---
 
 # 09 - Multimodalidad
@@ -29,9 +32,9 @@ Puedes procesar datos no textuales y validar outputs contra reglas, no solo cont
 
 ## Recursos
 
-- Hugging Face tasks: https://huggingface.co/tasks
-- OpenCV docs: https://docs.opencv.org/
-- Tesseract OCR: https://github.com/tesseract-ocr/tesseract
+- Hugging Face tasks: <https://huggingface.co/tasks>
+- OpenCV docs: <https://docs.opencv.org/>
+- Tesseract OCR: <https://github.com/tesseract-ocr/tesseract>
 
 ## Siguiente
 

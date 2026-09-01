@@ -9,7 +9,7 @@ tags:
 
 ## AMAI-GmbH AI Expert Roadmap
 
-Fuente: https://github.com/AMAI-GmbH/AI-Expert-Roadmap
+Fuente: <https://github.com/AMAI-GmbH/AI-Expert-Roadmap>
 
 Fortalezas:
 
@@ -26,7 +26,7 @@ Gaps para 2026:
 
 ## roadmap.sh AI Engineer
 
-Fuente: https://roadmap.sh/ai-engineer
+Fuente: <https://roadmap.sh/ai-engineer>
 
 Fortalezas:
 
@@ -43,8 +43,8 @@ Gaps:
 
 Fuentes:
 
-- https://www.buildnscale.dev/roadmaps/ai-engineer
-- https://ailearnings.in/
+- <https://www.buildnscale.dev/roadmaps/ai-engineer>
+- <https://ailearnings.in/>
 
 Fortalezas:
 

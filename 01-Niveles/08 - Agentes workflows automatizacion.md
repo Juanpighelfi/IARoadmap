@@ -5,6 +5,9 @@ tags:
   - workflows
   - automatizacion
 duracion: 6-10 semanas
+estado: pendiente
+inicio:
+fin:
 ---
 
 # 08 - Agentes, workflows y automatizacion segura
@@ -31,11 +34,15 @@ Puedes explicar cada accion del agente, reproducir sus trazas y limitar su dano 
 
 ## Recursos
 
-- ReAct paper: https://arxiv.org/abs/2210.03629
-- LangGraph docs: https://langchain-ai.github.io/langgraph/
-- CrewAI docs: https://docs.crewai.com/
+- ReAct paper: <https://arxiv.org/abs/2210.03629>
+- LangGraph docs: <https://langchain-ai.github.io/langgraph/>
+- CrewAI docs: <https://docs.crewai.com/>
+- Anthropic, Building effective agents (la fuente de los patrones de arriba):
+  <https://www.anthropic.com/engineering/building-effective-agents>
+- Hugging Face Agents Course: <https://huggingface.co/learn/agents-course>
 
 ## Siguiente
 
+- [[08b - MCP y protocolos de herramientas]]
 - [[09 - Multimodalidad]]
 - [[10 - Evaluacion seguridad gobernanza]]
