@@ -5,6 +5,9 @@ tags:
   - git
   - software
 duracion: 4-8 semanas
+estado: pendiente
+inicio:
+fin:
 ---
 
 # 01 - Computacion, Python, Git y entorno
@@ -30,12 +33,13 @@ Puedes crear un proyecto Python reproducible y explicar como correrlo desde cero
 
 ## Recursos
 
-- Python Tutorial: https://docs.python.org/3/tutorial/
-- Missing Semester: https://missing.csail.mit.edu/
-- Git Book: https://git-scm.com/book/en/v2
-- FastAPI docs: https://fastapi.tiangolo.com/
+- Python Tutorial: <https://docs.python.org/3/tutorial/>
+- Missing Semester: <https://missing.csail.mit.edu/>
+- Git Book: <https://git-scm.com/book/en/v2>
+- FastAPI docs: <https://fastapi.tiangolo.com/>
 
 ## Siguiente
 
+- [[01b - Ingenieria asistida por IA]]
 - [[02 - Datos SQL visualizacion y estadistica]]
 - [[06 - LLMs aplicados]]

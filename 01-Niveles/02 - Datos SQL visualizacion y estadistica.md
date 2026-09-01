@@ -5,6 +5,9 @@ tags:
   - sql
   - estadistica
 duracion: 4-8 semanas
+estado: pendiente
+inicio:
+fin:
 ---
 
 # 02 - Datos, SQL, visualizacion y estadistica practica
@@ -29,10 +32,10 @@ Puedes convertir datos crudos en una conclusion defendible y sabes advertir sus 
 
 ## Recursos
 
-- Kaggle Learn: https://www.kaggle.com/learn
-- Pandas docs: https://pandas.pydata.org/docs/
-- Mode SQL Tutorial: https://mode.com/sql-tutorial/
-- Seeing Theory: https://seeing-theory.brown.edu/
+- Kaggle Learn: <https://www.kaggle.com/learn>
+- Pandas docs: <https://pandas.pydata.org/docs/>
+- Mode SQL Tutorial: <https://mode.com/sql-tutorial/>
+- Seeing Theory: <https://seeing-theory.brown.edu/>
 
 ## Siguiente
 

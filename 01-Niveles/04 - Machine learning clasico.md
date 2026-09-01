@@ -4,6 +4,9 @@ tags:
   - machine-learning
   - sklearn
 duracion: 6-10 semanas
+estado: pendiente
+inicio:
+fin:
 ---
 
 # 04 - Machine learning clasico
@@ -22,6 +25,8 @@ duracion: 6-10 semanas
 - Modelo de churn, fraude, precios o demanda con scikit-learn.
 - Pipeline reproducible con versionado de dataset.
 - Comparar baseline, modelo simple y modelo complejo.
+- Entrar a una competencia de Kaggle ya cerrada y comparar tu score contra el
+  leaderboard. Es la unica correccion externa gratuita que vas a tener en este nivel.
 
 ## Criterio de salida
 
@@ -29,9 +34,12 @@ Puedes construir un baseline robusto, detectar leakage y elegir metricas adecuad
 
 ## Recursos
 
-- Google ML Crash Course: https://developers.google.com/machine-learning/crash-course
-- scikit-learn User Guide: https://scikit-learn.org/stable/user_guide.html
-- Hands-On Machine Learning notebooks: https://github.com/ageron/handson-ml3
+- Google ML Crash Course: <https://developers.google.com/machine-learning/crash-course>
+- scikit-learn User Guide: <https://scikit-learn.org/stable/user_guide.html>
+- Hands-On Machine Learning notebooks: <https://github.com/ageron/handson-ml3>
+- Kaggle Learn: <https://www.kaggle.com/learn>
+- Kaggle competitions, para que tus modelos los evalue alguien que no seas vos:
+  <https://www.kaggle.com/competitions>
 
 ## Siguiente
 

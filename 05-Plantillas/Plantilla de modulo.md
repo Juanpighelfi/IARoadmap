@@ -9,15 +9,15 @@ tags:
 
 ## Debo aprender
 
-- [ ] 
+- [ ]
 
 ## Recursos
 
-- 
+-
 
 ## Practica
 
-- [ ] 
+- [ ]
 
 ## Criterio de salida
 
@@ -25,4 +25,4 @@ tags:
 
 ## Enlaces
 
-- 
+-

@@ -4,6 +4,9 @@ tags:
   - fundamentos
   - alfabetizacion
 duracion: 1-3 semanas
+estado: pendiente
+inicio:
+fin:
 ---
 
 # 00 - Orientacion y alfabetizacion en IA
@@ -23,6 +26,8 @@ Para cualquier persona, incluso sin programar.
 - Crear un glosario propio de 50 terminos usando [[04-Recursos/Glosario esencial]].
 - Comparar 3 herramientas de IA para una tarea real y documentar errores.
 - Escribir 10 prompts, medir resultados y mejorar con una rubrica simple.
+- Abrir la primera entrada de [[06-Bitacora/Como usar la bitacora|la bitacora]] y montar
+  el mazo inicial de [[04-Recursos/Repaso espaciado]].
 
 ## Criterio de salida
 

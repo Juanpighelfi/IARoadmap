@@ -3,6 +3,10 @@ tags:
   - nivel
   - especializacion
   - avanzado
+duracion: abierta
+estado: pendiente
+inicio:
+fin:
 ---
 
 # 12 - Profundizacion
@@ -22,12 +26,13 @@ Elige una o dos ramas. No intentes todas a la vez.
 
 ## Recursos para investigacion
 
-- Stanford CS336 2026: https://cs336.stanford.edu/
-- Stanford CS224N: http://cs224n.stanford.edu/
-- Papers with Code: https://paperswithcode.com/
-- arXiv Sanity: https://arxiv-sanity-lite.com/
+- Stanford CS336 2026: <https://cs336.stanford.edu/>
+- Stanford CS224N: <http://cs224n.stanford.edu/>
+- Papers with Code: <https://paperswithcode.com/>
+- arXiv Sanity: <https://arxiv-sanity-lite.com/>
 
 ## Conecta con
 
+- [[12b - Capa profesional]]
 - [[02-Rutas/Si quieres investigacion]]
 - [[03-Proyectos/Capstone]]
