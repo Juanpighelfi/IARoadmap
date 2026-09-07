@@ -5,7 +5,7 @@
 | ID | Módulo | Categoría | Horas | Prerrequisitos |
 | --- | --- | --- | ---: | --- |
 | 00 | [00 - Orientacion y alfabetizacion en IA](../01-Niveles/00%20-%20Orientacion%20y%20alfabetizacion%20en%20IA.md) | fundamentos | 4–6 | — |
-| 01 | [01 - Computacion, Python, Git y entorno](../01-Niveles/01%20-%20Computacion%20Python%20Git%20y%20entorno.md) | fundamentos | 35–60 | 00 |
+| 01 | [01 - Programación, Git y entorno](../01-Niveles/01%20-%20Computacion%20Python%20Git%20y%20entorno.md) | fundamentos | 35–60 | 00 |
 | 01b | [01b - Ingenieria asistida por IA](../01-Niveles/01b%20-%20Ingenieria%20asistida%20por%20IA.md) | transversal | 6–10 | 01 |
 | 02 | [02 - Datos, SQL, visualizacion y estadistica practica](../01-Niveles/02%20-%20Datos%20SQL%20visualizacion%20y%20estadistica.md) | fundamentos | 25–40 | 01 |
 | 03 | [03 - Matematicas para ML](../01-Niveles/03%20-%20Matematicas%20para%20ML.md) | fundamentos | 45–75 | 01 |

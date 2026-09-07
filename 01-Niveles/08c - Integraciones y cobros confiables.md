@@ -14,7 +14,7 @@ Integrar eventos externos sin duplicar efectos y distinguir el pago del servicio
 
 ## Recurso y lectura seleccionada
 
-La [documentación de webhooks de Stripe](https://docs.stripe.com/webhooks) sirve para estudiar notificaciones, verificación y entregas repetidas. Se usa como referencia conceptual, no como elección de proveedor ni afirmación de disponibilidad en Argentina. Para una integración real, verificar la documentación, condiciones y entorno de pruebas del proveedor elegido.
+El proyecto usa Mercado Pago: empezar por su [documentación de webhooks](https://www.mercadopago.com.ar/developers/es/docs/your-integrations/notifications/webhooks) y contrastarla con `src/webhooks/mercadopago-route.ts`. Para las colas existentes, consultar [workers de BullMQ](https://docs.bullmq.io/guide/workers). El [mapa del SaaS real](../03-Proyectos/Estudiar%20con%20el%20SaaS%20real.md) enlaza los archivos revisados. No agregar Stripe ni otro proveedor para completar este módulo.
 
 ## Diagnóstico
 
@@ -25,18 +25,20 @@ Un proveedor avisa dos veces que se completó el mismo pago. Explicar por qué c
 - Credenciales en servidor, permisos mínimos y secretos fuera de repositorios y registros.
 - Webhooks frente a consultas periódicas; autenticidad, validación del mensaje y reconciliación con el estado del proveedor.
 - Idempotencia: registro durable de eventos y restricción única, con cambios de negocio dentro de una transacción.
+- Redis/BullMQ: productor, trabajo, consumidor y registro de workers; distinguir HTTP aceptado de tarea completada.
 - Reintentos limitados, timeout, fallos parciales y revisión manual de operaciones que no se pueden completar.
+- OAuth por profesional en Google Calendar y Mercado Pago; permisos, vencimiento y revocación. No confundir OAuth con verificar la firma de un webhook.
 - Distinguir estado interno, estado informado por el proveedor y estado confirmado; una redirección del navegador no confirma un pago.
 - Separar cobro al paciente, suscripción al SaaS y emisión fiscal: son procesos distintos, con identificadores y estados propios.
 - Cambios de suscripción, fallos de cobro, cancelación y fecha efectiva de acceso según una política explícita.
 
 ## Práctica guiada
 
-Usar el simulador descrito en [prácticas SaaS](../07-Laboratorios/Practicas%20SaaS.md), sin proveedor ni dinero real. Recibir eventos de pago con ID único; validar esquema; escribir el evento y el cambio de estado de forma atómica. Procesar duplicados, reinicio y notificación fuera de orden.
+Usar el ejercicio de eventos sintéticos descrito en [prácticas SaaS](../07-Laboratorios/Practicas%20SaaS.md), sin proveedor ni dinero real. No es el simulador conversacional del panel, que puede invocar servicios según su configuración. Relacionar cada paso con el webhook y las colas existentes, sin duplicar el subsistema. Recibir eventos de pago con ID único; validar esquema; escribir el evento y el cambio de estado de forma atómica. Procesar duplicados, reinicio y notificación fuera de orden.
 
 ## Práctica independiente
 
-Simular una suscripción al software con estados pendiente, activa y cancelada. Definir cuándo se pierde acceso en el ejercicio y comprobarlo. Si el evento no permite decidir el estado actual, dejarlo pendiente de reconciliación en lugar de adivinar.
+Como ejercicio acotado, simular una suscripción al software con estados pendiente, activa y cancelada. Su ciclo completo en el producto quedó por verificar en la revisión estática; no asumir que está terminado ni que falta por completo. Definir cuándo se pierde acceso en el ejercicio y comprobarlo. Si el evento no permite decidir el estado actual, dejarlo pendiente de reconciliación en lugar de adivinar.
 
 ## Condiciones de salida
 

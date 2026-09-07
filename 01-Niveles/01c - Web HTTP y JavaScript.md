@@ -14,7 +14,7 @@ Comprender el recorrido navegador → petición → servidor → respuesta y con
 
 ## Recurso y lectura seleccionada
 
-Usá [MDN Learn](https://developer.mozilla.org/en-US/docs/Learn_web_development): cómo funciona la web, formularios HTML, CSS básico, JavaScript y solicitudes de datos. Elegí las secciones necesarias para el ejercicio; no completes todo el catálogo. El [Handbook de TypeScript](https://www.typescriptlang.org/docs/handbook/intro.html) es una extensión si el SaaS ya utiliza TypeScript, después de poder leer JavaScript.
+Usá [MDN Learn](https://developer.mozilla.org/en-US/docs/Learn_web_development): cómo funciona la web, formularios HTML, CSS básico, JavaScript y solicitudes de datos. Elegí las secciones necesarias para el ejercicio; no completes todo el catálogo. Retomá los tipos del 01 con el [Handbook de TypeScript](https://www.typescriptlang.org/docs/handbook/intro.html). Para el panel existente, seleccioná componentes, props, estado y eventos de [React Learn](https://react.dev/learn); no hace falta completar otro curso entero.
 
 ## Diagnóstico
 
@@ -23,20 +23,20 @@ Explicá dónde se valida un formulario y qué pasa si la API responde con un er
 ## Aprender
 
 - HTML semántico, etiquetas y navegación con teclado; estilos suficientes para una pantalla legible.
-- Funciones, objetos, arrays, módulos, promesas y manejo de errores en JavaScript. Comparar con Python sin repetir todo un curso de programación.
+- Funciones, objetos, arrays, módulos, promesas y manejo de errores en JavaScript. Retomar lo practicado en el 01, sin repetir otro curso de programación.
 - HTTP, JSON, estados, formularios y carga de datos. Diferencia entre fallo de red y rechazo de la aplicación.
 - Estado de carga, vacío, éxito y error; evitar que un doble clic cree dos solicitudes involuntarias.
 - Contrato entre pantalla y API. La validación del navegador ayuda al usuario; la del servidor decide qué acepta el sistema.
 
 ## Práctica guiada
 
-Crear una pantalla de turnos ficticios: profesional, fecha y estado. Durante este módulo, usar datos locales y una respuesta simulada. Mostrar lista vacía, lista con turnos y error; al enviar, deshabilitar temporalmente el botón y mostrar el resultado. Registrar la petición esperada sin conectar datos reales.
+En una rama de aprendizaje, usar un componente pequeño del panel React existente para mostrar turnos ficticios: profesional, fecha y estado. Durante este módulo, usar datos locales y una respuesta simulada. Mostrar lista vacía, lista con turnos y error; al enviar, deshabilitar temporalmente el botón y mostrar el resultado. Registrar la petición esperada sin conectar datos reales.
 
-La simulación no demuestra persistencia ni seguridad del servidor. Se sustituye por una API real en 02b.
+Leer `web/src/admin/api/client.ts` y seguir una llamada hasta Fastify, usando el [mapa del SaaS real](../03-Proyectos/Estudiar%20con%20el%20SaaS%20real.md). Reutilizar el panel; no construir otra aplicación. La simulación no demuestra persistencia ni seguridad del servidor. En 02b se verifica el recorrido con la API existente en un entorno de prueba.
 
 ## Práctica independiente
 
-Agregar un filtro por estado y resolver una respuesta lenta o fallida sin copiar la solución. Si el SaaS utiliza TypeScript, tipar el registro y explicar qué errores requieren validación en ejecución aunque los tipos compilen.
+Agregar un filtro por estado y resolver una respuesta lenta o fallida sin copiar la solución. Tipar el registro en TypeScript y explicar qué errores requieren validación en ejecución aunque los tipos compilen.
 
 ## Condiciones de salida
 

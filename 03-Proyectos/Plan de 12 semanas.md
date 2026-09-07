@@ -7,7 +7,7 @@ Horizonte inicial para aprender con continuidad y acercarse a un piloto útil. D
 | Ventana orientativa | Foco | Evidencia para avanzar |
 | --- | --- | --- |
 | Semanas 1–2 | 00, diagnóstico y comienzo de 01 | Funciones, archivos y un caso de error explicados; sesiones registradas |
-| Semanas 3–6 | Continuar 01, luego 01b según dominio | Laboratorio comprobado, una variante independiente y un cambio pequeño revisado |
+| Semanas 3–6 | Continuar 01 con JavaScript/TypeScript, luego 01b según dominio | Función de horarios comprobada, variante independiente y diff pequeño explicado |
 | Semanas 7–9 | Comenzar 02; primera lectura del SaaS si alcanza la base | Consulta o reporte reproducible; inventario del producto con un error reproducido |
 | Semanas 10–12 | Continuar la secuencia: 02, 10 y 12d según evidencia | Un proceso administrativo elegido, datos de prueba y una propuesta de siguiente entrega |
 
@@ -17,7 +17,7 @@ Si el diagnóstico acredita base, podés llegar antes a web e integraciones. Si 
 
 Mientras estudiás, podés revisar la necesidad con profesionales interesados y describir el flujo actual en lenguaje cotidiano. Usá un bloque ya previsto; no hace falta haber terminado backend para preguntar qué tarea consume tiempo o qué error resulta más costoso.
 
-La primera entrega del SaaS puede ser entender y reparar un recorrido existente. Solo se plantea un piloto real cuando ese recorrido, sus permisos y su recuperación están comprobados. El alcance se elige después del inventario; aún no se revisó el código existente.
+La primera entrega del SaaS puede ser entender y reparar un recorrido existente. Solo se plantea un piloto real cuando ese recorrido, sus permisos y su recuperación están comprobados. El alcance se concreta con la [revisión del código existente](Estudiar%20con%20el%20SaaS%20real.md) y la reproducción de un recorrido en un entorno de prueba.
 
 ## Productos 3D en paralelo
 

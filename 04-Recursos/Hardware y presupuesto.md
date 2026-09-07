@@ -1,9 +1,10 @@
 # Hardware y presupuesto
 
-La ruta no presupone una GPU dedicada ni un modelo concreto de computadora. No compres hardware para empezar: los laboratorios incluidos usan Python estándar y CPU.
+La ruta no presupone una GPU dedicada ni un modelo concreto de computadora. No compres hardware para empezar: la práctica inicial del SaaS usa JavaScript/TypeScript y CPU; los laboratorios opcionales incluidos usan Python estándar.
 
 | Etapa | Entorno inicial | Cuándo ampliar |
 | --- | --- | --- |
+| Inicio SaaS | Node compatible, Git y editor; función pura y test enfocado | PostgreSQL/Redis recién al estudiar persistencia y colas; sin API paga para la primera práctica |
 | Python, matemáticas, búsqueda y MDP | Python 3.11+ y biblioteca estándar | No requiere GPU |
 | ML tabular | CPU, entorno con NumPy/scikit-learn | Si una medición demuestra que el tamaño lo necesita |
 | DL y visión | Dataset pequeño, modelo reducido o cabeza congelando el backbone | Cuando el experimento ya funciona y el tiempo es el límite |

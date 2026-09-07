@@ -15,7 +15,7 @@
     {
       "id": "01",
       "path": "01-Niveles/01 - Computacion Python Git y entorno.md",
-      "title": "01 - Computacion, Python, Git y entorno",
+      "title": "01 - Programación, Git y entorno",
       "prerequisites": [
         "00"
       ],

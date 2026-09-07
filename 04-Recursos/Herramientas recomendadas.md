@@ -10,9 +10,9 @@ Aprende conceptos primero, herramientas después. Esta lista es un menú por esp
 
 ## Selección para tu ruta personal
 
-1. Empezá con Python, Git y un editor para el laboratorio 01. No instales todo el menú de especializaciones.
-2. En web, aprendé HTML, JavaScript y HTTP; incorporá TypeScript si el SaaS lo usa. Consultá [MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development).
-3. Inventariá el SaaS antes de elegir backend, base de datos o alojamiento. Conservá su stack cuando sea viable; todavía no se ha inspeccionado en esta adaptación.
+1. Empezá con JavaScript, Git, un editor y Node compatible con el SaaS (su manifiesto requiere 22 o posterior); agregá TypeScript después de comprender funciones y objetos. No instales todo el menú de especializaciones.
+2. En web, aprendé HTML y HTTP; el panel existente usa React/Vite y TypeScript. Consultá [MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development).
+3. Conservá el stack del [SaaS inspeccionado](../03-Proyectos/Estudiar%20con%20el%20SaaS%20real.md): Fastify, PostgreSQL/Drizzle, Zod y, cuando llegues a trabajos asíncronos, Redis/BullMQ. No sustituirlo por FastAPI ni aprender dos backends en paralelo.
 4. Usá un solo asistente de código: pedir criterios, revisar cambios pequeños y probar. Una herramienta nueva necesita una limitación concreta que resolver.
 5. Las primeras integraciones e IA se prueban con datos y servicios simulados; contratar un proveedor no es requisito para empezar.
 

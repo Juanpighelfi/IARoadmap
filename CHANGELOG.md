@@ -1,5 +1,13 @@
 # Registro de cambios
 
+## 2026-09-07 — Vinculación al SaaS real
+
+- Revisión estática del SaaS en `da1d6d1`: mapa de tecnologías, archivos y recorridos con enlaces fijados a esa revisión; sin ejecutar ni modificar el producto.
+- JavaScript/TypeScript y Node como camino personal del módulo 01; Python se conserva para laboratorios y especializaciones, sin exigir dos lenguajes al empezar.
+- Prácticas vinculadas a horarios, React, Fastify, PostgreSQL/Drizzle, permisos y Redis/BullMQ; recursos de integración centrados en Mercado Pago.
+- Diferenciados Twilio actual frente a documentación antigua, demo frente a simulador y pruebas estáticas frente a ejecución real.
+- Se conserva el avance del módulo 00 y el presupuesto semanal; no se acredita dominio ni se promete fecha de lanzamiento.
+
 ## 2026-09-07 — Desarrollo con IA, SaaS y servicios para pymes
 
 - Ruta personal reorientada a programación, datos, web, SaaS, automatización evaluada y economía del servicio.
