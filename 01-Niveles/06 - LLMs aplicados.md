@@ -34,11 +34,11 @@ Los laboratorios numerados están en el [índice ejecutable](../07-Laboratorios/
 
 Agregá unidades inconsistentes, una instrucción maliciosa dentro de la descripción y campos faltantes. Medí por separado esquema válido y contenido correcto.
 
-### Rúbrica de salida
+### Cómo comprobar que aprendí
 
 Dataset fijo, versión de modelo/prompt, resultados por campo y política de abstención; no inventar valores faltantes ni considerar JSON válido como evidencia de verdad.
 
-Evaluá cuatro dimensiones: implementación correcta, comparación válida, explicación propia y transferencia a una variante. Cada una: 0 ausente/incorrecta, 1 con ayuda, 2 independiente. **Dominado:** al menos 7/8 y ninguna dimensión en 0; cualquier fuga de test o resultado inventado invalida la comparación. Los tests automáticos acreditan solo los casos que cubren.
+Comprobá que podés resolver el ejercicio, explicar el resultado y hacer una variante sin copiar. No hace falta puntuarte ni completar otra plantilla. Se mantienen los criterios técnicos anteriores: no inventar resultados ni usar datos de evaluación para ajustar la solución. Los tests solo comprueban los casos que cubren.
 
 ### Si no sale
 
@@ -46,7 +46,7 @@ Si falla el formato, revisar contrato; si falla el significado, inspeccionar cas
 
 ### Retención
 
-A los 7 días repetí una variante breve sin mirar la solución. A los 30 días reconstruí el razonamiento central. Si no sale, registrá qué olvidaste y volvé al ejercicio correspondiente; no reinicies todo el módulo. Guardá evidencia y fechas en tu [seguimiento personal](../00-MOC/Estado%20actual.md).
+Cada tanto, retomá una variante sin mirar la solución. Si no sale, anotá ese punto como próximo ejercicio en [Mi seguimiento](../00-MOC/Estado%20actual.md), sin otra planilla ni fechas obligatorias. No hace falta reiniciar el módulo.
 
 ## Debes aprender
 

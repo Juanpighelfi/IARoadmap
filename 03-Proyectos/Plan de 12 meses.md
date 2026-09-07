@@ -8,7 +8,7 @@ La meta es construir y operar soluciones de software con IA para empresas y pyme
 python scripts/estimate.py --route personal --hours 10
 ```
 
-La fórmula es horas pendientes / horas efectivas semanales. Diez horas reservadas no siempre son diez efectivas; descontá pausas, viajes e interrupciones al recalcular. A 10 horas efectivas, 52 semanas serían 520 horas; no es una previsión de asistencia perfecta. Las estimaciones cubren práctica acotada, no todo el mantenimiento ni las funciones del negocio.
+Este cálculo es opcional: no necesitás medir horas para mantener tu seguimiento ni decidir el próximo ejercicio. Si querés estimar duración, la fórmula es horas pendientes / horas efectivas semanales. Diez horas reservadas no siempre son diez efectivas; descontá pausas, viajes e interrupciones al recalcular. A 10 horas efectivas, 52 semanas serían 520 horas; no es una previsión de asistencia perfecta. Las estimaciones cubren práctica acotada, no todo el mantenimiento ni las funciones del negocio.
 
 ## Hitos en orden
 

@@ -1,38 +1,21 @@
----
-tipo: proyecto
-ejemplo: true
----
+# Proyecto — opcional
 
-# Proyecto
+Usala cuando necesites explicar una aplicación o experimento, no para registrar cada sesión. Si el README del proyecto ya contiene esto, no crees otra copia.
 
-## Problema y alcance
+## Qué quiero resolver
 
-Entrada, salida, necesidad propia y límites.
+Para quién es y qué tarea concreta mejora. Ejemplo: mostrar los turnos pendientes de un profesional.
 
-## Hipótesis y baseline
+## Qué entra y qué queda fuera
 
-Qué espero mejorar y con qué comparación.
+Una función pequeña que vas a probar; límites importantes. Ejemplo: turnos ficticios, sin recetas ni cobros reales.
 
-## Datos y partición
+## Cómo lo pruebo
 
-Procedencia, licencia, grupos, tiempo, etiquetas, train/validación/test.
+Comando o pasos, datos de prueba y resultado esperado. Si hay un experimento de IA, indicar con qué se compara y qué datos se reservan para evaluar.
 
-## Entorno y presupuesto
+## Qué pasó y qué falta
 
-Versiones, hardware, tiempo máximo y gasto permitido.
+Resultado observado, enlace al código o las pruebas y limitaciones. No afirmar que algo funciona si todavía no lo probaste.
 
-## Reproducción
-
-Comando, dependencias y ubicación de artefactos.
-
-## Resultados
-
-Métricas, variabilidad, fallos por segmento y resultados negativos.
-
-## Riesgos y límites
-
-Qué no comprobé, qué datos faltan y qué no debe hacer el sistema.
-
-## Aprendizaje
-
-Decisiones propias, ayuda usada, variante independiente y repaso posterior.
+Documentá permisos, configuración, costos o riesgos donde corresponda al proyecto. Esta nota breve no reemplaza controles de seguridad ni documentación técnica necesaria. Tu próxima sesión sigue en [Mi seguimiento](../00-MOC/Estado%20actual.md), no en otra bitácora.

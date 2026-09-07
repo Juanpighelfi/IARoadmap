@@ -47,12 +47,12 @@ Localizar el registro de cobros y probar una operación administrativa con un co
 - Un reinicio conserva los datos y una cancelación tiene el efecto previsto.
 - La entrada inválida se rechaza también al llamar la API sin pasar por el formulario.
 
-Son pruebas obligatorias para cerrar el módulo, además de la rúbrica. Un fallo de autorización bloquea el cierre aunque el puntaje restante sea alto.
+Son pruebas obligatorias para cerrar el módulo. Un fallo de autorización bloquea el cierre aunque las demás pruebas pasen.
 
 ## Si no sale
 
 Separar persistencia de interfaz. Resolver primero una consulta del 02 y una prueba de permiso; después conectar la pantalla. Pedir a la IA una explicación o un cambio delimitado, no que reconstruya toda la aplicación.
 
-## Evaluación y retención
+## Cómo comprobar que aprendí
 
-Aplicá la [rúbrica de dominio](../04-Recursos/Autoevaluacion%20y%20dominio.md): implementación, comparación válida, explicación propia y transferencia, de 0 a 2 cada una. Para dominio: 7/8 como mínimo y ninguna dimensión en 0. Guardá evidencia y ayuda usada en `Mi-progreso/`; repetir una variante a los 7 días y reconstruir el razonamiento a los 30. Una demo que funciona con ayuda no acredita todavía independencia.
+Usá la [comprobación breve](../04-Recursos/Autoevaluacion%20y%20dominio.md): resolver, explicar y probar una variante sin copiar, cumpliendo las condiciones de salida del módulo. Cerrá con tres líneas en [Mi seguimiento](../00-MOC/Estado%20actual.md). No hacen falta puntajes ni otra ficha; una demo hecha con ayuda no demuestra todavía independencia.

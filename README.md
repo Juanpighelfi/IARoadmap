@@ -7,7 +7,7 @@ Plan de estudio personal para **desarrollar software con IA, construir un SaaS y
 1. Abrí [Empezar aquí](00-MOC/Empezar%20aqui.md): primera sesión, diagnóstico y elección del siguiente paso.
 2. Seguí [Mi ruta personal](02-Rutas/Mi%20ruta%20personal.md). No hace falta completar todas las especializaciones.
 3. En programación, seguí el camino JavaScript/TypeScript del [módulo 01](01-Niveles/01%20-%20Computacion%20Python%20Git%20y%20entorno.md) y conectalo con [el código real del SaaS](03-Proyectos/Estudiar%20con%20el%20SaaS%20real.md). Los laboratorios Python se conservan para ese lenguaje. No hace falta GPU ni API paga al inicio.
-4. Registrá evidencia en [Estado actual](00-MOC/Estado%20actual.md). Una plantilla vacía no equivale a progreso realizado.
+4. Usá [Mi seguimiento](00-MOC/Estado%20actual.md): un solo archivo con fecha, «Hice», «Me costó» y «Cómo sigo». No hace falta completar otras plantillas.
 
 ## Cómo está organizado
 
@@ -21,6 +21,7 @@ Plan de estudio personal para **desarrollar software con IA, construir un SaaS y
 | Organizar la semana | [Semana flexible](03-Proyectos/Semana%20flexible.md) |
 | Empezar el primer trimestre | [Plan de 12 semanas](03-Proyectos/Plan%20de%2012%20semanas.md) |
 | Organizar el año | [Plan de 12 meses](03-Proyectos/Plan%20de%2012%20meses.md) |
+| Retomar donde quedaste | [Mi seguimiento](00-MOC/Estado%20actual.md) |
 | Comprobar aprendizaje | [Autoevaluación y dominio](04-Recursos/Autoevaluacion%20y%20dominio.md) |
 | Elegir material | [Guía de recursos](04-Recursos/Guia%20de%20recursos.md) |
 | Navegar todo | [Índice del vault](00-MOC/Indice%20del%20vault.md) |
@@ -31,7 +32,7 @@ El orden real está en las rutas, no en el número del archivo. Los sufijos `b` 
 
 Podés leer todo en GitHub. Para Obsidian, descargá o cloná este repositorio y abrí la carpeta como vault. Los enlaces Markdown relativos funcionan en ambos. El [Canvas](00-MOC/Mapa%20visual.canvas) muestra las ramas en Obsidian; el mapa Markdown ofrece una alternativa en GitHub.
 
-El material curricular permanece separado de tu trabajo: guardá bitácoras, soluciones y resultados propios en `Mi-progreso/`, ignorado por Git. No subas fotografías, credenciales o datos personales por accidente. Si querés versionar un proyecto, usá un repositorio elegido para ese fin.
+El material curricular permanece separado de tu trabajo: guardá tu seguimiento, soluciones y resultados propios en `Mi-progreso/`, ignorado por Git. No subas fotografías, credenciales o datos personales por accidente. Si querés versionar un proyecto, usá un repositorio elegido para ese fin.
 
 ## Mantenimiento
 

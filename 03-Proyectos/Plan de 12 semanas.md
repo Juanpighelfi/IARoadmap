@@ -6,7 +6,7 @@ Horizonte inicial para aprender con continuidad y acercarse a un piloto útil. D
 
 | Ventana orientativa | Foco | Evidencia para avanzar |
 | --- | --- | --- |
-| Semanas 1–2 | 00, diagnóstico y comienzo de 01 | Funciones, archivos y un caso de error explicados; sesiones registradas |
+| Semanas 1–2 | 00, diagnóstico y comienzo de 01 | Funciones, archivos y un caso de error explicados; próximo paso claro en el seguimiento único |
 | Semanas 3–6 | Continuar 01 con JavaScript/TypeScript, luego 01b según dominio | Función de horarios comprobada, variante independiente y diff pequeño explicado |
 | Semanas 7–9 | Comenzar 02; primera lectura del SaaS si alcanza la base | Consulta o reporte reproducible; inventario del producto con un error reproducido |
 | Semanas 10–12 | Continuar la secuencia: 02, 10 y 12d según evidencia | Un proceso administrativo elegido, datos de prueba y una propuesta de siguiente entrega |

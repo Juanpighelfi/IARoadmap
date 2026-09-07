@@ -13,7 +13,7 @@ El camino principal usa JavaScript → TypeScript/Node.js desde 01, React en 01c
 1. Continuá 00 si ya lo empezaste; no hace falta reiniciar. Después intentá el diagnóstico de programación aplicado a horarios en 01. Haber visto videos no acredita dominio, pero una prueba independiente sí permite evitar repeticiones.
 2. Mantené un módulo principal. Aplicá revisión de código, pruebas y evaluación sobre su misma práctica.
 3. Leé o mirá el recurso seleccionado, intentá un ejercicio, corregí y explicá lo esencial sin ayuda. Después resolvé una variante.
-4. Guardá evidencia y el siguiente paso en `Mi-progreso/`. Una sesión aplicada al SaaS cuenta una sola vez dentro del presupuesto de estudio.
+4. Al terminar, agregá tres líneas en [Mi seguimiento](../00-MOC/Estado%20actual.md): qué hice, qué me costó y cómo sigo. Los ejercicios quedan en sus archivos, sin duplicarlos. Una sesión aplicada al SaaS cuenta una sola vez dentro del presupuesto de estudio.
 5. Si faltan fundamentos para tocar el producto, trabajá sobre una función aislada o una muestra sintética. Volvé al SaaS cuando puedas explicar el cambio.
 
 ## Etapas y entregas

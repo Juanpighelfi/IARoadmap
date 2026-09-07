@@ -14,13 +14,13 @@ Consolidá el proyecto que ya trabajaste. Para la ruta principal, usá el [SaaS 
 | Operación | Tiempo/memoria/costo medidos si se ejecuta; rollback o recuperación local |
 | Aprendizaje | Error investigado, cambio medido y una variante resuelta sin ayuda |
 
-Puntuá cada criterio 0 (ausente/incorrecto), 1 (parcial) o 2 (completo y comprobable). Cierre: al menos 12/14, sin cero en datos, evaluación o reproducibilidad. Un sistema que no supera el baseline puede aprobar si el experimento y la conclusión son válidos. Una demo sin evidencia queda como prototipo.
+Comprobá los criterios de la tabla en el proyecto, sin asignar puntajes ni copiarlos al seguimiento. Para cerrar, cada criterio aplicable debe estar comprobado; justificá lo que no aplique. Datos, evaluación y reproducibilidad no se pueden omitir. Un sistema que no supera el baseline puede aprobar si el experimento y la conclusión son válidos. Una demo sin evidencia queda como prototipo.
 
 Las trazas pueden venir de tu uso personal o de pruebas diseñadas; identificá su origen. No afirmar que un sistema tiene usuarios, cumple una norma o funciona en hardware que no se probó.
 
 ## Requisitos adicionales del SaaS
 
-Para cerrar el capstone de esta ruta, demostrar aislamiento entre dos cuentas, persistencia, evento duplicado sin efecto repetido, fallo diagnosticado y restauración ensayada. Un error de acceso a datos ajenos o acción no autorizada bloquea el cierre aunque el puntaje global alcance. El piloto comercial requiere además las condiciones del proyecto conductor; una buena autoevaluación no demuestra uso real ni pago.
+Para cerrar el capstone de esta ruta, demostrar aislamiento entre dos cuentas, persistencia, evento duplicado sin efecto repetido, fallo diagnosticado y restauración ensayada. Un error de acceso a datos ajenos o acción no autorizada bloquea el cierre aunque las demás partes funcionen. El piloto comercial requiere además las condiciones del proyecto conductor; una buena autoevaluación no demuestra uso real ni pago.
 
 ## Defensa individual
 

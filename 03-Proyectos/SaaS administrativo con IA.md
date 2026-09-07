@@ -57,4 +57,4 @@ Primero mostrar un único recorrido a un profesional interesado y observar si re
 
 ## Regla de cierre
 
-Una entrega termina cuando hay código o documento identificable, prueba, explicación propia y siguiente paso. Usá las [prácticas SaaS](../07-Laboratorios/Practicas%20SaaS.md) y la [rúbrica de capstone](Capstone.md). Todo ese trabajo cuenta dentro del estudio aplicado, una sola vez.
+Una entrega termina cuando hay código o documento identificable, prueba, explicación propia y siguiente paso. Usá las [prácticas SaaS](../07-Laboratorios/Practicas%20SaaS.md) y los [criterios de cierre del capstone](Capstone.md). Todo ese trabajo cuenta dentro del estudio aplicado, una sola vez.

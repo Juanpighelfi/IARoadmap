@@ -2,14 +2,14 @@
 
 Las tarjetas sirven para recuperar ideas y decisiones; las habilidades de modelado y programación también requieren volver a resolver problemas. No conviertas el repaso en otra colección de material.
 
-## Rutina inicial
+## Si querés una rutina más estructurada (opcional)
 
 - Al cerrar un módulo, elegí 3–5 errores o conceptos que costaron.
 - A los 7 días, resolvé una variante breve sin mirar la solución.
 - A los 30 días, reconstruí la parte central o explicá una decisión del proyecto.
 - Si fallás, reducí el ejercicio y repetí antes de ampliar el intervalo.
 
-Estas fechas son una pauta inicial, no un algoritmo óptimo universal. Podés usar [Anki](https://apps.ankiweb.net/) o [Spaced Repetition para Obsidian](https://www.stephenmwangi.com/obsidian-spaced-repetition/), o simplemente una tabla de fechas. No hace falta instalar un plugin para cursar.
+Estas fechas son una pauta inicial, no un algoritmo óptimo universal. Podés usar [Anki](https://apps.ankiweb.net/) o [Spaced Repetition para Obsidian](https://www.stephenmwangi.com/obsidian-spaced-repetition/), o simplemente elegir un ejercicio anterior al empezar una sesión. No hace falta tabla de fechas ni instalar un plugin para cursar.
 
 ## Buenas preguntas
 

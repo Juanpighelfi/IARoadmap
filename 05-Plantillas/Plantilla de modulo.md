@@ -1,38 +1,5 @@
----
-tipo: nota-modulo
-ejemplo: true
-modulo:
-estado: pendiente
-dominio: sin evaluar
----
+# Módulos: usar el seguimiento único
 
-# Mi trabajo en un módulo
+Esta plantilla fue reemplazada. No la copies ni la completes: usá [Mi seguimiento](../00-MOC/Estado%20actual.md).
 
-## Diagnóstico y prerrequisitos
-
-Qué pude resolver sin ayuda; evidencia de conocimientos previos.
-
-## Recurso seleccionado
-
-Fuente, capítulos, idioma, acceso y qué voy a omitir.
-
-## Intento y predicción
-
-Antes de ejecutar: qué espero que ocurra y por qué.
-
-## Práctica y corrección
-
-Comando, datos, salida, error y cambio realizado. Ayuda del asistente o solución consultada.
-
-## Rúbrica
-
-| Dimensión | 0–2 | Evidencia |
-| --- | --- | --- |
-| Implementación | | |
-| Comparación válida | | |
-| Explicación propia | | |
-| Transferencia | | |
-
-## Recuperación y repaso
-
-Qué ejercicio rehago si falla; fecha y resultado del repaso a 7 y 30 días.
+Si ya la habías completado, conservá tu nota; no necesitás transcribirla. Desde ahora, agregá las nuevas entradas en un solo archivo. Este enlace se mantiene para que las referencias antiguas sigan funcionando.

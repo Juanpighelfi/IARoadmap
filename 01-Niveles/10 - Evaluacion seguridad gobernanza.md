@@ -18,7 +18,7 @@ Qué estudiar: evaluación independiente y errores de medición. Para la ruta pe
 
 Antes de conectar modelos o proveedores, escribir diez casos sobre un registro administrativo: entrada válida, importe negativo, ID duplicado, cuenta equivocada, falta de sesión, timeout, evento repetido, evento viejo, salida inválida y solicitud ambigua. Definir resultado esperado y cuáles bloquean una entrega. Comparar una regla permisiva y otra que rechaza todo: medir errores y cobertura sin usar un modelo.
 
-Inventariar datos necesarios, quién puede acceder, dónde se guardan y qué no se registra en logs. Usar datos ficticios. Reservar casos distintos para evaluación final; no ajustar el sistema sobre ellos. Aplicar la rúbrica de salida a esta práctica y retomar las amenazas de modelos en 06–08 dentro de esos módulos, sin duplicar horas.
+Inventariar datos necesarios, quién puede acceder, dónde se guardan y qué no se registra en logs. Usar datos ficticios. Reservar casos distintos para evaluación final; no ajustar el sistema sobre ellos. Usar las condiciones de salida en esta práctica y retomar las amenazas de modelos en 06–08 dentro de esos módulos, sin duplicar horas.
 
 ### Diagnóstico breve
 
@@ -34,11 +34,11 @@ Los laboratorios numerados están en el [índice ejecutable](../07-Laboratorios/
 
 Construí un sistema deliberadamente malo que siempre abstenga y otro que siempre responda. Tu evaluación debe distinguir cobertura, errores y abstención.
 
-### Rúbrica de salida
+### Cómo comprobar que aprendí
 
 Criterios fijados antes de comparar, casos frontera, versión y errores por segmento; no usar un juez LLM sin contrastarlo con etiquetas humanas propias.
 
-Evaluá cuatro dimensiones: implementación correcta, comparación válida, explicación propia y transferencia a una variante. Cada una: 0 ausente/incorrecta, 1 con ayuda, 2 independiente. **Dominado:** al menos 7/8 y ninguna dimensión en 0; cualquier fuga de test o resultado inventado invalida la comparación. Los tests automáticos acreditan solo los casos que cubren.
+Comprobá que podés resolver el ejercicio, explicar el resultado y hacer una variante sin copiar. No hace falta puntuarte ni completar otra plantilla. Se mantienen los criterios técnicos anteriores: no inventar resultados ni usar datos de evaluación para ajustar la solución. Los tests solo comprueban los casos que cubren.
 
 ### Si no sale
 
@@ -46,7 +46,7 @@ Si todo pasa, probar controles negativos. Si el juez discrepa, revisar rúbrica 
 
 ### Retención
 
-A los 7 días repetí una variante breve sin mirar la solución. A los 30 días reconstruí el razonamiento central. Si no sale, registrá qué olvidaste y volvé al ejercicio correspondiente; no reinicies todo el módulo. Guardá evidencia y fechas en tu [seguimiento personal](../00-MOC/Estado%20actual.md).
+Cada tanto, retomá una variante sin mirar la solución. Si no sale, anotá ese punto como próximo ejercicio en [Mi seguimiento](../00-MOC/Estado%20actual.md), sin otra planilla ni fechas obligatorias. No hace falta reiniciar el módulo.
 
 ## Debes aprender
 
