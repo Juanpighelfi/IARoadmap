@@ -14,6 +14,12 @@ Consultá el [catálogo de módulos](../00-MOC/Catalogo%20de%20modulos.md) para 
 
 Qué estudiar: Lectura de tablas, selección, columnas derivadas, estadísticas, reshape y combinación; practicar JOIN y GROUP BY en SQLite de Python.
 
+### Aplicación en la ruta personal
+
+Usá el reporte administrativo de las [prácticas SaaS](../07-Laboratorios/Practicas%20SaaS.md) como práctica principal en lugar del caso de piezas de abajo. Crear tablas de profesionales, turnos y cobros ficticios. Consultar pendientes por profesional y turnos sin cobro; comprobar importes, duplicados y valores ausentes.
+
+Para la variante, agregar dos pagos parciales a un turno y explicar por qué un JOIN puede duplicar su importe esperado. Distinguir cantidad de turnos de cantidad de pagos, calcular proporción de turnos pagados con denominador explícito y graficar cobros por profesional. Aplicar la misma rúbrica; no sumar ambos proyectos como obligación.
+
 ### Diagnóstico breve
 
 Dadas dos tablas con un ID repetido, predecí cuántas filas devuelve el join y por qué una media podría quedar sesgada. Si lo resolvés sin ayuda y lo justificás, intentá directamente la tarea independiente; omitir lectura exige evidencia, no autopercepción.

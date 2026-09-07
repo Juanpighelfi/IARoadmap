@@ -16,9 +16,11 @@ Qué estudiar: Lectura de trazas, taxonomía y evaluación dirigida por errores.
 
 ### Aplicación en tu ruta personal
 
-En el proyecto de inspección visual, una traza es un registro por imagen: pieza y sesión, etiqueta real, predicción, confianza, versión del modelo, preprocesamiento y latencia. Analizá 30–50 predicciones propias de validación (o todas si tenés menos), separando errores por iluminación, orientación, tipo de defecto y pieza. Conservá el test reservado para la evaluación final. Si faltan imágenes reales, usá datos sintéticos únicamente para verificar el procedimiento y declaralo.
+Retomá las consultas administrativas del [SaaS](../03-Proyectos/SaaS%20administrativo%20con%20IA.md). Una traza registra ID ficticio, entrada, etiqueta esperada, salida, validación, decisión de revisión, herramienta intentada, versión y latencia. Analizá los casos de desarrollo completos, agrupá causas y elegí una corrección por frecuencia y severidad. Conservá el conjunto reservado para el resultado final.
 
-La práctica guiada y la variante se realizan con estos registros. Los ejemplos de conversaciones, herramientas y jueces LLM que siguen corresponden a la rama opcional de LLM; no hacen falta para completar este módulo en visión.
+Podés ampliar la muestra de desarrollo a 30–50 interacciones si hace falta; no es obligatorio duplicar las prácticas de 06 y 08. Si hay menos casos, usá todos e indicá la limitación. Los datos sintéticos solo prueban ese escenario; no son tráfico real.
+
+Para la especialización opcional de visión, usar registros por imagen con pieza, sesión, etiqueta, predicción y latencia, separando errores por iluminación o defecto. Aplicar la misma rúbrica sobre esa evidencia sin cursar también el proyecto de conversaciones.
 
 ### Diagnóstico breve
 

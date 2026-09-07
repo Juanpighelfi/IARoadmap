@@ -2,6 +2,23 @@
 
 Distribuilo en dos o tres sesiones. Intentá primero sin asistente ni solución; después podés consultar y registrar la ayuda. No es un examen de memoria: interesa detectar el siguiente ejercicio útil. La experiencia previa y las materias de tu carrera pueden acreditar partes si podés mostrar el trabajo y resolver una variante.
 
+## Entrada para la ruta personal
+
+Empezá solo por Python. Los demás bloques se intentan al acercarse al módulo correspondiente; un resultado pendiente no obliga a estudiar todas las ramas.
+
+| Capacidad | Tarea breve | Evidencia / siguiente módulo |
+| --- | --- | --- |
+| Revisión de IA | Explicar un diff: entradas, salidas y fallo posible | Cambio y prueba propios; 01b si falta |
+| Datos administrativos | A tiene cobros de 100 y 150, B tiene uno de 90; calcular total por profesional | A=250, B=90, luego repetir con SQL; 02 |
+| Web | Seguir un formulario hasta su respuesta y distinguir navegador/servidor | Contrato HTTP explicado; 01c |
+| Backend | Explicar cómo impedir que A lea un turno de B | Prueba de autorización en servidor; 02b |
+| Integraciones | Recibir dos veces el mismo evento de pago | Un solo efecto durable; 08c |
+| Procesos | Describir una tarea repetida, frecuencia y excepciones | Observaciones separadas de hipótesis; 12d |
+
+## Fundamentos y especializaciones
+
+Python y datos corresponden al inicio. Matemáticas avanzadas, búsqueda, ML, deep learning e IA local se diagnostican solo si elegís esas extensiones. Las consignas antiguas se conservan para retomarlas.
+
 | Bloque | Tarea | Evidencia suficiente | Si no sale |
 | --- | --- | --- | --- |
 | Python | Laboratorio 01: leer CSV y validar filas | Pruebas aprobadas y explicar decisiones de error | Módulo 01 |

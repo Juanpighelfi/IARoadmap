@@ -10,12 +10,13 @@ Aprende conceptos primero, herramientas después. Esta lista es un menú por esp
 
 ## Selección para tu ruta personal
 
-1. Empieza con Python, `venv`, Git y la biblioteca estándar: los cinco laboratorios no requieren paquetes externos.
-2. En datos y ML, incorpora Pandas y scikit-learn cuando el ejercicio los necesite.
-3. En deep learning y visión, añade PyTorch y torchvision. Trabaja primero con datos pequeños en CPU.
-4. Para IA local y robótica, sigue las opciones y límites de [Hardware y presupuesto](Hardware%20y%20presupuesto.md); no compres equipo antes de medir una necesidad.
+1. Empezá con Python, Git y un editor para el laboratorio 01. No instales todo el menú de especializaciones.
+2. En web, aprendé HTML, JavaScript y HTTP; incorporá TypeScript si el SaaS lo usa. Consultá [MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development).
+3. Inventariá el SaaS antes de elegir backend, base de datos o alojamiento. Conservá su stack cuando sea viable; todavía no se ha inspeccionado en esta adaptación.
+4. Usá un solo asistente de código: pedir criterios, revisar cambios pequeños y probar. Una herramienta nueva necesita una limitación concreta que resolver.
+5. Las primeras integraciones e IA se prueban con datos y servicios simulados; contratar un proveedor no es requisito para empezar.
 
-El resto sirve de consulta para las ramas opcionales. Elige una herramienta por función y mantén esa elección durante el proyecto.
+El menú siguiente se conserva como consulta histórica por especialidad. No es una selección de versiones o proveedores para tu producto. Verificá documentación, compatibilidad, costo y condiciones al elegir una herramienta; no estudies frameworks en paralelo. Robótica y entrenamiento quedan fuera del recorrido principal.
 
 ## Lenguaje y entorno
 

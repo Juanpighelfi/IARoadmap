@@ -12,7 +12,13 @@ Consultá el [catálogo de módulos](../00-MOC/Catalogo%20de%20modulos.md) para 
 
 **Recurso principal:** <https://scikit-learn.org/stable/common_pitfalls.html>
 
-Qué estudiar: Data leakage y evaluación independiente para la primera pasada. OWASP y NIST son referencias para amenazas y riesgos del sistema cuando se usan modelos generativos.
+Qué estudiar: evaluación independiente y errores de medición. Para la ruta personal, empezar con la práctica administrativa siguiente y [OWASP Top 10](https://owasp.org/www-project-top-ten/); no hace falta instalar scikit-learn ni entrenar un modelo. Las secciones de ML y RAG se retoman al elegir esas ramas.
+
+### Aplicación temprana al SaaS
+
+Antes de conectar modelos o proveedores, escribir diez casos sobre un registro administrativo: entrada válida, importe negativo, ID duplicado, cuenta equivocada, falta de sesión, timeout, evento repetido, evento viejo, salida inválida y solicitud ambigua. Definir resultado esperado y cuáles bloquean una entrega. Comparar una regla permisiva y otra que rechaza todo: medir errores y cobertura sin usar un modelo.
+
+Inventariar datos necesarios, quién puede acceder, dónde se guardan y qué no se registra en logs. Usar datos ficticios. Reservar casos distintos para evaluación final; no ajustar el sistema sobre ellos. Aplicar la rúbrica de salida a esta práctica y retomar las amenazas de modelos en 06–08 dentro de esos módulos, sin duplicar horas.
 
 ### Diagnóstico breve
 

@@ -1,4 +1,6 @@
-# Proyecto conductor: inspección visual de piezas
+# Proyecto opcional: inspección visual de piezas
+
+Pertenece a la [especialización de IA local y robótica](../02-Rutas/IA%20local%20y%20robotica%20opcional.md). El proyecto conductor de la ruta personal es ahora el [SaaS administrativo](SaaS%20administrativo%20con%20IA.md).
 
 ## Pregunta inicial
 

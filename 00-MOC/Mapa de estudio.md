@@ -1,35 +1,29 @@
 # Mapa de estudio
 
-La [ruta personal](../02-Rutas/Mi%20ruta%20personal.md) es el camino recomendado. El [catálogo](Catalogo%20de%20modulos.md) contiene la secuencia exacta y los prerrequisitos; los números de archivo son identificadores históricos.
+La [ruta personal](../02-Rutas/Mi%20ruta%20personal.md) prioriza software con IA y procesos de pymes. El [catálogo](Catalogo%20de%20modulos.md) es la referencia exacta de prerrequisitos; el dibujo agrupa capacidades y no sustituye su secuencia.
 
 ```mermaid
 flowchart TD
-    P["Python y evaluación inicial"] --> D["Datos y matemáticas"]
-    P --> B["Búsqueda y planificación"]
-    D --> M["Machine learning"]
-    D --> R["Incertidumbre y RL"]
-    B --> R
-    M --> DL["Deep learning"]
-    DL --> V["Visión"]
-    DL --> E["Inferencia local"]
-    V --> ROB["Robótica en simulación"]
-    E --> ROB
-    R --> ROB
-    P --> L["Aplicaciones con LLMs"]
-    L --> A["RAG y workflows"]
-    L --> FT["Post-training opcional"]
-    DL --> FT
+    F["Programación, Git y datos"] --> W["Web y backend"]
+    F --> P["Procesos y evaluación"]
+    W --> I["Integraciones y SaaS"]
+    I --> O["Operación y recuperación"]
+    F --> L["LLMs y contexto"]
+    P --> A["Automatización evaluada"]
+    L --> A
+    A --> S["Piloto y servicio"]
+    O --> S
 ```
-
-El diagrama muestra familias, no todos los requisitos finos. La evaluación, la depuración y el repaso atraviesan las ramas. RAG no es prerrequisito de visión, ni MCP de robótica. Fine-tuning requiere DL, familiaridad con LLMs y evaluación, no completar todos los frameworks.
 
 ## Elegir profundidad
 
 | Objetivo | Recorrido |
 | --- | --- |
-| Aprender para proyectos físicos e IA local | Ruta personal |
-| Automatizar una tarea con modelos existentes | Ruta developer o producto |
-| Entrenar y operar modelos | Ruta ML |
+| Construir software con IA y ofrecerlo a pymes | [Ruta personal](../02-Rutas/Mi%20ruta%20personal.md) |
+| Incorporar LLMs a software cuya base ya comprendés | Ruta developer o producto |
+| Entrenar modelos predictivos | Ruta ML, con datos y matemáticas |
+| Consultar documentos propios | Extensión RAG, después de LLMs y evaluación |
+| Retomar proyectos físicos | [IA local y robótica opcional](../02-Rutas/IA%20local%20y%20robotica%20opcional.md) |
 | Reproducir investigación | Ruta investigación y una subárea elegida |
 
-La elección no es permanente. Antes de cambiar, anotá qué problema nuevo justifica la rama y qué prerrequisitos faltan. El [Canvas](Mapa%20visual.canvas) ofrece una vista por áreas en Obsidian.
+Mantené un módulo principal y una sola tarea aplicada en curso. Antes de agregar una extensión, anotá el problema que resuelve y su costo de tiempo. El [Canvas](Mapa%20visual.canvas) distingue ruta principal y módulos opcionales en Obsidian.

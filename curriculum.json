@@ -337,27 +337,99 @@
         70
       ],
       "category": "especializacion"
+    },
+    {
+      "id": "01c",
+      "path": "01-Niveles/01c - Web HTTP y JavaScript.md",
+      "title": "01c - Web, HTTP y JavaScript",
+      "prerequisites": [
+        "01",
+        "01b"
+      ],
+      "hours": [
+        30,
+        50
+      ],
+      "category": "fundamentos"
+    },
+    {
+      "id": "02b",
+      "path": "01-Niveles/02b - Backend autenticacion y aplicaciones SaaS.md",
+      "title": "02b - Backend, autenticación y aplicaciones SaaS",
+      "prerequisites": [
+        "01c",
+        "02",
+        "10"
+      ],
+      "hours": [
+        35,
+        60
+      ],
+      "category": "fundamentos"
+    },
+    {
+      "id": "08c",
+      "path": "01-Niveles/08c - Integraciones y cobros confiables.md",
+      "title": "08c - Integraciones, webhooks y cobros confiables",
+      "prerequisites": [
+        "02b"
+      ],
+      "hours": [
+        20,
+        35
+      ],
+      "category": "especializacion"
+    },
+    {
+      "id": "11d",
+      "path": "01-Niveles/11d - Operacion de un SaaS.md",
+      "title": "11d - Operación y mantenimiento de un SaaS",
+      "prerequisites": [
+        "08c",
+        "10"
+      ],
+      "hours": [
+        20,
+        35
+      ],
+      "category": "especializacion"
+    },
+    {
+      "id": "12d",
+      "path": "01-Niveles/12d - Procesos y servicios para pymes.md",
+      "title": "12d - Procesos, pilotos y servicios para pymes",
+      "prerequisites": [
+        "01b",
+        "02"
+      ],
+      "hours": [
+        12,
+        20
+      ],
+      "category": "transversal"
     }
   ],
   "routes": {
     "personal": {
-      "title": "Mi ruta: fundamentos, IA local y robótica",
+      "title": "Mi ruta: desarrollo con IA, SaaS y automatización para pymes",
       "path": "02-Rutas/Mi ruta personal.md",
       "modules": [
         "00",
         "01",
-        "10",
         "01b",
         "02",
-        "03",
-        "03b",
-        "04",
-        "04b",
-        "05",
-        "09b",
-        "11c",
+        "10",
+        "12d",
+        "01c",
+        "02b",
+        "08c",
+        "11d",
+        "06",
+        "06b",
+        "08",
         "10b",
-        "12c"
+        "11b",
+        "12b"
       ]
     },
     "principiante": {
@@ -432,6 +504,26 @@
         "04b",
         "05",
         "12"
+      ]
+    },
+    "robotica": {
+      "title": "Especialización opcional: IA local, visión y robótica",
+      "path": "02-Rutas/IA local y robotica opcional.md",
+      "modules": [
+        "00",
+        "01",
+        "10",
+        "01b",
+        "02",
+        "03",
+        "03b",
+        "04",
+        "04b",
+        "05",
+        "09b",
+        "11c",
+        "10b",
+        "12c"
       ]
     }
   }

@@ -4,7 +4,8 @@ El portfolio es tu archivo de aprendizaje. Puede ser privado. No hay obligación
 
 | Ruta | Evidencias |
 | --- | --- |
-| Personal | Laboratorios fundamentales; inspección visual con split válido; benchmark local; simulación de robot si completaste esa extensión |
+| Personal | Función explicada; flujo administrativo con cuentas aisladas; integración repetible; restauración; comparación reglas/IA y propuesta de piloto |
+| IA local y robótica opcional | Inspección visual con split válido, benchmark local y simulación si completaste esa extensión |
 | LLMs | Extracción validada; RAG con evidencia/abstención; workflow con trazas y límites; comparación calidad/costo |
 | ML | Pipeline reproducible, modelo pequeño entrenado, evaluación independiente y servicio recuperable |
 | Investigación | Componente implementado, reproducción acotada, ablación e informe de límites |
