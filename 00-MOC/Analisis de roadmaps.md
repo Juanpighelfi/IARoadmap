@@ -61,6 +61,10 @@ Gaps:
 
 Este vault mantiene los fundamentos de AMAI, adopta la claridad de rol de roadmap.sh y suma la capa 2026 de AI engineering: LLMs, RAG, agentes, evals, seguridad, LLMOps y produccion.
 
-## Revisión personal de septiembre de 2026
+## Revisión personal del 6 de septiembre de 2026 (histórica)
 
 La edición personal conserva ingeniería aplicada, pero amplía búsqueda, incertidumbre, visión, inferencia local y robótica. La calidad se comprueba con ejercicios, transferencia y repaso propios; no requiere cohortes ni probarlo con otros estudiantes. La secuencia y los tiempos pasan al catálogo único y las publicaciones profesionales quedan optativas.
+
+## Reorientación del 7 de septiembre de 2026
+
+El objetivo personal se precisó: desarrollar software con IA y ofrecer automatización de procesos a empresas y pymes. La ruta principal pasa a fundamentos, SaaS, integración, operación y evaluación. Visión, entrenamiento e IA local permanecen disponibles como especializaciones; la anterior ruta física se conserva explícitamente como opcional. El SaaS administrativo reemplaza al proyecto visual como conductor. Se propone una semana flexible de diez horas de formación y práctica, sin duplicar las horas aplicadas al producto.

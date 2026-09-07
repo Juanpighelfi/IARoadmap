@@ -29,3 +29,16 @@ Incluí entorno, confusión conceptual o carga de trabajo si afectaron el estudi
 Una tarea concreta, pequeña y vinculada al bloqueo o al siguiente criterio de salida.
 
 ## Repasos previstos y realizados
+
+## Bloques y rumbo
+
+- Bloques de estudio previstos / realizados:
+- Horas efectivas (sin pausas):
+- Módulo principal y condición de cierre:
+- Práctica del SaaS incluida en esas horas:
+- Tiempo adicional del producto, si lo hubo (separado):
+- Producto 3D activo y paso pendiente, si corresponde:
+- Compromisos fijos y ventanas disponibles de la semana siguiente:
+- Una cosa que voy a posponer:
+
+No publicar datos personales, información de pacientes ni secretos en esta plantilla curricular. Completar la copia privada en `Mi-progreso/`.

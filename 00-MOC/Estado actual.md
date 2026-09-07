@@ -2,6 +2,10 @@
 
 Esta página explica el seguimiento. **No contiene horas ni módulos aprobados por vos.** El ejemplo de bitácora es material didáctico y queda fuera de los cálculos.
 
+## Punto de partida de esta adaptación
+
+Se reinicia el estudio con una secuencia definida. No hay horas ni módulos aprobados registrados en este repositorio. La meta inicial de diez horas reservadas por semana es una propuesta de disponibilidad, no progreso realizado; anotar minutos efectivos y no contar dos veces la práctica del SaaS.
+
 ## Preparar tu registro
 
 Creá `Mi-progreso/` en la raíz del vault y copiá allí la [plantilla de progreso](../05-Plantillas/Plantilla%20de%20progreso.md). Copiá también las plantillas que uses para sesiones, bitácoras y proyectos. La carpeta está ignorada por Git para separar tus datos del currículo; el contenido local necesita tu propio respaldo si querés conservarlo entre dispositivos.

@@ -1,5 +1,15 @@
 # Registro de cambios
 
+## 2026-09-07 — Desarrollo con IA, SaaS y servicios para pymes
+
+- Ruta personal reorientada a programación, datos, web, SaaS, automatización evaluada y economía del servicio.
+- Cinco módulos nuevos: web/HTTP, backend y cuentas, integraciones/cobros, operación y procesos/pilotos para pymes.
+- Proyecto administrativo con recuperación de comprensión del código existente, sin asumir stack ni una reescritura.
+- Primera sesión de dos horas, semana flexible de diez horas y ciclo inicial de doce semanas sin promesa de lanzamiento.
+- Prácticas SaaS con casos de aceptación (sin nuevas soluciones ni autocorrección ejecutable); laboratorios anteriores conservados.
+- Robótica e IA local preservadas como ruta opcional; navegación, mapas, catálogo, recursos y plantillas ajustados.
+- Progreso individual permanece privado y sin módulos acreditados por esta edición.
+
 Este vault trata un campo que se mueve rapido. Un roadmap sin fecha ni historial
 envejece en silencio: sirve saber cuando se agrego cada cosa y cuando se reviso por
 ultima vez.

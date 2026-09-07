@@ -1,24 +1,34 @@
 # Empezar aquí
 
-## Tu próxima sesión: 60–90 minutos
+Tu rumbo es **desarrollo con IA, SaaS y automatización para pymes**. Empezá con una sola tarea de aprendizaje; no hace falta reorganizar el repositorio ni instalar más herramientas.
 
-1. **10 min:** leé [Mi ruta personal](../02-Rutas/Mi%20ruta%20personal.md) y elegí si tu proyecto conductor será inspección visual de piezas o un problema equivalente con datos disponibles.
-2. **30–45 min:** hacé el bloque Python del [diagnóstico](Diagnostico%20inicial.md). Si no sale, abrí el módulo 01; si sale, seguí con datos y matemáticas en la próxima sesión.
-3. **15–25 min:** empezá el [laboratorio 01](../07-Laboratorios/README.md). La primera ejecución sirve para comprobar el entorno; no leas la solución antes de intentar el problema.
-4. **5 min:** anotá qué resolviste, qué ayuda usaste y el siguiente ejercicio. Guardalo en `Mi-progreso/`, no en el ejemplo curricular.
+## Primera sesión: dos horas
 
-Si ya programás con soltura, podés resolver el laboratorio como diagnóstico y pasar adelante con evidencia. No hay que consumir todas las clases por cumplir una lista.
+| Minutos | Acción | Qué queda al terminar |
+| --- | --- | --- |
+| 0–10 | Leer [Mi ruta personal](../02-Rutas/Mi%20ruta%20personal.md) | Objetivo de formación escrito en una frase |
+| 10–35 | Empezar [orientación](../01-Niveles/00%20-%20Orientacion%20y%20alfabetizacion%20en%20IA.md) | Tres tareas administrativas: regla, IA o decisión humana, con motivo |
+| 35–60 | Intentar el bloque Python del [diagnóstico](Diagnostico%20inicial.md) | Intento propio y dudas concretas |
+| 60–70 | Descanso | Pausa sin abrir otra herramienta de trabajo |
+| 70–110 | Si el diagnóstico no sale, practicar funciones y listas del módulo 01; si sale, intentar el [laboratorio 01](../07-Laboratorios/01-python-csv/README.md) | Ejercicio intentado o solución comprobada |
+| 110–120 | Explicar lo aprendido y registrar el siguiente paso | Nota breve en `Mi-progreso/` |
+
+No se completa el módulo 00 ni el 01 por hacer esta sesión. El diagnóstico es una prueba de entrada; después se sigue el primer módulo sin acreditar. La temática de piezas del laboratorio 01 se conserva porque practica Python transferible a datos administrativos.
+
+## Sesiones siguientes
+
+Un recurso principal, un ejercicio y una explicación propia. Terminá 00 según su rúbrica y continuá 01 si falta base; después seguí la secuencia de la ruta. No saltes directamente a agentes por tener un SaaS iniciado.
+
+Cuando puedas trabajar con funciones y archivos, incorporá los [ejercicios del SaaS](../07-Laboratorios/Practicas%20SaaS.md) según sus prerrequisitos. El primer contacto con el producto será un inventario y la reproducción de un error, no agregar funcionalidades.
 
 ## Cómo elegir el siguiente paso
 
-- Si falta una habilidad de entrada, tomá el primer prerrequisito que no puedas demostrar.
-- Si podés explicar la idea pero no implementarla, hacé práctica guiada.
+- Si falta una habilidad de entrada, practicá ese prerrequisito.
+- Si podés explicar pero no implementar, hacé práctica guiada.
 - Si implementás mirando la solución, resolvé una variante independiente.
-- Si dominás la variante, avanzá y agendá en tu propia bitácora el repaso de 7 y 30 días.
-- Si un recurso no te sirve después de dos sesiones, probá la alternativa del mismo módulo; no cambies todo el roadmap.
+- Si dominás la variante, avanzá y agendá repasos a 7 y 30 días.
+- Si un recurso no sirve después de dos sesiones, usá una alternativa del mismo módulo. No reinicies toda la ruta.
 
-## Qué necesitás ahora
+## Tiempo y entorno
 
-Python 3.11+ y un editor para los laboratorios. No se supone GPU, presupuesto de nube, cámara especial ni robot. Antes de un experimento pesado, consultá [Hardware y presupuesto](../04-Recursos/Hardware%20y%20presupuesto.md).
-
-La disponibilidad semanal todavía no está fijada. Probá un volumen sostenible durante cuatro semanas y recalculá con horas reales. Ocho horas es un ejemplo de cálculo, no una obligación.
+Python 3.11+ y un editor alcanzan para el inicio. No hace falta GPU ni API paga. La meta es cinco bloques de dos horas por semana, con pausas incluidas; se registran por separado los minutos efectivos. Usá la [semana flexible](../03-Proyectos/Semana%20flexible.md). Si la semana se complica, retomá el próximo ejercicio sin acumular deuda.

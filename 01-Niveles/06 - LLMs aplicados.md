@@ -14,6 +14,12 @@ Consultá el [catálogo de módulos](../00-MOC/Catalogo%20de%20modulos.md) para 
 
 Qué estudiar: Introducción a Transformers, tokenización y uso de modelos preentrenados. Para structured outputs usar la documentación del proveedor o runtime elegido.
 
+### Aplicación en la ruta personal
+
+Elegí clasificación de consultas administrativas en las [prácticas SaaS](../07-Laboratorios/Practicas%20SaaS.md) como alternativa al ejemplo de descripciones de productos de abajo. Usar 20 mensajes ficticios de desarrollo y 10 reservados antes de ajustar; comparar reglas y modelo, validar el esquema y derivar ambigüedad a revisión humana. Medir etiquetas correctas y abstenciones por separado.
+
+Esta es la misma práctica que se mejora en contexto, workflows y análisis de errores; no se crea otro dataset desde cero en cada módulo. La lectura inicial del curso se limita a fundamentos y uso de modelos existentes, sin exigir entrenamiento. Una simulación permite probar el contrato, pero la calidad de un modelo solo se acredita cuando se ejecuta y evalúa de verdad.
+
 ### Diagnóstico breve
 
 Diseñá un esquema para extraer material, tamaño y color de una descripción. Indicá qué harías si falta el tamaño. Si lo resolvés sin ayuda y lo justificás, intentá directamente la tarea independiente; omitir lectura exige evidencia, no autopercepción.

@@ -10,6 +10,12 @@ Cinco prácticas reproducibles con Python 3.11 y biblioteca estándar. Copia cad
 | [04 — Partición sin fuga](04-particion-sin-fuga/README.md) | Separar fotos por pieza o tiempo sin fuga de grupos |
 | [05 — Value iteration](05-value-iteration/README.md) | Aplicar Bellman a decisiones estocásticas con terminales |
 
+## Qué corresponde a la nueva ruta personal
+
+Empezá por el laboratorio 01 y continuá con las [prácticas aplicadas al SaaS](Practicas%20SaaS.md) según el módulo. Estas prácticas tienen consignas y casos de aceptación, pero todavía no soluciones ni tests ejecutables incluidos: las pruebas se escriben en tu entorno de aprendizaje.
+
+Los laboratorios 02–05 se conservan para matemáticas, búsqueda, ML y robótica opcionales. No hace falta completarlos todos antes de aprender web o automatización. Sus pruebas existentes pueden seguir ejecutándose para verificar este repositorio.
+
 ## Comandos desde la raíz
 
 Referencias completas:

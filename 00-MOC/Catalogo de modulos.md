@@ -29,14 +29,20 @@
 | 12 | [12 - Profundizacion](../01-Niveles/12%20-%20Profundizacion.md) | especializacion | 25–45 | 05, 10 |
 | 12b | [12b - Capa profesional](../01-Niveles/12b%20-%20Capa%20profesional.md) | transversal | 4–8 | 01 |
 | 12c | [12c - Robótica y sistemas embodied](../01-Niveles/12c%20-%20Robotica%20y%20sistemas%20embodied.md) | especializacion | 40–70 | 03b, 04b, 09b, 11c |
+| 01c | [01c - Web, HTTP y JavaScript](../01-Niveles/01c%20-%20Web%20HTTP%20y%20JavaScript.md) | fundamentos | 30–50 | 01, 01b |
+| 02b | [02b - Backend, autenticación y aplicaciones SaaS](../01-Niveles/02b%20-%20Backend%20autenticacion%20y%20aplicaciones%20SaaS.md) | fundamentos | 35–60 | 01c, 02, 10 |
+| 08c | [08c - Integraciones, webhooks y cobros confiables](../01-Niveles/08c%20-%20Integraciones%20y%20cobros%20confiables.md) | especializacion | 20–35 | 02b |
+| 11d | [11d - Operación y mantenimiento de un SaaS](../01-Niveles/11d%20-%20Operacion%20de%20un%20SaaS.md) | especializacion | 20–35 | 08c, 10 |
+| 12d | [12d - Procesos, pilotos y servicios para pymes](../01-Niveles/12d%20-%20Procesos%20y%20servicios%20para%20pymes.md) | transversal | 12–20 | 01b, 02 |
 
 ## Rutas
 
 | Ruta | Horas |
 | --- | ---: |
-| [Mi ruta: fundamentos, IA local y robótica](../02-Rutas/Mi%20ruta%20personal.md) | 379–631 |
+| [Mi ruta: desarrollo con IA, SaaS y automatización para pymes](../02-Rutas/Mi%20ruta%20personal.md) | 290–494 |
 | [Si no sabes programar](../02-Rutas/Si%20no%20sabes%20programar.md) | 181–301 |
 | [Aplicaciones con LLMs](../02-Rutas/Si%20ya%20eres%20developer.md) | 174–296 |
 | [ML engineering](../02-Rutas/Si%20ya%20sabes%20data%20science%20o%20ML.md) | 261–436 |
 | [Construir un producto](../02-Rutas/Si%20estas%20construyendo%20un%20producto.md) | 119–201 |
 | [Método de investigación en IA](../02-Rutas/Si%20quieres%20investigacion.md) | 296–491 |
+| [Especialización opcional: IA local, visión y robótica](../02-Rutas/IA%20local%20y%20robotica%20opcional.md) | 379–631 |

@@ -1,6 +1,6 @@
 # Roadmap de IA: edición personal
 
-La meta es aprender a formular problemas, elegir métodos, construir y evaluar sistemas de IA. El recorrido principal combina fundamentos, visión, inferencia local y robótica. Las aplicaciones con LLMs son una rama útil que se puede intercalar según proyectos.
+La meta es ofrecer soluciones de software e IA para procesos de empresas y pymes. El recorrido principal combina programación, datos, desarrollo web, integraciones, operación de SaaS y modelos aplicados. El proyecto conductor es un SaaS administrativo; visión, entrenamiento avanzado y robótica se conservan como extensiones opcionales.
 
 ## Entradas
 
@@ -18,7 +18,8 @@ La meta es aprender a formular problemas, elegir métodos, construir y evaluar s
 3. Cada módulo termina con implementación, comparación válida, explicación propia y transferencia.
 4. Un experimento negativo bien planteado es aprendizaje. Un score alto con fuga de datos no acredita el módulo.
 5. La evaluación acompaña desde el primer proyecto. Los controles avanzados aparecen cuando el sistema los necesita.
-6. Publicar, conseguir clientes o enseñar a otros es opcional. No forma parte del requisito de aprender.
+6. El dominio se acredita con evidencia propia. Conseguir usuarios e ingresos es una meta de negocio separada que requiere validación real, no un requisito para aprobar ejercicios.
+7. Reservar diez horas semanales, incluida la práctica de aprendizaje en el SaaS; no duplicar esas horas. Consultar la [semana flexible](03-Proyectos/Semana%20flexible.md).
 
 ## Alcance
 

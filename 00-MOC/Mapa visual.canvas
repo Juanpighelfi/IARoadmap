@@ -1,560 +1,454 @@
 {
   "nodes": [
     {
-      "id": "start",
+      "id": "orientacion",
       "type": "file",
       "file": "00-MOC/Empezar aqui.md",
       "x": 0,
-      "y": -220,
-      "width": 360,
-      "height": 150
+      "y": 0,
+      "width": 420,
+      "height": 110
     },
     {
       "id": "personal",
       "type": "file",
       "file": "02-Rutas/Mi ruta personal.md",
-      "x": 460,
-      "y": -220,
-      "width": 360,
-      "height": 150
+      "x": 0,
+      "y": 170,
+      "width": 420,
+      "height": 110
+    },
+    {
+      "id": "opcional",
+      "type": "file",
+      "file": "02-Rutas/IA local y robotica opcional.md",
+      "x": 540,
+      "y": 170,
+      "width": 420,
+      "height": 110
+    },
+    {
+      "id": "nota",
+      "type": "text",
+      "text": "Izquierda: orden de la ruta principal. Derecha: catálogo opcional sin orden de cursado. Consultar prerrequisitos en el catálogo.",
+      "x": 540,
+      "y": 0,
+      "width": 420,
+      "height": 110
     },
     {
       "id": "m00",
       "type": "file",
       "file": "01-Niveles/00 - Orientacion y alfabetizacion en IA.md",
       "x": 0,
-      "y": 0,
-      "width": 360,
-      "height": 170
+      "y": 340,
+      "width": 420,
+      "height": 110,
+      "color": "4"
     },
     {
       "id": "m01",
       "type": "file",
       "file": "01-Niveles/01 - Computacion Python Git y entorno.md",
       "x": 0,
-      "y": 240,
-      "width": 360,
-      "height": 170
+      "y": 510,
+      "width": 420,
+      "height": 110,
+      "color": "4"
     },
     {
       "id": "m01b",
       "type": "file",
       "file": "01-Niveles/01b - Ingenieria asistida por IA.md",
       "x": 0,
-      "y": 480,
-      "width": 360,
-      "height": 170
+      "y": 680,
+      "width": 420,
+      "height": 110,
+      "color": "4"
+    },
+    {
+      "id": "m02",
+      "type": "file",
+      "file": "01-Niveles/02 - Datos SQL visualizacion y estadistica.md",
+      "x": 0,
+      "y": 850,
+      "width": 420,
+      "height": 110,
+      "color": "4"
     },
     {
       "id": "m10",
       "type": "file",
       "file": "01-Niveles/10 - Evaluacion seguridad gobernanza.md",
       "x": 0,
-      "y": 720,
-      "width": 360,
-      "height": 170
+      "y": 1020,
+      "width": 420,
+      "height": 110,
+      "color": "4"
+    },
+    {
+      "id": "m12d",
+      "type": "file",
+      "file": "01-Niveles/12d - Procesos y servicios para pymes.md",
+      "x": 0,
+      "y": 1190,
+      "width": 420,
+      "height": 110,
+      "color": "4"
+    },
+    {
+      "id": "m01c",
+      "type": "file",
+      "file": "01-Niveles/01c - Web HTTP y JavaScript.md",
+      "x": 0,
+      "y": 1360,
+      "width": 420,
+      "height": 110,
+      "color": "4"
+    },
+    {
+      "id": "m02b",
+      "type": "file",
+      "file": "01-Niveles/02b - Backend autenticacion y aplicaciones SaaS.md",
+      "x": 0,
+      "y": 1530,
+      "width": 420,
+      "height": 110,
+      "color": "4"
+    },
+    {
+      "id": "m08c",
+      "type": "file",
+      "file": "01-Niveles/08c - Integraciones y cobros confiables.md",
+      "x": 0,
+      "y": 1700,
+      "width": 420,
+      "height": 110,
+      "color": "4"
+    },
+    {
+      "id": "m11d",
+      "type": "file",
+      "file": "01-Niveles/11d - Operacion de un SaaS.md",
+      "x": 0,
+      "y": 1870,
+      "width": 420,
+      "height": 110,
+      "color": "4"
+    },
+    {
+      "id": "m06",
+      "type": "file",
+      "file": "01-Niveles/06 - LLMs aplicados.md",
+      "x": 0,
+      "y": 2040,
+      "width": 420,
+      "height": 110,
+      "color": "4"
+    },
+    {
+      "id": "m06b",
+      "type": "file",
+      "file": "01-Niveles/06b - Context engineering.md",
+      "x": 0,
+      "y": 2210,
+      "width": 420,
+      "height": 110,
+      "color": "4"
+    },
+    {
+      "id": "m08",
+      "type": "file",
+      "file": "01-Niveles/08 - Agentes workflows automatizacion.md",
+      "x": 0,
+      "y": 2380,
+      "width": 420,
+      "height": 110,
+      "color": "4"
     },
     {
       "id": "m10b",
       "type": "file",
       "file": "01-Niveles/10b - Error analysis y evals desde trazas.md",
       "x": 0,
-      "y": 960,
-      "width": 360,
-      "height": 170
+      "y": 2550,
+      "width": 420,
+      "height": 110,
+      "color": "4"
+    },
+    {
+      "id": "m11b",
+      "type": "file",
+      "file": "01-Niveles/11b - Inferencia costos y economia unitaria.md",
+      "x": 0,
+      "y": 2720,
+      "width": 420,
+      "height": 110,
+      "color": "4"
     },
     {
       "id": "m12b",
       "type": "file",
       "file": "01-Niveles/12b - Capa profesional.md",
       "x": 0,
-      "y": 1200,
-      "width": 360,
-      "height": 170
-    },
-    {
-      "id": "m02",
-      "type": "file",
-      "file": "01-Niveles/02 - Datos SQL visualizacion y estadistica.md",
-      "x": 460,
-      "y": 0,
-      "width": 360,
-      "height": 170
+      "y": 2890,
+      "width": 420,
+      "height": 110,
+      "color": "4"
     },
     {
       "id": "m03",
       "type": "file",
       "file": "01-Niveles/03 - Matematicas para ML.md",
-      "x": 460,
-      "y": 240,
-      "width": 360,
-      "height": 170
+      "x": 540,
+      "y": 340,
+      "width": 420,
+      "height": 110
     },
     {
       "id": "m03b",
       "type": "file",
       "file": "01-Niveles/03b - Busqueda logica y planificacion.md",
-      "x": 460,
-      "y": 480,
-      "width": 360,
-      "height": 170
+      "x": 540,
+      "y": 510,
+      "width": 420,
+      "height": 110
     },
     {
       "id": "m04",
       "type": "file",
       "file": "01-Niveles/04 - Machine learning clasico.md",
-      "x": 460,
-      "y": 720,
-      "width": 360,
-      "height": 170
+      "x": 540,
+      "y": 680,
+      "width": 420,
+      "height": 110
     },
     {
       "id": "m04b",
       "type": "file",
       "file": "01-Niveles/04b - Incertidumbre decisiones y aprendizaje por refuerzo.md",
-      "x": 460,
-      "y": 960,
-      "width": 360,
-      "height": 170
+      "x": 540,
+      "y": 850,
+      "width": 420,
+      "height": 110
     },
     {
       "id": "m05",
       "type": "file",
       "file": "01-Niveles/05 - Deep learning y PyTorch.md",
-      "x": 460,
-      "y": 1200,
-      "width": 360,
-      "height": 170
-    },
-    {
-      "id": "m06",
-      "type": "file",
-      "file": "01-Niveles/06 - LLMs aplicados.md",
-      "x": 920,
-      "y": 0,
-      "width": 360,
-      "height": 170
-    },
-    {
-      "id": "m06b",
-      "type": "file",
-      "file": "01-Niveles/06b - Context engineering.md",
-      "x": 920,
-      "y": 240,
-      "width": 360,
-      "height": 170
-    },
-    {
-      "id": "m07",
-      "type": "file",
-      "file": "01-Niveles/07 - RAG busqueda embeddings.md",
-      "x": 920,
-      "y": 480,
-      "width": 360,
-      "height": 170
-    },
-    {
-      "id": "m08",
-      "type": "file",
-      "file": "01-Niveles/08 - Agentes workflows automatizacion.md",
-      "x": 920,
-      "y": 720,
-      "width": 360,
-      "height": 170
-    },
-    {
-      "id": "m08b",
-      "type": "file",
-      "file": "01-Niveles/08b - MCP y protocolos de herramientas.md",
-      "x": 920,
-      "y": 960,
-      "width": 360,
-      "height": 170
+      "x": 540,
+      "y": 1020,
+      "width": 420,
+      "height": 110
     },
     {
       "id": "m05b",
       "type": "file",
       "file": "01-Niveles/05b - Post-training aplicado.md",
-      "x": 920,
-      "y": 1200,
-      "width": 360,
-      "height": 170
+      "x": 540,
+      "y": 1190,
+      "width": 420,
+      "height": 110
+    },
+    {
+      "id": "m07",
+      "type": "file",
+      "file": "01-Niveles/07 - RAG busqueda embeddings.md",
+      "x": 540,
+      "y": 1360,
+      "width": 420,
+      "height": 110
+    },
+    {
+      "id": "m08b",
+      "type": "file",
+      "file": "01-Niveles/08b - MCP y protocolos de herramientas.md",
+      "x": 540,
+      "y": 1530,
+      "width": 420,
+      "height": 110
     },
     {
       "id": "m09",
       "type": "file",
       "file": "01-Niveles/09 - Multimodalidad.md",
-      "x": 1380,
-      "y": 0,
-      "width": 360,
-      "height": 170
+      "x": 540,
+      "y": 1700,
+      "width": 420,
+      "height": 110
     },
     {
       "id": "m09b",
       "type": "file",
       "file": "01-Niveles/09b - Vision por computadora.md",
-      "x": 1380,
-      "y": 240,
-      "width": 360,
-      "height": 170
+      "x": 540,
+      "y": 1870,
+      "width": 420,
+      "height": 110
     },
     {
       "id": "m11",
       "type": "file",
       "file": "01-Niveles/11 - MLOps LLMOps despliegue.md",
-      "x": 1380,
-      "y": 480,
-      "width": 360,
-      "height": 170
-    },
-    {
-      "id": "m11b",
-      "type": "file",
-      "file": "01-Niveles/11b - Inferencia costos y economia unitaria.md",
-      "x": 1380,
-      "y": 720,
-      "width": 360,
-      "height": 170
+      "x": 540,
+      "y": 2040,
+      "width": 420,
+      "height": 110
     },
     {
       "id": "m11c",
       "type": "file",
       "file": "01-Niveles/11c - IA local y edge.md",
-      "x": 1380,
-      "y": 960,
-      "width": 360,
-      "height": 170
+      "x": 540,
+      "y": 2210,
+      "width": 420,
+      "height": 110
     },
     {
       "id": "m12",
       "type": "file",
       "file": "01-Niveles/12 - Profundizacion.md",
-      "x": 1380,
-      "y": 1200,
-      "width": 360,
-      "height": 170
+      "x": 540,
+      "y": 2380,
+      "width": 420,
+      "height": 110
     },
     {
       "id": "m12c",
       "type": "file",
       "file": "01-Niveles/12c - Robotica y sistemas embodied.md",
-      "x": 1380,
-      "y": 1440,
-      "width": 360,
-      "height": 170
+      "x": 540,
+      "y": 2550,
+      "width": 420,
+      "height": 110
     }
   ],
   "edges": [
     {
-      "id": "start-route",
-      "fromNode": "start",
-      "fromSide": "right",
+      "id": "inicio",
+      "fromNode": "orientacion",
+      "fromSide": "bottom",
       "toNode": "personal",
-      "toSide": "left"
+      "toSide": "top"
     },
     {
-      "id": "00-01",
+      "id": "opcion",
+      "fromNode": "orientacion",
+      "fromSide": "right",
+      "toNode": "opcional",
+      "toSide": "top"
+    },
+    {
+      "id": "e00",
+      "fromNode": "personal",
+      "fromSide": "bottom",
+      "toNode": "m00",
+      "toSide": "top"
+    },
+    {
+      "id": "e01",
       "fromNode": "m00",
       "fromSide": "bottom",
       "toNode": "m01",
-      "toSide": "top",
-      "label": "prerrequisito"
+      "toSide": "top"
     },
     {
-      "id": "01-01b",
+      "id": "e01b",
       "fromNode": "m01",
       "fromSide": "bottom",
       "toNode": "m01b",
-      "toSide": "top",
-      "label": "prerrequisito"
+      "toSide": "top"
     },
     {
-      "id": "01-02",
-      "fromNode": "m01",
+      "id": "e02",
+      "fromNode": "m01b",
       "fromSide": "bottom",
       "toNode": "m02",
-      "toSide": "top",
-      "label": "prerrequisito"
+      "toSide": "top"
     },
     {
-      "id": "01-03",
-      "fromNode": "m01",
-      "fromSide": "bottom",
-      "toNode": "m03",
-      "toSide": "top",
-      "label": "prerrequisito"
-    },
-    {
-      "id": "01-03b",
-      "fromNode": "m01",
-      "fromSide": "bottom",
-      "toNode": "m03b",
-      "toSide": "top",
-      "label": "prerrequisito"
-    },
-    {
-      "id": "02-04",
+      "id": "e10",
       "fromNode": "m02",
       "fromSide": "bottom",
-      "toNode": "m04",
-      "toSide": "top",
-      "label": "prerrequisito"
+      "toNode": "m10",
+      "toSide": "top"
     },
     {
-      "id": "03-04",
-      "fromNode": "m03",
-      "fromSide": "bottom",
-      "toNode": "m04",
-      "toSide": "top",
-      "label": "prerrequisito"
-    },
-    {
-      "id": "03-04b",
-      "fromNode": "m03",
-      "fromSide": "bottom",
-      "toNode": "m04b",
-      "toSide": "top",
-      "label": "prerrequisito"
-    },
-    {
-      "id": "03b-04b",
-      "fromNode": "m03b",
-      "fromSide": "bottom",
-      "toNode": "m04b",
-      "toSide": "top",
-      "label": "prerrequisito"
-    },
-    {
-      "id": "04-05",
-      "fromNode": "m04",
-      "fromSide": "bottom",
-      "toNode": "m05",
-      "toSide": "top",
-      "label": "prerrequisito"
-    },
-    {
-      "id": "05-05b",
-      "fromNode": "m05",
-      "fromSide": "bottom",
-      "toNode": "m05b",
-      "toSide": "top",
-      "label": "prerrequisito"
-    },
-    {
-      "id": "06-05b",
-      "fromNode": "m06",
-      "fromSide": "bottom",
-      "toNode": "m05b",
-      "toSide": "top",
-      "label": "prerrequisito"
-    },
-    {
-      "id": "10-05b",
+      "id": "e12d",
       "fromNode": "m10",
       "fromSide": "bottom",
-      "toNode": "m05b",
-      "toSide": "top",
-      "label": "prerrequisito"
+      "toNode": "m12d",
+      "toSide": "top"
     },
     {
-      "id": "01-06",
-      "fromNode": "m01",
+      "id": "e01c",
+      "fromNode": "m12d",
+      "fromSide": "bottom",
+      "toNode": "m01c",
+      "toSide": "top"
+    },
+    {
+      "id": "e02b",
+      "fromNode": "m01c",
+      "fromSide": "bottom",
+      "toNode": "m02b",
+      "toSide": "top"
+    },
+    {
+      "id": "e08c",
+      "fromNode": "m02b",
+      "fromSide": "bottom",
+      "toNode": "m08c",
+      "toSide": "top"
+    },
+    {
+      "id": "e11d",
+      "fromNode": "m08c",
+      "fromSide": "bottom",
+      "toNode": "m11d",
+      "toSide": "top"
+    },
+    {
+      "id": "e06",
+      "fromNode": "m11d",
       "fromSide": "bottom",
       "toNode": "m06",
-      "toSide": "top",
-      "label": "prerrequisito"
+      "toSide": "top"
     },
     {
-      "id": "06-06b",
+      "id": "e06b",
       "fromNode": "m06",
       "fromSide": "bottom",
       "toNode": "m06b",
-      "toSide": "top",
-      "label": "prerrequisito"
+      "toSide": "top"
     },
     {
-      "id": "06-07",
-      "fromNode": "m06",
-      "fromSide": "bottom",
-      "toNode": "m07",
-      "toSide": "top",
-      "label": "prerrequisito"
-    },
-    {
-      "id": "10-07",
-      "fromNode": "m10",
-      "fromSide": "bottom",
-      "toNode": "m07",
-      "toSide": "top",
-      "label": "prerrequisito"
-    },
-    {
-      "id": "06-08",
-      "fromNode": "m06",
+      "id": "e08",
+      "fromNode": "m06b",
       "fromSide": "bottom",
       "toNode": "m08",
-      "toSide": "top",
-      "label": "prerrequisito"
+      "toSide": "top"
     },
     {
-      "id": "10-08",
-      "fromNode": "m10",
-      "fromSide": "bottom",
-      "toNode": "m08",
-      "toSide": "top",
-      "label": "prerrequisito"
-    },
-    {
-      "id": "08-08b",
+      "id": "e10b",
       "fromNode": "m08",
       "fromSide": "bottom",
-      "toNode": "m08b",
-      "toSide": "top",
-      "label": "prerrequisito"
-    },
-    {
-      "id": "06-09",
-      "fromNode": "m06",
-      "fromSide": "bottom",
-      "toNode": "m09",
-      "toSide": "top",
-      "label": "prerrequisito"
-    },
-    {
-      "id": "10-09",
-      "fromNode": "m10",
-      "fromSide": "bottom",
-      "toNode": "m09",
-      "toSide": "top",
-      "label": "prerrequisito"
-    },
-    {
-      "id": "05-09b",
-      "fromNode": "m05",
-      "fromSide": "bottom",
-      "toNode": "m09b",
-      "toSide": "top",
-      "label": "prerrequisito"
-    },
-    {
-      "id": "01-10",
-      "fromNode": "m01",
-      "fromSide": "bottom",
-      "toNode": "m10",
-      "toSide": "top",
-      "label": "prerrequisito"
-    },
-    {
-      "id": "10-10b",
-      "fromNode": "m10",
-      "fromSide": "bottom",
       "toNode": "m10b",
-      "toSide": "top",
-      "label": "prerrequisito"
+      "toSide": "top"
     },
     {
-      "id": "04-11",
-      "fromNode": "m04",
-      "fromSide": "bottom",
-      "toNode": "m11",
-      "toSide": "top",
-      "label": "prerrequisito"
-    },
-    {
-      "id": "10-11",
-      "fromNode": "m10",
-      "fromSide": "bottom",
-      "toNode": "m11",
-      "toSide": "top",
-      "label": "prerrequisito"
-    },
-    {
-      "id": "06-11b",
-      "fromNode": "m06",
+      "id": "e11b",
+      "fromNode": "m10b",
       "fromSide": "bottom",
       "toNode": "m11b",
-      "toSide": "top",
-      "label": "prerrequisito"
+      "toSide": "top"
     },
     {
-      "id": "10-11b",
-      "fromNode": "m10",
-      "fromSide": "bottom",
-      "toNode": "m11b",
-      "toSide": "top",
-      "label": "prerrequisito"
-    },
-    {
-      "id": "05-11c",
-      "fromNode": "m05",
-      "fromSide": "bottom",
-      "toNode": "m11c",
-      "toSide": "top",
-      "label": "prerrequisito"
-    },
-    {
-      "id": "10-11c",
-      "fromNode": "m10",
-      "fromSide": "bottom",
-      "toNode": "m11c",
-      "toSide": "top",
-      "label": "prerrequisito"
-    },
-    {
-      "id": "05-12",
-      "fromNode": "m05",
-      "fromSide": "bottom",
-      "toNode": "m12",
-      "toSide": "top",
-      "label": "prerrequisito"
-    },
-    {
-      "id": "10-12",
-      "fromNode": "m10",
-      "fromSide": "bottom",
-      "toNode": "m12",
-      "toSide": "top",
-      "label": "prerrequisito"
-    },
-    {
-      "id": "01-12b",
-      "fromNode": "m01",
+      "id": "e12b",
+      "fromNode": "m11b",
       "fromSide": "bottom",
       "toNode": "m12b",
-      "toSide": "top",
-      "label": "prerrequisito"
-    },
-    {
-      "id": "03b-12c",
-      "fromNode": "m03b",
-      "fromSide": "bottom",
-      "toNode": "m12c",
-      "toSide": "top",
-      "label": "prerrequisito"
-    },
-    {
-      "id": "04b-12c",
-      "fromNode": "m04b",
-      "fromSide": "bottom",
-      "toNode": "m12c",
-      "toSide": "top",
-      "label": "prerrequisito"
-    },
-    {
-      "id": "09b-12c",
-      "fromNode": "m09b",
-      "fromSide": "bottom",
-      "toNode": "m12c",
-      "toSide": "top",
-      "label": "prerrequisito"
-    },
-    {
-      "id": "11c-12c",
-      "fromNode": "m11c",
-      "fromSide": "bottom",
-      "toNode": "m12c",
-      "toSide": "top",
-      "label": "prerrequisito"
+      "toSide": "top"
     }
   ]
 }

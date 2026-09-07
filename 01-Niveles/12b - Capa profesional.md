@@ -10,9 +10,9 @@ revisado: 2026-09-06
 
 Consultá el [catálogo de módulos](../00-MOC/Catalogo%20de%20modulos.md) para los prerrequisitos y el rango de horas de este módulo. Las horas incluyen lectura seleccionada, práctica, corrección y primer repaso; no son una promesa de dominio ni se suman a cursos completos. El ID conserva enlaces históricos y no impone orden.
 
-**Recurso principal:** <https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf>
+**Recurso principal para la ruta personal:** [proceso y propuesta de piloto](12d%20-%20Procesos%20y%20servicios%20para%20pymes.md). Para la rama de investigación, conservar como consulta [How to Read a Paper](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf).
 
-Qué estudiar: Método de lectura por pasadas; aplicar a un paper relevante. La publicación pública y preparación de entrevistas son opcionales.
+Qué estudiar: convertir evidencia técnica en una guía de uso, una explicación comprensible y una propuesta de alcance. Actualizar la propuesta de 12d con resultados y costos medidos, sin prometer ingresos. La publicación pública y preparación de entrevistas son opcionales.
 
 ### Diagnóstico breve
 

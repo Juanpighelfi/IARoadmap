@@ -2,6 +2,24 @@
 
 Elegí un recurso principal por módulo. Las secciones “Qué estudiar” acotan capítulos o temas; las referencias adicionales son consulta o una explicación alternativa, no cursos que haya que terminar todos. Los tiempos estiman esa selección y su práctica.
 
+## Selección para software y servicios: 7 de septiembre de 2026
+
+Se consultaron las páginas oficiales siguientes al adaptar la ruta; no se ejecutaron sus ejemplos ni se verificó cada enlace interno. Seguí las secciones acotadas en cada módulo. Los proveedores del SaaS se eligen después de inspeccionar su stack.
+
+| Módulo | Recurso principal | Uso acotado |
+| --- | --- | --- |
+| 01c | [MDN Learn](https://developer.mozilla.org/en-US/docs/Learn_web_development) | Formularios, JavaScript y peticiones |
+| 02b | [MDN servidor](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps) | Responsabilidades del backend |
+| 02 y 02b | [PostgreSQL tutorial](https://www.postgresql.org/docs/current/tutorial.html) | SQL, relaciones y transacciones; adaptar al motor existente |
+| 10 y 02b | [OWASP Top 10](https://owasp.org/www-project-top-ten/) | Relacionar acceso y riesgos con pruebas concretas |
+| 08c | [Stripe webhooks](https://docs.stripe.com/webhooks) | Estudiar eventos y verificación; no prescribe contratar Stripe |
+| 11d | [The Twelve-Factor App](https://12factor.net/) | Configuración, dependencias, procesos y registros |
+| 12d | [GOV.UK: necesidades de usuarios](https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs) | Observar una tarea y separar necesidades de soluciones |
+
+[TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) complementa 01c si el producto usa TypeScript, después de JavaScript. [GitHub Get Started](https://docs.github.com/en/get-started) complementa Git en 01 y 01b.
+
+La siguiente tabla reúne también ramas opcionales. Su presencia no las convierte en tareas de la ruta personal.
+
 ## Selección y acceso
 
 | Área | Principal | Alternativa / consulta | Acceso y uso |
@@ -30,7 +48,7 @@ La mayoría está en inglés. Usá traducción para una primera lectura y conser
 
 Se consultaron las páginas principales seleccionadas, no se ejecutó todo el código de cursos externos ni se verificó cada enlace del inventario histórico. “Consultado” significa que la página y el material indicado estuvieron accesibles durante esta revisión, no que cada capítulo sea autosuficiente.
 
-- El curso RAG de DeepLearning.AI no pudo verificarse desde la consulta; queda como referencia opcional. La ruta principal usa Qdrant y la consigna propia.
+- El curso RAG de DeepLearning.AI no pudo verificarse desde la consulta; queda como referencia opcional. La extensión RAG usa Qdrant y la consigna propia.
 - Papers with Code redirigía a [Hugging Face Papers](https://huggingface.co/papers/); se actualizó su rol como fuente de descubrimiento.
 - [Hugging Face Robotics Course](https://huggingface.co/learn/robotics-course/en/unit0/1) sirve de complemento, pero la página aún mostraba unidades avanzadas pendientes; no se usa como único temario de robótica.
 - La consulta a tutoriales de ROS 2 Jazzy encontró una protección anti-bot. Eso no demuestra que el sitio esté roto; comprobar acceso al elegir esa extensión. No bloquea el ejercicio de simulación del módulo 12c.

@@ -1,5 +1,7 @@
 # Construir un producto
 
+Esta ruta breve cubre la capa de IA aplicada; no reemplaza formación en web, backend, integraciones y operación. Para construir un SaaS desde fundamentos, seguí [Mi ruta personal](Mi%20ruta%20personal.md).
+
 Aplicá cada capacidad a un flujo de tu producto o a una herramienta de uso propio. Reutilizar el proyecto reduce duplicación, pero no garantiza reducir a la mitad la duración.
 
 Empezá por una tarea de bajo alcance: extraer campos, validar y preparar una propuesta que puedas revisar. Definí antes el criterio de éxito, la baseline y el presupuesto. No necesitás usuarios externos para aprender: usá tus sesiones y casos diseñados, identificando su procedencia.

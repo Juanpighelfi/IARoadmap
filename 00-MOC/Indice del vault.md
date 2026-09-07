@@ -39,6 +39,12 @@ Empezá por [Empezar aquí](Empezar%20aqui.md) y [Mi ruta personal](../02-Rutas/
 - [12b - Capa profesional](../01-Niveles/12b%20-%20Capa%20profesional.md)
 - [12c - Robotica y sistemas embodied](../01-Niveles/12c%20-%20Robotica%20y%20sistemas%20embodied.md)
 
+- [01c - Web, HTTP y JavaScript](../01-Niveles/01c%20-%20Web%20HTTP%20y%20JavaScript.md)
+- [02b - Backend, autenticación y aplicaciones SaaS](../01-Niveles/02b%20-%20Backend%20autenticacion%20y%20aplicaciones%20SaaS.md)
+- [08c - Integraciones, webhooks y cobros confiables](../01-Niveles/08c%20-%20Integraciones%20y%20cobros%20confiables.md)
+- [11d - Operación y mantenimiento de un SaaS](../01-Niveles/11d%20-%20Operacion%20de%20un%20SaaS.md)
+- [12d - Procesos, pilotos y servicios para pymes](../01-Niveles/12d%20-%20Procesos%20y%20servicios%20para%20pymes.md)
+
 ## Rutas
 
 - [Mi ruta personal](../02-Rutas/Mi%20ruta%20personal.md)
@@ -48,12 +54,18 @@ Empezá por [Empezar aquí](Empezar%20aqui.md) y [Mi ruta personal](../02-Rutas/
 - [Si ya eres developer](../02-Rutas/Si%20ya%20eres%20developer.md)
 - [Si ya sabes data science o ML](../02-Rutas/Si%20ya%20sabes%20data%20science%20o%20ML.md)
 
+- [IA local y robótica opcional](../02-Rutas/IA%20local%20y%20robotica%20opcional.md)
+
 ## Proyectos
 
 - [Capstone](../03-Proyectos/Capstone.md)
 - [Inspeccion visual de piezas](../03-Proyectos/Inspeccion%20visual%20de%20piezas.md)
 - [Plan de 12 meses](../03-Proyectos/Plan%20de%2012%20meses.md)
 - [Portfolio minimo](../03-Proyectos/Portfolio%20minimo.md)
+
+- [SaaS administrativo con IA](../03-Proyectos/SaaS%20administrativo%20con%20IA.md)
+- [Semana flexible](../03-Proyectos/Semana%20flexible.md)
+- [Plan de 12 semanas](../03-Proyectos/Plan%20de%2012%20semanas.md)
 
 ## Recursos
 
@@ -87,3 +99,5 @@ Empezá por [Empezar aquí](Empezar%20aqui.md) y [Mi ruta personal](../02-Rutas/
 ## Laboratorios
 
 - [Laboratorios y autocorrección](../07-Laboratorios/README.md)
+
+- [Prácticas SaaS](../07-Laboratorios/Practicas%20SaaS.md)
