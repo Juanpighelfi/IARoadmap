@@ -12,7 +12,7 @@ Consultá el [catálogo de módulos](../00-MOC/Catalogo%20de%20modulos.md) para 
 
 **Recurso principal:** <https://qdrant.tech/documentation/>
 
-Qué estudiar: Local Quickstart, Search, Filtering, BM25 y Hybrid Search with Reranking. Construí primero una búsqueda lexical simple; luego seguí el tutorial local para comparar. La documentación es consulta técnica y no sustituye la rúbrica del ejercicio.
+Qué estudiar: Local Quickstart, Search, Filtering, BM25 y Hybrid Search with Reranking. Construí primero una búsqueda lexical simple; luego seguí el tutorial local para comparar. La documentación es consulta técnica y no sustituye las condiciones de salida del ejercicio.
 
 ### Diagnóstico breve
 
@@ -28,11 +28,11 @@ Los laboratorios numerados están en el [índice ejecutable](../07-Laboratorios/
 
 Agregá una nota que contradice una versión anterior y otra sin permisos. Compará búsqueda lexical y semántica con el mismo conjunto.
 
-### Rúbrica de salida
+### Cómo comprobar que aprendí
 
 Recall de documentos y fidelidad de citas evaluados por separado; abstención probada; sin documento retirado o no autorizado entre resultados; variantes elegidas con validación.
 
-Evaluá cuatro dimensiones: implementación correcta, comparación válida, explicación propia y transferencia a una variante. Cada una: 0 ausente/incorrecta, 1 con ayuda, 2 independiente. **Dominado:** al menos 7/8 y ninguna dimensión en 0; cualquier fuga de test o resultado inventado invalida la comparación. Los tests automáticos acreditan solo los casos que cubren.
+Comprobá que podés resolver el ejercicio, explicar el resultado y hacer una variante sin copiar. No hace falta puntuarte ni completar otra plantilla. Se mantienen los criterios técnicos anteriores: no inventar resultados ni usar datos de evaluación para ajustar la solución. Los tests solo comprueban los casos que cubren.
 
 ### Si no sale
 
@@ -40,7 +40,7 @@ Si no recupera la evidencia, corregir ingesta y retrieval antes del prompt. Si c
 
 ### Retención
 
-A los 7 días repetí una variante breve sin mirar la solución. A los 30 días reconstruí el razonamiento central. Si no sale, registrá qué olvidaste y volvé al ejercicio correspondiente; no reinicies todo el módulo. Guardá evidencia y fechas en tu [seguimiento personal](../00-MOC/Estado%20actual.md).
+Cada tanto, retomá una variante sin mirar la solución. Si no sale, anotá ese punto como próximo ejercicio en [Mi seguimiento](../00-MOC/Estado%20actual.md), sin otra planilla ni fechas obligatorias. No hace falta reiniciar el módulo.
 
 ## Debes aprender
 

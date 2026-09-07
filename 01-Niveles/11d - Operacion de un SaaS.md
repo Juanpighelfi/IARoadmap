@@ -50,6 +50,6 @@ Cerrar el módulo no equivale a certificar que el servicio está listo para dato
 
 Volver a ejecutar localmente desde instrucciones limpias. Resolver una sola dependencia o configuración faltante y repetir. No introducir contenedores u orquestadores adicionales si el problema es un comando sin documentar.
 
-## Evaluación y retención
+## Cómo comprobar que aprendí
 
-Aplicá la [rúbrica de dominio](../04-Recursos/Autoevaluacion%20y%20dominio.md): implementación, comparación válida, explicación propia y transferencia, de 0 a 2 cada una. Para dominio: 7/8 como mínimo y ninguna dimensión en 0. Guardá evidencia y ayuda usada en `Mi-progreso/`; repetir una variante a los 7 días y reconstruir el razonamiento a los 30. Una demo que funciona con ayuda no acredita todavía independencia.
+Usá la [comprobación breve](../04-Recursos/Autoevaluacion%20y%20dominio.md): resolver, explicar y probar una variante sin copiar, cumpliendo las condiciones de salida del módulo. Cerrá con tres líneas en [Mi seguimiento](../00-MOC/Estado%20actual.md). No hacen falta puntajes ni otra ficha; una demo hecha con ayuda no demuestra todavía independencia.

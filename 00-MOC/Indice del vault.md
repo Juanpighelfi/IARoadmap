@@ -8,7 +8,7 @@ Empezá por [Empezar aquí](Empezar%20aqui.md) y [Mi ruta personal](../02-Rutas/
 - [Catalogo de modulos](Catalogo%20de%20modulos.md)
 - [Diagnostico inicial](Diagnostico%20inicial.md)
 - [Empezar aqui](Empezar%20aqui.md)
-- [Estado actual](Estado%20actual.md)
+- [Mi seguimiento: cómo usarlo](Estado%20actual.md)
 - [Mapa de estudio](Mapa%20de%20estudio.md)
 
 ## Módulos
@@ -82,20 +82,17 @@ Empezá por [Empezar aquí](Empezar%20aqui.md) y [Mi ruta personal](../02-Rutas/
 - [Repaso espaciado](../04-Recursos/Repaso%20espaciado.md)
 - [Sistema de actualizacion](../04-Recursos/Sistema%20de%20actualizacion.md)
 
-## Plantillas
+## Seguimiento
 
-- [Plantilla de bitacora semanal](../05-Plantillas/Plantilla%20de%20bitacora%20semanal.md)
-- [Plantilla de evaluacion](../05-Plantillas/Plantilla%20de%20evaluacion.md)
-- [Plantilla de lectura de paper](../05-Plantillas/Plantilla%20de%20lectura%20de%20paper.md)
-- [Plantilla de modulo](../05-Plantillas/Plantilla%20de%20modulo.md)
-- [Plantilla de progreso](../05-Plantillas/Plantilla%20de%20progreso.md)
-- [Plantilla de proyecto](../05-Plantillas/Plantilla%20de%20proyecto.md)
-- [Plantilla de sesion de estudio](../05-Plantillas/Plantilla%20de%20sesion%20de%20estudio.md)
+- [Mi seguimiento: instrucciones y ejemplo](Estado%20actual.md)
+- [Plantilla única para copiar](../05-Plantillas/Plantilla%20de%20progreso.md)
 
-## Seguimiento de ejemplo
+## Plantillas técnicas opcionales
 
-- [2026-W36](../06-Bitacora/2026-W36.md)
-- [Como usar la bitacora](../06-Bitacora/Como%20usar%20la%20bitacora.md)
+- [Cuál usar y cuándo](../05-Plantillas/README.md)
+- [Proyecto](../05-Plantillas/Plantilla%20de%20proyecto.md)
+- [Evaluación de un sistema](../05-Plantillas/Plantilla%20de%20evaluacion.md)
+- [Lectura de un paper](../05-Plantillas/Plantilla%20de%20lectura%20de%20paper.md)
 
 ## Laboratorios
 

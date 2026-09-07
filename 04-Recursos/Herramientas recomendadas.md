@@ -86,8 +86,8 @@ El menú siguiente se conserva como consulta histórica por especialidad. No es 
 ## Estudio y seguimiento
 
 - Obsidian, este vault
-- Dataview, opcional, para el tablero de [Estado actual](../00-MOC/Estado%20actual.md)
-- Anki o el plugin Spaced Repetition, ver [Repaso espaciado](Repaso%20espaciado.md)
+- [Mi seguimiento](../00-MOC/Estado%20actual.md): una nota Markdown, sin Dataview ni otros plugins
+- Anki o Spaced Repetition solo si querés una rutina adicional, no como requisito; ver [Repaso espaciado](Repaso%20espaciado.md)
 
 ## Observabilidad y evals
 

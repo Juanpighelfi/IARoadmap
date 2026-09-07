@@ -1,45 +1,39 @@
-# Estado actual
+# Mi seguimiento: cómo usarlo
 
-Esta página explica el seguimiento. **No contiene horas ni módulos aprobados por vos.** El ejemplo de bitácora es material didáctico y queda fuera de los cálculos.
+Un solo archivo para saber dónde estás y retomar sin pensar todo de nuevo. No necesitás una nota por sesión, otra por semana y otra por módulo.
 
-## Punto de partida de esta adaptación
+## Prepararlo una sola vez
 
-Se reinicia el estudio con una secuencia definida. No hay horas ni módulos aprobados registrados en este repositorio. La meta inicial de diez horas reservadas por semana es una propuesta de disponibilidad, no progreso realizado; anotar minutos efectivos y no contar dos veces la práctica del SaaS.
+1. En tu copia del roadmap, creá la carpeta `Mi-progreso` si no existe.
+2. Copiá allí la [plantilla de seguimiento](../05-Plantillas/Plantilla%20de%20progreso.md) y llamá al archivo `Mi seguimiento.md`.
+3. En «Estoy estudiando», escribí el tema o módulo actual. Si ya empezaste el 00, seguí desde donde estabas.
 
-## Preparar tu registro
+Si ya tenés notas, conservá todo. Podés usar una de ellas como archivo único; no hace falta pasar en limpio el historial.
 
-Creá `Mi-progreso/` en la raíz del vault y copiá allí la [plantilla de progreso](../05-Plantillas/Plantilla%20de%20progreso.md). Copiá también las plantillas que uses para sesiones, bitácoras y proyectos. La carpeta está ignorada por Git para separar tus datos del currículo; el contenido local necesita tu propio respaldo si querés conservarlo entre dispositivos.
+## Al terminar de estudiar: dos minutos
 
-Registrá el estado y el dominio por separado:
+Agregá una fecha y completá tres líneas:
 
-| Campo | Valores |
-| --- | --- |
-| Estado | pendiente, en curso, pausado, cerrado, omitido |
-| Dominio | sin evaluar, explorado, practicado, dominado, retenido |
-| Evidencia | archivo/commit, prueba, explicación y variante |
-| Omisión | motivo y prueba que acredita la habilidad |
-| Repaso | fechas previstas y resultado real |
+- **Hice:** el ejercicio o tema que trabajaste; una frase alcanza.
+- **Me costó:** la duda o el bloqueo principal. Si no hubo, poné «nada en particular».
+- **Cómo sigo:** una acción pequeña para la próxima vez, como «probar una duración de turno inválida».
 
-Cerrar un módulo no implica que quede retenido para siempre. Si el repaso falla, corregí el dominio y programá un ejercicio breve; mantené la evidencia histórica.
+La próxima sesión empieza leyendo el último «Cómo sigo». No copies ese paso en otra tabla. Actualizá «Estoy estudiando» solo cuando cambies de tema.
 
-## Revisión cada cuatro semanas
+## Ejemplo ficticio
 
-1. Horas reales y qué parte se fue en entorno, lectura, práctica, corrección y repaso.
-2. Qué podés resolver ahora sin ayuda que antes no podías.
-3. Qué error se repite y cuál es el siguiente ejercicio que lo ataca.
-4. Qué tema podés posponer para reducir carga sin romper prerrequisitos.
+Así podría quedar una entrada; no describe progreso tuyo:
 
-No se exige probar el curso con otras personas, publicar resultados o sostener una cadencia de papers durante todos los módulos.
+### 7 de septiembre
 
-## Dataview opcional
+- Hice: distinguí tres tareas que se resuelven con reglas de otras que podrían usar IA.
+- Me costó: decidir qué hacer cuando falta información.
+- Cómo sigo: resolver dos entradas incompletas y explicar cuándo pedir aclaración.
 
-Si usás el plugin, esta consulta lee únicamente tus registros personales; los ejemplos quedan excluidos incluso si los copiaste sin modificarlos:
+## Qué no hace falta completar
 
-```dataview
-TABLE semana AS "Semana", horas AS "Horas"
-FROM "Mi-progreso"
-WHERE tipo = "bitacora" AND !ejemplo
-SORT semana DESC
-```
+Sin puntajes, estados de dominio, horas por actividad, archivos semanales ni campos técnicos. No necesitás plugins ni un calendario de repasos. Si faltaste unos días, seguí con la próxima entrada: no rellenes los días anteriores.
 
-Sin Dataview, la plantilla Markdown alcanza. No hace falta mantener otra tabla de estado dentro de cada módulo.
+Los ejercicios y sus pruebas quedan en sus propios archivos. Podés nombrarlos en «Hice» para encontrarlos, sin copiar sus resultados al seguimiento. Para decidir si avanzar, usá [esta comprobación breve](../04-Recursos/Autoevaluacion%20y%20dominio.md).
+
+La carpeta `Mi-progreso/` está excluida de Git: hacer push no respalda estas notas ni las sincroniza entre equipos. Conservá una copia propia. No guardes datos de pacientes ni credenciales en el seguimiento.

@@ -1,6 +1,6 @@
 # Semana flexible: rumbo sin rigidez
 
-Propuesta inicial revisable después de dos semanas. Las diez horas son disponibilidad reservada, con pausas incluidas; las estimaciones curriculares se recalculan con horas efectivas. No es una medición de tu desempeño actual.
+Propuesta inicial revisable después de dos semanas. Las diez horas son disponibilidad reservada, con pausas incluidas; no hace falta medir cada minuto ni llevar una planilla de horas. No es una medición de tu desempeño actual.
 
 ## Presupuesto
 
@@ -41,13 +41,13 @@ Ajustá la proporción al tema. Una conversación con IA cuenta como estudio cua
 
 1. Un módulo, un cambio del SaaS y un producto 3D como máximo en curso; trabajá en uno por bloque.
 2. Antes de empezar, escribir una condición de cierre comprobable.
-3. Ideas, nuevas herramientas y automatizaciones van a una lista «Después» en tu registro privado.
+3. Si aparece una idea, podés dejar una línea opcional «Para después» al pie del mismo seguimiento. No hace falta una lista nueva ni cambiar de tarea.
 4. Primero ejecutar un proceso completo; automatizar después el paso repetido cuyo costo ya entendés. Usar lo existente si permite cerrar la tarea.
 5. Investigar una herramienta tiene un límite inicial de 20 minutos y una pregunta concreta. Si necesita más, convertirlo en tarea y decidir qué reemplaza.
 6. Una sesión perdida no se transforma en deuda para el fin de semana.
 
 ## Revisión de 20 minutos
 
-Compará bloques previstos y realizados, horas efectivas y resultados. Anotá qué podés hacer sin ayuda. Elegí un resultado de estudio y uno de productos para la próxima semana; si toca aplicar al SaaS, ese cambio es la práctica del mismo resultado. Mové los bloques y elegí qué queda fuera.
+Leé las últimas entradas de [Mi seguimiento](../00-MOC/Estado%20actual.md) y preguntate si la carga fue sostenible. Elegí el próximo ejercicio y un resultado de productos para la semana; si toca aplicar al SaaS, ese cambio es el ejercicio. Mové los bloques que necesites. No escribas otra bitácora ni vuelvas a copiar lo realizado.
 
-Una semana reducida puede sostenerse con tres bloques; una semana excepcional, con un ejercicio y un repaso. Son alternativas de continuidad, no metas adicionales. Después de dos semanas evaluá si cinco bloques son sostenibles; después de cuatro recalculá las horas pendientes.
+Una semana reducida puede sostenerse con tres bloques; una semana excepcional, con un ejercicio y un repaso. Son alternativas de continuidad, no metas adicionales. Después de dos semanas evaluá si cinco bloques son sostenibles; al mes, ajustá la carga si lo necesitás. No hace falta calcular horas pendientes para seguir.

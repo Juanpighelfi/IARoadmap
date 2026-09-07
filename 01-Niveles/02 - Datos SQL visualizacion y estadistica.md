@@ -18,7 +18,7 @@ Qué estudiar para el SaaS: tablas, tipos, claves, SELECT, JOIN, GROUP BY, valor
 
 Usá el reporte administrativo de las [prácticas SaaS](../07-Laboratorios/Practicas%20SaaS.md) como práctica principal en lugar del caso de piezas de abajo. Crear tablas de profesionales, turnos y cobros ficticios. Consultar pendientes por profesional y turnos sin cobro; comprobar importes, duplicados y valores ausentes.
 
-Para la variante, agregar dos pagos parciales a un turno y explicar por qué un JOIN puede duplicar su importe esperado. Distinguir cantidad de turnos de cantidad de pagos, calcular proporción de turnos pagados con denominador explícito y graficar cobros por profesional. Aplicar la misma rúbrica; no sumar ambos proyectos como obligación.
+Para la variante, agregar dos pagos parciales a un turno y explicar por qué un JOIN puede duplicar su importe esperado. Distinguir cantidad de turnos de cantidad de pagos, calcular proporción de turnos pagados con denominador explícito y graficar cobros por profesional. Usar las mismas condiciones de salida; no sumar ambos proyectos como obligación.
 
 El [mapa del SaaS real](../03-Proyectos/Estudiar%20con%20el%20SaaS%20real.md) enlaza el esquema existente. PostgreSQL y Drizzle son la aplicación principal; Pandas, NumPy y el caso de piezas de abajo quedan para la rama de análisis, no como prerrequisito del backend.
 
@@ -36,11 +36,11 @@ Práctica ejecutable vinculada: [abrir laboratorio](../07-Laboratorios/01-python
 
 Agregá dos inspecciones de la misma pieza. Recalculá tasa de defectos por imagen y por pieza y explicá la diferencia.
 
-### Rúbrica de salida
+### Cómo comprobar que aprendí
 
 El reporte identifica unidad de análisis, denominador, ausentes y duplicados; entrega consulta SQL, gráfico legible y una conclusión con límites.
 
-Evaluá cuatro dimensiones: implementación correcta, comparación válida, explicación propia y transferencia a una variante. Cada una: 0 ausente/incorrecta, 1 con ayuda, 2 independiente. **Dominado:** al menos 7/8 y ninguna dimensión en 0; cualquier fuga de test o resultado inventado invalida la comparación. Los tests automáticos acreditan solo los casos que cubren.
+Comprobá que podés resolver el ejercicio, explicar el resultado y hacer una variante sin copiar. No hace falta puntuarte ni completar otra plantilla. Se mantienen los criterios técnicos anteriores: no inventar resultados ni usar datos de evaluación para ajustar la solución. Los tests solo comprueban los casos que cubren.
 
 ### Si no sale
 
@@ -48,7 +48,7 @@ Si cambia la conclusión al duplicar filas, repasar cardinalidad de joins y mues
 
 ### Retención
 
-A los 7 días repetí una variante breve sin mirar la solución. A los 30 días reconstruí el razonamiento central. Si no sale, registrá qué olvidaste y volvé al ejercicio correspondiente; no reinicies todo el módulo. Guardá evidencia y fechas en tu [seguimiento personal](../00-MOC/Estado%20actual.md).
+Cada tanto, retomá una variante sin mirar la solución. Si no sale, anotá ese punto como próximo ejercicio en [Mi seguimiento](../00-MOC/Estado%20actual.md), sin otra planilla ni fechas obligatorias. No hace falta reiniciar el módulo.
 
 ## Debes aprender
 

@@ -54,4 +54,4 @@ Sin imágenes: completá los laboratorios de datos/split y el plan de captura, p
 
 ## Cierre
 
-README local con problema, datos, partición, baseline, resultados, fallas, costo de cómputo y comando de reproducción. Vale concluir que el modelo no aporta suficiente valor. Aplicá la [rúbrica de capstone](Capstone.md) sin exigir publicación ni usuarios externos.
+README local con problema, datos, partición, baseline, resultados, fallas, costo de cómputo y comando de reproducción. Vale concluir que el modelo no aporta suficiente valor. Aplicá los [criterios de cierre del capstone](Capstone.md) sin exigir publicación ni usuarios externos.

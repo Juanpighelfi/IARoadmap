@@ -119,6 +119,6 @@ La distinción está en [Vitest de integración](https://github.com/Juanpighelfi
 
 ## Cómo registrar el progreso
 
-Por cada parte, separar: leída, explicada sin ayuda, probada localmente con evidencia y verificada contra integración real. Guardar revisión de código, prueba, resultado, límites y próximo paso. No marcar ninguna de esas etapas por la sola existencia de este mapa.
+En «Hice» de [Mi seguimiento](../00-MOC/Estado%20actual.md), describí lo ocurrido con precisión: leer un archivo no es ejecutar sus pruebas, ni pasar un test aislado es verificar una integración real. Si probaste algo, podés enlazar el archivo o resultado; sus detalles técnicos quedan con el código. Anotá la duda en «Me costó» y el siguiente ejercicio en «Cómo sigo». No hace falta otra tabla de etapas.
 
 No hace falta reiniciar el módulo 00. Seguí con el primer objetivo pendiente y usá este documento como referencia, no como otra lista completa que debas estudiar en paralelo.

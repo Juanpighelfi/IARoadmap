@@ -1,5 +1,13 @@
 # Registro de cambios
 
+## 2026-09-07 — Seguimiento simple
+
+- Un solo archivo «Mi seguimiento»: tema actual y entradas con fecha, Hice, Me costó y Cómo sigo; ejemplo e instrucciones breves.
+- Plantillas de sesión, semana y módulo reemplazadas por avisos que llevan al registro único; no se borran notas personales.
+- Plantillas técnicas de proyecto, evaluación y paper simplificadas y señaladas como opcionales.
+- Eliminados puntajes obligatorios, tablas de dominio y registro detallado de horas; se conservan ejercicios, pruebas y condiciones técnicas de cierre.
+- Navegación e indicaciones de los módulos ajustadas para no exigir registros duplicados.
+
 ## 2026-09-07 — Vinculación al SaaS real
 
 - Revisión estática del SaaS en `da1d6d1`: mapa de tecnologías, archivos y recorridos con enlaces fijados a esa revisión; sin ejecutar ni modificar el producto.

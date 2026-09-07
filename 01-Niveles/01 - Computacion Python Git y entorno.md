@@ -12,7 +12,7 @@ Consultá el [catálogo de módulos](../00-MOC/Catalogo%20de%20modulos.md) para 
 
 ## Camino principal: JavaScript, TypeScript y Node.js
 
-Para estudiar el SaaS, este camino sustituye al de Python de abajo; no se cursan ambos completos en paralelo. El archivo conserva su nombre histórico para no romper enlaces. Los fundamentos se acreditan con las mismas cuatro dimensiones de la rúbrica, usando los ejercicios del lenguaje elegido.
+Para estudiar el SaaS, este camino sustituye al de Python de abajo; no se cursan ambos completos en paralelo. El archivo conserva su nombre histórico para no romper enlaces. En ambos caminos comprobás lo mismo: resolver, explicar y adaptar el ejercicio del lenguaje elegido, sin puntajes.
 
 Usá [MDN Learn](https://developer.mozilla.org/en-US/docs/Learn_web_development), sección JavaScript: variables, tipos, condicionales, bucles, funciones, objetos y arrays. Después [Node.js Learn](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs) para ejecutar scripts, módulos y asincronía; y [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) para parámetros, objetos, uniones y valores opcionales. Seleccioná lecturas para el ejercicio activo, no tres cursos completos.
 
@@ -35,7 +35,7 @@ Después, leer una lista JSON ficticia desde un archivo y producir un resumen de
 
 ### Variante y cierre del camino TypeScript
 
-Agregar modalidad presencial/virtual, archivo ausente y JSON malformado. Documentar qué error detiene el script. Entregar función, pruebas, comando, explicación propia y una variante independiente; aplicar la rúbrica de 7/8 y ninguna dimensión en cero. A los 7 y 30 días reconstruir una variante. Si algo falla, volver al concepto específico sin reiniciar toda la ruta.
+Agregar modalidad presencial/virtual, archivo ausente y JSON malformado. Documentar qué error detiene el script. Conservar función, pruebas y comando con el código; explicar la solución y resolver una variante independiente. No hace falta una ficha de evaluación. Cada tanto, retomar una variante. Si algo falla, volver al concepto específico sin reiniciar toda la ruta.
 
 Esta práctica es una consigna, no un laboratorio nuevo con autocorrección ya incluida. No requiere conectar PostgreSQL, Redis, WhatsApp ni un modelo.
 
@@ -61,11 +61,11 @@ Práctica ejecutable vinculada: [abrir laboratorio](../07-Laboratorios/01-python
 
 Procesá un archivo con columnas reordenadas, una fila vacía y un valor negativo. Elegí y documentá qué errores frenan todo y cuáles se reportan por fila.
 
-### Rúbrica de salida
+### Cómo comprobar que aprendí
 
 Pruebas del laboratorio aprobadas; ejecución desde una carpeta nueva; errores explicados sin ocultarlos; implementación esencial reproducida sin asistente.
 
-Evaluá cuatro dimensiones: implementación correcta, comparación válida, explicación propia y transferencia a una variante. Cada una: 0 ausente/incorrecta, 1 con ayuda, 2 independiente. **Dominado:** al menos 7/8 y ninguna dimensión en 0; cualquier fuga de test o resultado inventado invalida la comparación. Los tests automáticos acreditan solo los casos que cubren.
+Comprobá que podés resolver el ejercicio, explicar el resultado y hacer una variante sin copiar. No hace falta puntuarte ni completar otra plantilla. Se mantienen los criterios técnicos anteriores: no inventar resultados ni usar datos de evaluación para ajustar la solución. Los tests solo comprueban los casos que cubren.
 
 ### Si no sale
 
@@ -73,7 +73,7 @@ Si fallan casos borde, hacé primero funciones pequeñas sin archivos; si falla 
 
 ### Retención
 
-A los 7 días repetí una variante breve sin mirar la solución. A los 30 días reconstruí el razonamiento central. Si no sale, registrá qué olvidaste y volvé al ejercicio correspondiente; no reinicies todo el módulo. Guardá evidencia y fechas en tu [seguimiento personal](../00-MOC/Estado%20actual.md).
+Cada tanto, retomá una variante sin mirar la solución. Si no sale, anotá ese punto como próximo ejercicio en [Mi seguimiento](../00-MOC/Estado%20actual.md), sin otra planilla ni fechas obligatorias. No hace falta reiniciar el módulo.
 
 ## Habilidades del camino Python
 

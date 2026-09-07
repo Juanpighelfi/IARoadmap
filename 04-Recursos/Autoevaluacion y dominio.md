@@ -1,34 +1,25 @@
-# Autoevaluación y dominio
+# Cómo saber si podés avanzar
 
-## Qué se comprueba
+No hace falta ponerte una nota ni llevar una tabla de dominio. Al terminar un módulo, comprobá:
 
-| Nivel de dominio | Evidencia |
-| --- | --- |
-| Explorado | Reconocés y explicás la idea con tus palabras |
-| Practicado | Resolviste un ejercicio con apoyo registrado |
-| Dominado | Implementás, comparás y explicás una variante nueva sin ayuda esencial |
-| Retenido | Repetiste una variante después de 7 y 30 días sin depender de la solución |
+1. **¿Puedo explicar la idea con mis palabras?** Sin leer la respuesta del chat.
+2. **¿Puedo resolver el ejercicio y comprobar el resultado?** Usando las condiciones de salida del módulo.
+3. **¿Puedo cambiar algo del problema y resolverlo sin copiar?** Por ejemplo, una entrada inválida o un caso distinto.
 
-El tiempo invertido y el número de videos vistos son datos de proceso, no acreditación. La IA puede ayudarte a preguntar y corregir, pero no puede acreditar por sí misma lo que vos entendés.
+Si podés hacer las tres cosas y cumplís las condiciones del módulo, avanzá. Si algo no sale, ese punto se convierte en tu próximo ejercicio; no reinicies toda la ruta.
 
-## Rúbrica común
+## Cómo usar la IA
 
-Cuatro dimensiones, cada una 0–2: implementación, comparación/evaluación válida, explicación y transferencia. 0 es ausencia o error sustancial; 1 requiere ayuda; 2 es independiente y justificable. Dominado requiere 7/8 o más y ninguna dimensión en 0. Fuga del conjunto de test o datos inventados anulan la comparación aunque el programa funcione.
+Intentá primero. Si te trabás, pedí una pista concreta. Si necesitaste una solución completa, estudiála, cerrála y probá una variante. Que el código generado funcione no demuestra que ya puedas mantenerlo.
 
-Las rúbricas específicas de cada módulo determinan qué significa correcto. No se exige obtener una mejora: se exige que la comparación pueda sostener la conclusión. Los tests públicos no son un examen secreto; después de verlos, resolvé otra variante para comprobar transferencia.
+No necesitás registrar cada intervención del asistente. Si la ayuda dejó una duda importante, anotála en «Me costó» de [Mi seguimiento](../00-MOC/Estado%20actual.md).
 
-## Protocolo con asistente
+## Comprobar de verdad
 
-1. Escribí tu intento y la predicción antes de consultar.
-2. Pedí una pista sobre el punto donde te trabaste, sin solución completa.
-3. Si necesitás la solución, estudiá por qué funciona y cerrala.
-4. Implementá una variante nueva desde cero y explicá cada decisión.
-5. Guardá qué ayuda usaste y qué pudiste reconstruir solo.
+Se mantienen los requisitos técnicos del ejercicio: pruebas, cálculos y comparaciones válidas. No inventes resultados ni ajustes un modelo con los datos reservados para evaluarlo. Un test que pasa solo comprueba los casos que cubre.
 
-## Feedback sin otros estudiantes
+Los errores de seguridad o acceso a datos ajenos siguen bloqueando la entrega. Simplificar el seguimiento no convierte un prototipo en un producto listo.
 
-Combiná pruebas automáticas, soluciones explicadas, controles negativos, comparación con una baseline y defensa oral o escrita propia. Un juez LLM sirve para encontrar posibles errores, no como única fuente de verdad. Si contradice una prueba o una derivación, investigá con la referencia primaria.
+## Volver a una idea
 
-## Recuperación
-
-Identificá si el problema es concepto, notación, implementación, datos o entorno. Rehacé el ejercicio más pequeño que aísla ese punto. Al volver a aprobar, avanzá; no hace falta repetir el curso completo ni empezar otro roadmap.
+Cada tanto, al empezar una sesión, intentá un ejercicio anterior sin mirar. Si lo olvidaste, poné ese repaso en «Cómo sigo». No hace falta abrir otra planilla ni registrar fechas de retención.

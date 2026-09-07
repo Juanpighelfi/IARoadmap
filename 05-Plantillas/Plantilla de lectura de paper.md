@@ -1,55 +1,10 @@
----
-tags:
-  - plantilla
-  - paper
-titulo:
-autores:
-anio:
-url:
-nivel:
----
+# Lectura de paper — opcional
 
-# {{titulo}}
+Usala solo si un artículo ayuda a responder una pregunta concreta. No hace falta completar una ficha por cada recurso que leés.
 
-## Pasada 1: cinco minutos
+- **Artículo y enlace:**
+- **Idea que me sirve:** explicarla en una frase propia.
+- **Límite importante:** qué no demuestra o qué condición requiere.
+- **Qué hago con esto:** probar algo, cambiar una decisión o guardarlo como contexto.
 
-Solo titulo, abstract, figuras y conclusion.
-
-- Que problema dice resolver:
-- Que afirma lograr:
-- Vale la pena seguir leyendo: si / no. Por que:
-
-Si la respuesta es no, cerra la nota aca. Abandonar papers rapido es una habilidad, no una derrota.
-
-## Pasada 2: la idea
-
-- Idea central en una frase, sin jerga:
-- Que hacia el metodo anterior y por que no alcanzaba:
-- Que cambia exactamente este trabajo:
-- Analogia o dibujo propio:
-
-## Pasada 3: los detalles
-
-Solo si vas a implementarlo o si el resultado cambia una decision tuya.
-
-- Setup experimental:
-- Baselines comparadas:
-- Metricas y datasets:
-- Hiperparametros o trucos que hacen falta para que funcione:
-
-## Critica
-
-- Que resultado no me convence y por que:
-- Que no probaron:
-- Costo de reproducirlo:
-
-## Que hago con esto
-
-- [ ] Nada, solo contexto
-- [ ] Una tarjeta de [Repaso espaciado](../04-Recursos/Repaso%20espaciado.md)
-- [ ] Un experimento en [Portfolio minimo](../03-Proyectos/Portfolio%20minimo.md)
-- [ ] Cambiar una decision de mi producto
-
-## Citas utiles
-
->
+Empezá por resumen, figuras y conclusión. Leé métodos y resultados en detalle si vas a implementar la idea o tomar una decisión con ella. Si no te sirve, podés dejar de leer sin completar la ficha.

@@ -40,7 +40,7 @@ La siguiente tabla reúne también ramas opcionales. Su presencia no las convier
 | RAG | [Qdrant documentation](https://qdrant.tech/documentation/) | Baseline lexical propia y sección de evaluación del 07 | Documentación abierta y opción local; no hace falta contratar cloud |
 | Post-training | [TRL](https://huggingface.co/docs/trl/) | [PEFT](https://huggingface.co/docs/peft) | Documentación abierta; hacer presupuesto antes de entrenar |
 | MCP | [Especificación y documentación](https://modelcontextprotocol.io/) | Misma herramienta como función local | Lectura abierta; guardar versión de protocolo/SDK |
-| Análisis de errores | [Field Guide de Hamel Husain](https://hamel.dev/blog/posts/field-guide/) | Muestra propia y rúbrica del 10b | Artículo abierto; no requiere tráfico de terceros |
+| Análisis de errores | [Field Guide de Hamel Husain](https://hamel.dev/blog/posts/field-guide/) | Muestra propia y condiciones de salida del 10b | Artículo abierto; no requiere tráfico de terceros |
 | Operación | [Made With ML](https://madewithml.com/) | Endpoint local y documentación del framework | Material abierto; adaptar servicios pagos de ejemplos si aparecen |
 | Inferencia local | [llama.cpp](https://github.com/ggml-org/llama.cpp) para LLMs compatibles; PyTorch para el primer modelo visual | Comparar modelo menor antes de cambiar runtime | Software y pesos tienen licencias distintas; medir en el equipo disponible |
 | Robótica | [Modern Robotics](https://modernrobotics.northwestern.edu/nu-gm-book-resource/) | [MIT Underactuated](https://underactuated.mit.edu/) y [LeRobot](https://huggingface.co/docs/lerobot/index) | Libro/recursos y docs; simulación antes de hardware |

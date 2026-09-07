@@ -12,4 +12,4 @@ El portfolio es tu archivo de aprendizaje. Puede ser privado. No hay obligación
 
 Un proyecto puede cubrir varias evidencias si cada capacidad está identificada. Fine-tuning no es requisito universal de ML engineer; entra si tu especialización implica adaptar modelos. Una publicación es una opción de comunicación, no una prueba necesaria de dominio.
 
-Usá la [plantilla de proyecto](../05-Plantillas/Plantilla%20de%20proyecto.md) y la [rúbrica de capstone](Capstone.md).
+La [plantilla de proyecto](../05-Plantillas/Plantilla%20de%20proyecto.md) es opcional si necesitás ordenar la explicación. Si ya está en el README, no la dupliques. Usá los [criterios de cierre del capstone](Capstone.md) cuando llegues a esa etapa.
