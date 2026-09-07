@@ -1,0 +1,7 @@
+foto_id,pieza_id,fecha,angulo,etiqueta
+F01,A,2026-01-01,frente,ok
+F02,A,2026-01-02,lado,ok
+F03,B,2026-01-03,frente,defecto
+F04,C,2026-02-01,frente,ok
+F05,C,2026-02-02,lado,ok
+F06,D,2026-03-01,frente,defecto

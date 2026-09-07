@@ -1,16 +1,46 @@
 ---
-tags:
-  - nivel
-  - evals
-  - seguridad
-  - gobernanza
-duracion: 4-8 semanas
-estado: pendiente
-inicio:
-fin:
+id: "10"
+tags: [nivel, transversal]
+revisado: 2026-09-06
 ---
 
 # 10 - Evaluacion, seguridad, privacidad y gobernanza
+
+## Cómo cursarlo
+
+Consultá el [catálogo de módulos](../00-MOC/Catalogo%20de%20modulos.md) para los prerrequisitos y el rango de horas de este módulo. Las horas incluyen lectura seleccionada, práctica, corrección y primer repaso; no son una promesa de dominio ni se suman a cursos completos. El ID conserva enlaces históricos y no impone orden.
+
+**Recurso principal:** <https://scikit-learn.org/stable/common_pitfalls.html>
+
+Qué estudiar: Data leakage y evaluación independiente para la primera pasada. OWASP y NIST son referencias para amenazas y riesgos del sistema cuando se usan modelos generativos.
+
+### Diagnóstico breve
+
+Diferenciá pruebas unitarias, validación de modelos y conjunto de test final. Escribí una falla que pase JSON schema. Si lo resolvés sin ayuda y lo justificás, intentá directamente la tarea independiente; omitir lectura exige evidencia, no autopercepción.
+
+### Práctica guiada
+
+Antes del primer modelo, escribí diez casos y una rúbrica. Separá desarrollo y test. Para ML usá etiquetas; para LLMs incluí no-answer, cita falsa y entrada hostil.
+
+Los laboratorios numerados están en el [índice ejecutable](../07-Laboratorios/README.md). Para los demás ejercicios, la consigna de esta página es la práctica; las referencias amplían el procedimiento.
+
+### Práctica independiente
+
+Construí un sistema deliberadamente malo que siempre abstenga y otro que siempre responda. Tu evaluación debe distinguir cobertura, errores y abstención.
+
+### Rúbrica de salida
+
+Criterios fijados antes de comparar, casos frontera, versión y errores por segmento; no usar un juez LLM sin contrastarlo con etiquetas humanas propias.
+
+Evaluá cuatro dimensiones: implementación correcta, comparación válida, explicación propia y transferencia a una variante. Cada una: 0 ausente/incorrecta, 1 con ayuda, 2 independiente. **Dominado:** al menos 7/8 y ninguna dimensión en 0; cualquier fuga de test o resultado inventado invalida la comparación. Los tests automáticos acreditan solo los casos que cubren.
+
+### Si no sale
+
+Si todo pasa, probar controles negativos. Si el juez discrepa, revisar rúbrica y casos ambiguos antes de confiar en el promedio.
+
+### Retención
+
+A los 7 días repetí una variante breve sin mirar la solución. A los 30 días reconstruí el razonamiento central. Si no sale, registrá qué olvidaste y volvé al ejercicio correspondiente; no reinicies todo el módulo. Guardá evidencia y fechas en tu [seguimiento personal](../00-MOC/Estado%20actual.md).
 
 ## Debes aprender
 
@@ -21,22 +51,22 @@ fin:
 - Privacidad: PII, minimizacion, retention, logs, proveedores.
 - Gobernanza: owners, risk register, aprobaciones, incident response.
 - Fairness y sesgo: datasets, segmentos, monitoreo, impacto.
-- Cumplimiento: clasificacion de riesgo del EU AI Act, obligaciones de transparencia,
+- Cumplimiento según jurisdicción: aplicabilidad y clasificación de riesgo cuando corresponda,
   regimenes de datos personales y reglas extra en dominios sensibles. Ver
-  [[04-Recursos/Regulacion y cumplimiento]].
+  [Regulacion y cumplimiento](../04-Recursos/Regulacion%20y%20cumplimiento.md).
 
-## Practica
+## Práctica adicional opcional
+
+La práctica guiada y la variante de arriba constituyen el ciclo principal. Elegí una de estas extensiones solo si aporta; no se suman todas al rango de horas.
 
 - Crear un eval harness con 50 a 100 casos reales o simulados.
 - Red-team de tu app: 30 ataques y mitigaciones.
 - Documento de riesgos: que puede salir mal, severidad, deteccion, mitigacion.
-- Clasificar tu propia app segun el EU AI Act y listar que obligaciones te tocan.
+- Determinar primero jurisdicción y alcance; si corresponde, consultar el marco aplicable y documentar preguntas pendientes sin afirmar cumplimiento.
 
-## Criterio de salida
+## Referencias adicionales
 
-Ninguna app de IA pasa a produccion sin tests de regresion, trazas, limites de accion y plan de incidentes.
-
-## Recursos
+Consulta estas fuentes solo si el recurso principal no alcanza; no son una lista de cursos obligatorios.
 
 - NIST AI RMF: <https://airc.nist.gov/airmf-resources/>
 - OWASP Top 10 for LLM Applications: <https://owasp.org/www-project-top-10-for-large-language-model-applications/>
@@ -44,9 +74,3 @@ Ninguna app de IA pasa a produccion sin tests de regresion, trazas, limites de a
 - Arize Phoenix: <https://phoenix.arize.com/>
 - Hamel Husain, Your AI Product Needs Evals: <https://hamel.dev/blog/posts/evals/>
 - Explorador del EU AI Act: <https://artificialintelligence-act.eu/>
-
-## Siguiente
-
-- [[10b - Error analysis y evals desde trazas]]
-- [[11 - MLOps LLMOps despliegue]]
-- [[04-Recursos/Regulacion y cumplimiento]]

@@ -60,3 +60,7 @@ Gaps:
 ## Decision editorial para este vault
 
 Este vault mantiene los fundamentos de AMAI, adopta la claridad de rol de roadmap.sh y suma la capa 2026 de AI engineering: LLMs, RAG, agentes, evals, seguridad, LLMOps y produccion.
+
+## Revisión personal de septiembre de 2026
+
+La edición personal conserva ingeniería aplicada, pero amplía búsqueda, incertidumbre, visión, inferencia local y robótica. La calidad se comprueba con ejercicios, transferencia y repaso propios; no requiere cohortes ni probarlo con otros estudiantes. La secuencia y los tiempos pasan al catálogo único y las publicaciones profesionales quedan optativas.

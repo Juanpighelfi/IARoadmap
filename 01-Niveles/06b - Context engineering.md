@@ -1,23 +1,52 @@
 ---
-tags:
-  - nivel
-  - context-engineering
-  - llm
-  - memoria
-duracion: 3-5 semanas
-estado: pendiente
-inicio:
-fin:
+id: "06b"
+tags: [nivel, especializacion]
+revisado: 2026-09-06
 ---
 
 # 06b - Context engineering
 
+## Cómo cursarlo
+
+Consultá el [catálogo de módulos](../00-MOC/Catalogo%20de%20modulos.md) para los prerrequisitos y el rango de horas de este módulo. Las horas incluyen lectura seleccionada, práctica, corrección y primer repaso; no son una promesa de dominio ni se suman a cursos completos. El ID conserva enlaces históricos y no impone orden.
+
+**Recurso principal:** <https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents>
+
+Qué estudiar: Selección de contexto, memoria y compactación; convertir cada patrón en una hipótesis medible con tu modelo.
+
+### Diagnóstico breve
+
+Diferenciá dato permanente, estado de tarea e historial prescindible en una conversación de diez turnos. Si lo resolvés sin ayuda y lo justificás, intentá directamente la tarea independiente; omitir lectura exige evidencia, no autopercepción.
+
+### Práctica guiada
+
+Creá diez conversaciones donde se corrige una medida. Compará ventana reciente, resumen y estado estructurado con el mismo presupuesto de entrada.
+
+Los laboratorios numerados están en el [índice ejecutable](../07-Laboratorios/README.md). Para los demás ejercicios, la consigna de esta página es la práctica; las referencias amplían el procedimiento.
+
+### Práctica independiente
+
+Poné la corrección al principio, al medio y al final. Comprobá si reaparece la medida antigua después de compactar.
+
+### Rúbrica de salida
+
+Presupuesto por bloque y prueba de recuperación de correcciones; calidad, costo y latencia comparables. Documentar información perdida por cada estrategia.
+
+Evaluá cuatro dimensiones: implementación correcta, comparación válida, explicación propia y transferencia a una variante. Cada una: 0 ausente/incorrecta, 1 con ayuda, 2 independiente. **Dominado:** al menos 7/8 y ninguna dimensión en 0; cualquier fuga de test o resultado inventado invalida la comparación. Los tests automáticos acreditan solo los casos que cubren.
+
+### Si no sale
+
+Si el resumen borra decisiones, mantener estado explícito con fecha y fuente. Si aumenta tokens sin mejorar, reducir contexto por hipótesis.
+
+### Retención
+
+A los 7 días repetí una variante breve sin mirar la solución. A los 30 días reconstruí el razonamiento central. Si no sale, registrá qué olvidaste y volvé al ejercicio correspondiente; no reinicies todo el módulo. Guardá evidencia y fechas en tu [seguimiento personal](../00-MOC/Estado%20actual.md).
+
 Prompting es escribir buenas instrucciones. Context engineering es decidir **que
 informacion entra en la ventana, en que forma y en que momento**, y que se hace cuando
-no entra. En sistemas reales el segundo problema es mas dificil y explica mas fallas
-que el primero.
+no entra. En tareas con mucho contexto, su selección puede explicar fallas que no se resuelven solo cambiando instrucciones.
 
-Se separa de [[06 - LLMs aplicados]] porque ahi el contexto se asume dado. Aca el
+Se separa de [06 - LLMs aplicados](06%20-%20LLMs%20aplicados.md) porque ahi el contexto se asume dado. Aca el
 contexto es la variable de diseno.
 
 ## Debes aprender
@@ -27,7 +56,7 @@ contexto es la variable de diseno.
 - Degradacion por longitud: por que mas contexto no es mejor contexto. Perdida de
   informacion en el medio, dilucion de las instrucciones, aumento de latencia y costo.
 - Seleccion: recuperar lo relevante en vez de pegar todo. Conecta con
-  [[07 - RAG busqueda embeddings]], pero aplica tambien a historial, esquemas y
+  [07 - RAG busqueda embeddings](07%20-%20RAG%20busqueda%20embeddings.md), pero aplica tambien a historial, esquemas y
   definiciones de herramientas.
 - Compactacion: resumir el historial, mantener un estado estructurado aparte, decidir
   que se descarta y como se recupera si vuelve a hacer falta.
@@ -43,13 +72,14 @@ contexto es la variable de diseno.
 - Caching de prompts: que se puede cachear, como ordenar el contexto para que el prefijo
   estable quede al principio, y que ahorro real produce.
 - Higiene: datos sensibles que no deben entrar al contexto ni a los logs. Conecta con
-  [[10 - Evaluacion seguridad gobernanza]].
+  [10 - Evaluacion seguridad gobernanza](10%20-%20Evaluacion%20seguridad%20gobernanza.md).
 
-## Practica
+## Práctica adicional opcional
+
+La práctica guiada y la variante de arriba constituyen el ciclo principal. Elegí una de estas extensiones solo si aporta; no se suman todas al rango de horas.
 
 - Instrumentar una app tuya para medir tokens por seccion del contexto en cada llamada.
-  Publicar el desglose. Casi siempre aparece una seccion que gasta el triple de lo
-  esperado y no aporta nada.
+  Guardar el desglose y comprobar si alguna sección consume más contexto del que aporta a la tarea.
 - Tomar un asistente con historial largo y aplicar tres estrategias de compactacion
   (ventana deslizante, resumen incremental, estado estructurado). Comparar calidad,
   costo y latencia sobre el mismo set de conversaciones.
@@ -60,13 +90,9 @@ contexto es la variable de diseno.
 - Romperlo a proposito: llenar la ventana hasta el limite y documentar como falla el
   sistema, si degrada o si se cae.
 
-## Criterio de salida
+## Referencias adicionales
 
-Podes mostrar el presupuesto de tokens de tu sistema, justificar por que cada bloque
-esta ahi, y explicar que pasa cuando el contexto se llena en vez de esperar que no
-pase.
-
-## Recursos
+Consulta estas fuentes solo si el recurso principal no alcanza; no son una lista de cursos obligatorios.
 
 - Anthropic, Effective context engineering for AI agents:
   <https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents>
@@ -75,9 +101,3 @@ pase.
 - Visualizacion de un LLM ejecutandose, para intuicion de tokens y atencion:
   <https://bbycroft.net/llm>
 - Prompt Engineering Guide: <https://www.promptingguide.ai/>
-
-## Siguiente
-
-- [[07 - RAG busqueda embeddings]]
-- [[08 - Agentes workflows automatizacion]]
-- [[11b - Inferencia costos y economia unitaria]]

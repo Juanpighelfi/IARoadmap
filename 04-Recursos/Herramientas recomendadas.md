@@ -6,7 +6,16 @@ tags:
 
 # Herramientas recomendadas
 
-Aprende conceptos primero, herramientas despues.
+Aprende conceptos primero, herramientas después. Esta lista es un menú por especialidad, no una lista de instalaciones obligatorias.
+
+## Selección para tu ruta personal
+
+1. Empieza con Python, `venv`, Git y la biblioteca estándar: los cinco laboratorios no requieren paquetes externos.
+2. En datos y ML, incorpora Pandas y scikit-learn cuando el ejercicio los necesite.
+3. En deep learning y visión, añade PyTorch y torchvision. Trabaja primero con datos pequeños en CPU.
+4. Para IA local y robótica, sigue las opciones y límites de [Hardware y presupuesto](Hardware%20y%20presupuesto.md); no compres equipo antes de medir una necesidad.
+
+El resto sirve de consulta para las ramas opcionales. Elige una herramienta por función y mantén esa elección durante el proyecto.
 
 ## Lenguaje y entorno
 
@@ -39,7 +48,7 @@ Aprende conceptos primero, herramientas despues.
 
 ## LLMs
 
-- Un proveedor API comercial
+- Un proveedor API comercial, opcional y con límite de gasto explícito
 - Hugging Face para modelos open source
 - Ollama o LM Studio para pruebas locales
 
@@ -76,8 +85,8 @@ Aprende conceptos primero, herramientas despues.
 ## Estudio y seguimiento
 
 - Obsidian, este vault
-- Dataview, opcional, para el tablero de [[00-MOC/Estado actual]]
-- Anki o el plugin Spaced Repetition, ver [[Repaso espaciado]]
+- Dataview, opcional, para el tablero de [Estado actual](../00-MOC/Estado%20actual.md)
+- Anki o el plugin Spaced Repetition, ver [Repaso espaciado](Repaso%20espaciado.md)
 
 ## Observabilidad y evals
 

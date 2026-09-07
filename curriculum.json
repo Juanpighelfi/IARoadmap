@@ -1,0 +1,438 @@
+{
+  "schema_version": 1,
+  "modules": [
+    {
+      "id": "00",
+      "path": "01-Niveles/00 - Orientacion y alfabetizacion en IA.md",
+      "title": "00 - Orientacion y alfabetizacion en IA",
+      "prerequisites": [],
+      "hours": [
+        4,
+        6
+      ],
+      "category": "fundamentos"
+    },
+    {
+      "id": "01",
+      "path": "01-Niveles/01 - Computacion Python Git y entorno.md",
+      "title": "01 - Computacion, Python, Git y entorno",
+      "prerequisites": [
+        "00"
+      ],
+      "hours": [
+        35,
+        60
+      ],
+      "category": "fundamentos"
+    },
+    {
+      "id": "01b",
+      "path": "01-Niveles/01b - Ingenieria asistida por IA.md",
+      "title": "01b - Ingenieria asistida por IA",
+      "prerequisites": [
+        "01"
+      ],
+      "hours": [
+        6,
+        10
+      ],
+      "category": "transversal"
+    },
+    {
+      "id": "02",
+      "path": "01-Niveles/02 - Datos SQL visualizacion y estadistica.md",
+      "title": "02 - Datos, SQL, visualizacion y estadistica practica",
+      "prerequisites": [
+        "01"
+      ],
+      "hours": [
+        25,
+        40
+      ],
+      "category": "fundamentos"
+    },
+    {
+      "id": "03",
+      "path": "01-Niveles/03 - Matematicas para ML.md",
+      "title": "03 - Matematicas para ML",
+      "prerequisites": [
+        "01"
+      ],
+      "hours": [
+        45,
+        75
+      ],
+      "category": "fundamentos"
+    },
+    {
+      "id": "03b",
+      "path": "01-Niveles/03b - Busqueda logica y planificacion.md",
+      "title": "03b - Búsqueda, lógica y planificación",
+      "prerequisites": [
+        "01"
+      ],
+      "hours": [
+        25,
+        40
+      ],
+      "category": "fundamentos"
+    },
+    {
+      "id": "04",
+      "path": "01-Niveles/04 - Machine learning clasico.md",
+      "title": "04 - Machine learning clasico",
+      "prerequisites": [
+        "02",
+        "03"
+      ],
+      "hours": [
+        40,
+        65
+      ],
+      "category": "fundamentos"
+    },
+    {
+      "id": "04b",
+      "path": "01-Niveles/04b - Incertidumbre decisiones y aprendizaje por refuerzo.md",
+      "title": "04b - Incertidumbre, decisiones y aprendizaje por refuerzo",
+      "prerequisites": [
+        "03",
+        "03b"
+      ],
+      "hours": [
+        30,
+        50
+      ],
+      "category": "fundamentos"
+    },
+    {
+      "id": "05",
+      "path": "01-Niveles/05 - Deep learning y PyTorch.md",
+      "title": "05 - Deep learning y PyTorch",
+      "prerequisites": [
+        "04"
+      ],
+      "hours": [
+        55,
+        90
+      ],
+      "category": "fundamentos"
+    },
+    {
+      "id": "05b",
+      "path": "01-Niveles/05b - Post-training aplicado.md",
+      "title": "05b - Post-training aplicado: fine-tuning, LoRA y preferencias",
+      "prerequisites": [
+        "05",
+        "06",
+        "10"
+      ],
+      "hours": [
+        30,
+        55
+      ],
+      "category": "especializacion"
+    },
+    {
+      "id": "06",
+      "path": "01-Niveles/06 - LLMs aplicados.md",
+      "title": "06 - LLMs aplicados",
+      "prerequisites": [
+        "01"
+      ],
+      "hours": [
+        20,
+        35
+      ],
+      "category": "especializacion"
+    },
+    {
+      "id": "06b",
+      "path": "01-Niveles/06b - Context engineering.md",
+      "title": "06b - Context engineering",
+      "prerequisites": [
+        "06"
+      ],
+      "hours": [
+        15,
+        25
+      ],
+      "category": "especializacion"
+    },
+    {
+      "id": "07",
+      "path": "01-Niveles/07 - RAG busqueda embeddings.md",
+      "title": "07 - RAG, busqueda y embeddings",
+      "prerequisites": [
+        "06",
+        "10"
+      ],
+      "hours": [
+        30,
+        50
+      ],
+      "category": "especializacion"
+    },
+    {
+      "id": "08",
+      "path": "01-Niveles/08 - Agentes workflows automatizacion.md",
+      "title": "08 - Agentes, workflows y automatizacion segura",
+      "prerequisites": [
+        "06",
+        "10"
+      ],
+      "hours": [
+        25,
+        45
+      ],
+      "category": "especializacion"
+    },
+    {
+      "id": "08b",
+      "path": "01-Niveles/08b - MCP y protocolos de herramientas.md",
+      "title": "08b - MCP y protocolos de herramientas",
+      "prerequisites": [
+        "08"
+      ],
+      "hours": [
+        8,
+        15
+      ],
+      "category": "especializacion"
+    },
+    {
+      "id": "09",
+      "path": "01-Niveles/09 - Multimodalidad.md",
+      "title": "09 - Multimodalidad",
+      "prerequisites": [
+        "06",
+        "10"
+      ],
+      "hours": [
+        20,
+        35
+      ],
+      "category": "especializacion"
+    },
+    {
+      "id": "09b",
+      "path": "01-Niveles/09b - Vision por computadora.md",
+      "title": "09b - Visión por computadora",
+      "prerequisites": [
+        "05"
+      ],
+      "hours": [
+        30,
+        50
+      ],
+      "category": "especializacion"
+    },
+    {
+      "id": "10",
+      "path": "01-Niveles/10 - Evaluacion seguridad gobernanza.md",
+      "title": "10 - Evaluacion, seguridad, privacidad y gobernanza",
+      "prerequisites": [
+        "01"
+      ],
+      "hours": [
+        12,
+        20
+      ],
+      "category": "transversal"
+    },
+    {
+      "id": "10b",
+      "path": "01-Niveles/10b - Error analysis y evals desde trazas.md",
+      "title": "10b - Análisis de errores y evaluación desde trazas",
+      "prerequisites": [
+        "10"
+      ],
+      "hours": [
+        12,
+        20
+      ],
+      "category": "transversal"
+    },
+    {
+      "id": "11",
+      "path": "01-Niveles/11 - MLOps LLMOps despliegue.md",
+      "title": "11 - MLOps, LLMOps, despliegue y observabilidad",
+      "prerequisites": [
+        "04",
+        "10"
+      ],
+      "hours": [
+        25,
+        45
+      ],
+      "category": "especializacion"
+    },
+    {
+      "id": "11b",
+      "path": "01-Niveles/11b - Inferencia costos y economia unitaria.md",
+      "title": "11b - Inferencia, latencia y economia unitaria",
+      "prerequisites": [
+        "06",
+        "10"
+      ],
+      "hours": [
+        15,
+        25
+      ],
+      "category": "especializacion"
+    },
+    {
+      "id": "11c",
+      "path": "01-Niveles/11c - IA local y edge.md",
+      "title": "11c - IA local y edge",
+      "prerequisites": [
+        "05",
+        "10"
+      ],
+      "hours": [
+        20,
+        35
+      ],
+      "category": "especializacion"
+    },
+    {
+      "id": "12",
+      "path": "01-Niveles/12 - Profundizacion.md",
+      "title": "12 - Profundizacion",
+      "prerequisites": [
+        "05",
+        "10"
+      ],
+      "hours": [
+        25,
+        45
+      ],
+      "category": "especializacion"
+    },
+    {
+      "id": "12b",
+      "path": "01-Niveles/12b - Capa profesional.md",
+      "title": "12b - Capa profesional",
+      "prerequisites": [
+        "01"
+      ],
+      "hours": [
+        4,
+        8
+      ],
+      "category": "transversal"
+    },
+    {
+      "id": "12c",
+      "path": "01-Niveles/12c - Robotica y sistemas embodied.md",
+      "title": "12c - Robótica y sistemas embodied",
+      "prerequisites": [
+        "03b",
+        "04b",
+        "09b",
+        "11c"
+      ],
+      "hours": [
+        40,
+        70
+      ],
+      "category": "especializacion"
+    }
+  ],
+  "routes": {
+    "personal": {
+      "title": "Mi ruta: fundamentos, IA local y robótica",
+      "path": "02-Rutas/Mi ruta personal.md",
+      "modules": [
+        "00",
+        "01",
+        "10",
+        "01b",
+        "02",
+        "03",
+        "03b",
+        "04",
+        "04b",
+        "05",
+        "09b",
+        "11c",
+        "10b",
+        "12c"
+      ]
+    },
+    "principiante": {
+      "title": "Si no sabes programar",
+      "path": "02-Rutas/Si no sabes programar.md",
+      "modules": [
+        "00",
+        "01",
+        "10",
+        "02",
+        "03",
+        "04",
+        "06"
+      ]
+    },
+    "developer": {
+      "title": "Aplicaciones con LLMs",
+      "path": "02-Rutas/Si ya eres developer.md",
+      "modules": [
+        "00",
+        "01",
+        "10",
+        "01b",
+        "06",
+        "06b",
+        "07",
+        "08",
+        "10b",
+        "11b"
+      ]
+    },
+    "ml": {
+      "title": "ML engineering",
+      "path": "02-Rutas/Si ya sabes data science o ML.md",
+      "modules": [
+        "00",
+        "01",
+        "10",
+        "02",
+        "03",
+        "04",
+        "05",
+        "11",
+        "11c"
+      ]
+    },
+    "producto": {
+      "title": "Construir un producto",
+      "path": "02-Rutas/Si estas construyendo un producto.md",
+      "modules": [
+        "00",
+        "01",
+        "10",
+        "01b",
+        "06",
+        "06b",
+        "10b",
+        "11b"
+      ]
+    },
+    "investigacion": {
+      "title": "Método de investigación en IA",
+      "path": "02-Rutas/Si quieres investigacion.md",
+      "modules": [
+        "00",
+        "01",
+        "10",
+        "02",
+        "03",
+        "03b",
+        "04",
+        "04b",
+        "05",
+        "12"
+      ]
+    }
+  }
+}

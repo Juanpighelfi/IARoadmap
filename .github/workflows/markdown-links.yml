@@ -14,3 +14,14 @@ jobs:
       - uses: DavidAnson/markdownlint-cli2-action@v17
         with:
           globs: "**/*.md"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Test roadmap tools
+        run: python -m unittest discover -s tests
+      - name: Validate roadmap
+        run: python scripts/check_roadmap.py
+      - name: Check generated catalog and routes
+        run: python scripts/build_catalog.py --check
+      - name: Test laboratories
+        run: python -m unittest discover -s 07-Laboratorios -p 'test_*.py'

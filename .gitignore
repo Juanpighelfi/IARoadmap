@@ -3,3 +3,11 @@
 .trash/
 .DS_Store
 Thumbs.db
+
+
+# Trabajo individual y artefactos reproducibles
+Mi-progreso/
+__pycache__/
+*.pyc
+.venv/
+.superpowers/

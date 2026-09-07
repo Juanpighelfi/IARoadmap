@@ -1,45 +1,23 @@
 ---
-tags:
-  - plantilla
-  - sesion
-fecha: "{{date}}"
-nivel:
+tipo: sesion
+ejemplo: true
+fecha:
+modulo:
 duracion_min: 0
 ---
 
-# Sesion {{date}}
+# Sesión de estudio
 
-## Objetivo de la sesion
+## Un objetivo concreto
 
-Una sola frase. Si no podes escribirla antes de empezar, la sesion se va a ir en leer sin rumbo.
+## Predicción o intento inicial
 
-## Modo
+## Trabajo realizado
 
-- [ ] Leer o mirar
-- [ ] Construir
-- [ ] Repasar
-- [ ] Depurar
+Resolver problemas matemáticos, depurar y evaluar también cuentan como práctica.
 
-Regla: al menos 2 de cada 3 sesiones deberian ser de construir o depurar.
+## Resultado y evidencia
 
-## Que hice
+## Ayuda usada
 
--
-
-## Resultado
-
-- [ ] Cumpli el objetivo
-- [ ] Parcial
-- [ ] No, y por esto:
-
-## Friccion
-
-Que me hizo perder tiempo: entorno, dependencias, un concepto faltante, distraccion.
-
--
-
-## Para la bitacora semanal
-
-- Construido:
-- No entendido:
-- Tarjeta de repaso a crear:
+## Próximo paso y repaso

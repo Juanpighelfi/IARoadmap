@@ -1,16 +1,46 @@
 ---
-tags:
-  - nivel
-  - agentes
-  - workflows
-  - automatizacion
-duracion: 6-10 semanas
-estado: pendiente
-inicio:
-fin:
+id: "08"
+tags: [nivel, especializacion]
+revisado: 2026-09-06
 ---
 
 # 08 - Agentes, workflows y automatizacion segura
+
+## Cómo cursarlo
+
+Consultá el [catálogo de módulos](../00-MOC/Catalogo%20de%20modulos.md) para los prerrequisitos y el rango de horas de este módulo. Las horas incluyen lectura seleccionada, práctica, corrección y primer repaso; no son una promesa de dominio ni se suman a cursos completos. El ID conserva enlaces históricos y no impone orden.
+
+**Recurso principal:** <https://www.anthropic.com/engineering/building-effective-agents>
+
+Qué estudiar: Workflows, routing y tool use; implementar primero una máquina de estados y comparar con un loop de agente.
+
+### Diagnóstico breve
+
+Para clasificar una nota y guardarla, indicá qué pasos necesitan decisión probabilística y cuáles son deterministas. Si lo resolvés sin ayuda y lo justificás, intentá directamente la tarea independiente; omitir lectura exige evidencia, no autopercepción.
+
+### Práctica guiada
+
+Construí un workflow local con dos herramientas simuladas: consultar ficha y proponer actualización. Guardar el cambio requiere aprobación explícita en la simulación; limitar pasos y reintentos.
+
+Los laboratorios numerados están en el [índice ejecutable](../07-Laboratorios/README.md). Para los demás ejercicios, la consigna de esta página es la práctica; las referencias amplían el procedimiento.
+
+### Práctica independiente
+
+Simulá timeout, llamada duplicada, argumento inválido e instrucción hostil en el resultado de consulta. Compará agente y workflow con veinte tareas iguales.
+
+### Rúbrica de salida
+
+Traza reproducible, acciones acotadas, sin escrituras duplicadas y salida segura al agotar pasos. Explicar costo y razones para usar o descartar el agente.
+
+Evaluá cuatro dimensiones: implementación correcta, comparación válida, explicación propia y transferencia a una variante. Cada una: 0 ausente/incorrecta, 1 con ayuda, 2 independiente. **Dominado:** al menos 7/8 y ninguna dimensión en 0; cualquier fuga de test o resultado inventado invalida la comparación. Los tests automáticos acreditan solo los casos que cubren.
+
+### Si no sale
+
+Si el loop no termina, poner estado terminal y presupuesto. Si repite escrituras, diseñar idempotencia antes de cambiar modelo.
+
+### Retención
+
+A los 7 días repetí una variante breve sin mirar la solución. A los 30 días reconstruí el razonamiento central. Si no sale, registrá qué olvidaste y volvé al ejercicio correspondiente; no reinicies todo el módulo. Guardá evidencia y fechas en tu [seguimiento personal](../00-MOC/Estado%20actual.md).
 
 ## Debes aprender
 
@@ -22,17 +52,17 @@ fin:
 - Seguridad: prompt injection, data exfiltration, herramientas destructivas, autorizaciones.
 - Observabilidad: traces, spans, decisiones, inputs/outputs de herramientas.
 
-## Practica
+## Práctica adicional opcional
+
+La práctica guiada y la variante de arriba constituyen el ciclo principal. Elegí una de estas extensiones solo si aporta; no se suman todas al rango de horas.
 
 - Agente que investiga un tema, cita fuentes, genera reporte y registra cada paso.
 - Workflow de documentos con OCR, extraccion estructurada, revision humana y export.
 - Agente con herramientas limitadas y politica de permisos explicita.
 
-## Criterio de salida
+## Referencias adicionales
 
-Puedes explicar cada accion del agente, reproducir sus trazas y limitar su dano cuando falla.
-
-## Recursos
+Consulta estas fuentes solo si el recurso principal no alcanza; no son una lista de cursos obligatorios.
 
 - ReAct paper: <https://arxiv.org/abs/2210.03629>
 - LangGraph docs: <https://langchain-ai.github.io/langgraph/>
@@ -40,9 +70,3 @@ Puedes explicar cada accion del agente, reproducir sus trazas y limitar su dano 
 - Anthropic, Building effective agents (la fuente de los patrones de arriba):
   <https://www.anthropic.com/engineering/building-effective-agents>
 - Hugging Face Agents Course: <https://huggingface.co/learn/agents-course>
-
-## Siguiente
-
-- [[08b - MCP y protocolos de herramientas]]
-- [[09 - Multimodalidad]]
-- [[10 - Evaluacion seguridad gobernanza]]

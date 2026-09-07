@@ -7,6 +7,21 @@ ultima vez.
 Convencion: una entrada por revision, con fecha. Las revisiones trimestrales se anotan
 aunque no cambien nada, porque "revisado y sigue vigente" tambien es informacion.
 
+## 2026-09-06
+
+### Edición de autoestudio personal
+
+- Ruta principal de fundamentos, visión, IA local y robótica; alternativas por objetivo sin módulos universales impuestos por su sufijo.
+- Diagnóstico con respuestas y variantes, rúbrica de dominio, recuperación y repaso a 7/30 días.
+- 25 módulos con prerrequisitos, selección de recurso, horas orientativas y práctica independiente; cinco módulos nuevos de búsqueda, decisiones/RL, visión, edge y robótica.
+- Cinco laboratorios Python estándar con datos sintéticos identificados, starters, soluciones explicadas y autocorrección.
+- Proyecto conductor de inspección visual de piezas y capstone privado; sin requerir otros estudiantes, usuarios externos o publicación.
+- curriculum.json como fuente de rutas/metadatos; catálogo y secuencias generados y comprobables.
+- Navegación Markdown para GitHub/Obsidian y canvas por ramas.
+- Seguimiento personal separado del material, ejemplo excluido y sin progreso inventado.
+- Revisión de formulaciones absolutas, tiempos, recursos y límites de validación; calendario legal reemplazado por fuentes primarias y consulta de aplicabilidad.
+- Validación de estructura, enlaces internos, dependencias, rutas, catálogo y laboratorios en CI; revisión de enlaces externos optativa.
+
 ## 2026-09-01
 
 ### Agregado
@@ -68,13 +83,6 @@ aunque no cambien nada, porque "revisado y sigue vigente" tambien es informacion
 
 - Primera version del vault: 13 niveles, 4 rutas, proyectos, recursos y plantillas.
 
-## Proxima revision
+## Próxima revisión
 
-Trimestral, junto con la revision de [[00-MOC/Estado actual]]. Que mirar:
-
-- Enlaces rotos, dentro y fuera del vault.
-- Fechas del EU AI Act en [[04-Recursos/Regulacion y cumplimiento]], que ya se
-  movieron mas de una vez.
-- Herramientas discontinuadas o reemplazadas en
-  [[04-Recursos/Herramientas recomendadas]].
-- Temas que dejaron de ser emergentes y ya son parte del temario base.
+Cuando la experiencia de estudio o un cambio técnico lo justifique, revisar horas, recursos y ejercicios; como referencia, una pasada trimestral. No se activa una automatización desde este documento. Registrar qué se comprobó, sin equiparar revisión de enlaces con ejecución de todos los cursos externos.

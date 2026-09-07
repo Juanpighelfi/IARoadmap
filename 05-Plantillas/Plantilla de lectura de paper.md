@@ -46,8 +46,8 @@ Solo si vas a implementarlo o si el resultado cambia una decision tuya.
 ## Que hago con esto
 
 - [ ] Nada, solo contexto
-- [ ] Una tarjeta de [[04-Recursos/Repaso espaciado]]
-- [ ] Un experimento en [[03-Proyectos/Portfolio minimo]]
+- [ ] Una tarjeta de [Repaso espaciado](../04-Recursos/Repaso%20espaciado.md)
+- [ ] Un experimento en [Portfolio minimo](../03-Proyectos/Portfolio%20minimo.md)
 - [ ] Cambiar una decision de mi producto
 
 ## Citas utiles

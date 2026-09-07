@@ -10,8 +10,7 @@ Casi todo el material enlazado en este vault esta en ingles, y eso no va a cambi
 documentacion, los papers y las fuentes primarias se publican ahi. Leer ingles tecnico
 es parte del oficio y conviene tratarlo como un nivel mas.
 
-Dicho eso, arrancar en tu idioma baja la friccion inicial y sirve para explicarle el
-tema a otra persona, que es la mejor prueba de que lo entendiste.
+Dicho eso, arrancar en tu idioma baja la friccion inicial y permite explicar el tema con tus propias palabras. Para comprobar dominio, combina esa explicación con un ejercicio nuevo sin ayuda.
 
 ## Como usar esta lista
 
@@ -29,27 +28,25 @@ fuente sigue siendo la doc del proyecto.
   <https://www.aprendemachinelearning.com/>
 - Google, curso intensivo de machine learning en espanol:
   <https://developers.google.com/machine-learning/crash-course?hl=es-419>
-- Documentacion de scikit-learn y de Python, ambas con traducciones parciales.
+- Busca la versión en español de la documentación cuando esté disponible y comprueba que corresponda a tu versión de Python o de la biblioteca.
 
 ## Material universitario
 
 - Universidad de Buenos Aires y Universidad Nacional de Cordoba publican apuntes
   abiertos de algebra lineal, probabilidad y estadistica que sirven perfecto para
-  [[01-Niveles/03 - Matematicas para ML]].
+  [03 - Matematicas para ML](../01-Niveles/03%20-%20Matematicas%20para%20ML.md).
 - Varias universidades de Espana y Latinoamerica tienen cursos abiertos de IA en
-  plataformas MOOC. Verifica la fecha: en IA, un curso de 2021 esta viejo.
+  plataformas MOOC. Verifica la fecha: en IA, la antigüedad por sí sola no invalida fundamentos; revisar sobre todo APIs, ejercicios y dependencias.
 
 ## Comunidad
 
 - Comunidades hispanohablantes de IA en Discord y Slack, utiles para preguntar y para
   encontrar con quien construir. Cambian seguido, asi que no fijo enlaces aca.
-- Meetups locales de Python y datos. La red de contactos importa tanto como el temario
-  para lo que cubre [[01-Niveles/12b - Capa profesional]].
+- Meetups locales de Python y datos. Participar es opcional y no condiciona tu avance. Consulta [12b - Capa profesional](../01-Niveles/12b%20-%20Capa%20profesional.md).
 
 ## Advertencia de vigencia
 
-El contenido en espanol sobre IA generativa envejece mas rapido que el original y a
-veces reproduce APIs que ya cambiaron. Verifica siempre contra la documentacion oficial
+Los tutoriales, en cualquier idioma, pueden usar APIs que ya cambiaron. Verifica siempre contra la documentacion oficial
 antes de copiar codigo. Si la explicacion conceptual sigue siendo buena y el codigo no
 compila, quedate con la explicacion.
 
@@ -58,4 +55,4 @@ compila, quedate con la explicacion.
 Aprende los terminos en ingles aunque estudies en espanol: embedding, fine-tuning,
 prompt, retrieval, tool calling. Traducirlos complica mas de lo que ayuda, y las
 busquedas que te van a resolver un problema real estan en ingles.
-[[04-Recursos/Glosario esencial]] usa esa convencion a proposito.
+[Glosario esencial](Glosario%20esencial.md) usa esa convencion a proposito.

@@ -1,22 +1,52 @@
 ---
-tags:
-  - nivel
-  - herramientas
-  - productividad
-  - agentic-coding
-duracion: 2-4 semanas
-estado: pendiente
-inicio:
-fin:
+id: "01b"
+tags: [nivel, transversal]
+revisado: 2026-09-06
 ---
 
 # 01b - Ingenieria asistida por IA
+
+## Cómo cursarlo
+
+Consultá el [catálogo de módulos](../00-MOC/Catalogo%20de%20modulos.md) para los prerrequisitos y el rango de horas de este módulo. Las horas incluyen lectura seleccionada, práctica, corrección y primer repaso; no son una promesa de dominio ni se suman a cursos completos. El ID conserva enlaces históricos y no impone orden.
+
+**Recurso principal:** <https://docs.github.com/en/copilot>
+
+Qué estudiar: Conceptos de asistencia de código, revisión y uso responsable. Elegir el asistente disponible; no contratar otro para cursar.
+
+### Diagnóstico breve
+
+Explicá un diff de 30 líneas: identificá entrada, salida, efectos secundarios y cómo probarías un error. Si lo resolvés sin ayuda y lo justificás, intentá directamente la tarea independiente; omitir lectura exige evidencia, no autopercepción.
+
+### Práctica guiada
+
+Pedí a tu asistente una mejora acotada de la CLI del 01. Escribí antes tres criterios de aceptación, revisá el diff y ejecutá los tests.
+
+Los laboratorios numerados están en el [índice ejecutable](../07-Laboratorios/README.md). Para los demás ejercicios, la consigna de esta página es la práctica; las referencias amplían el procedimiento.
+
+### Práctica independiente
+
+Una semana después, implementá sin IA una variante de la función modificada y compará tus decisiones.
+
+### Rúbrica de salida
+
+Conservar especificación, diff revisado, pruebas y lista de correcciones. Separar lo que hizo el asistente de lo que podés explicar y reconstruir.
+
+Evaluá cuatro dimensiones: implementación correcta, comparación válida, explicación propia y transferencia a una variante. Cada una: 0 ausente/incorrecta, 1 con ayuda, 2 independiente. **Dominado:** al menos 7/8 y ninguna dimensión en 0; cualquier fuga de test o resultado inventado invalida la comparación. Los tests automáticos acreditan solo los casos que cubren.
+
+### Si no sale
+
+Si el código funciona pero no podés modificarlo, volver al 01 y usar al asistente solo para pistas y preguntas.
+
+### Retención
+
+A los 7 días repetí una variante breve sin mirar la solución. A los 30 días reconstruí el razonamiento central. Si no sale, registrá qué olvidaste y volvé al ejercicio correspondiente; no reinicies todo el módulo. Guardá evidencia y fechas en tu [seguimiento personal](../00-MOC/Estado%20actual.md).
 
 Transversal. Se aprende una vez, temprano, y multiplica todos los niveles siguientes.
 No es "usar ChatGPT para programar": es aprender a dirigir, revisar y acotar a un
 agente que escribe codigo en tu repo.
 
-Va despues de [[01 - Computacion Python Git y entorno]] a proposito. Antes de saber
+Va despues de [01 - Computacion Python Git y entorno](01%20-%20Computacion%20Python%20Git%20y%20entorno.md) a proposito. Antes de saber
 Git, tests y estructura de proyecto, un asistente de codigo acelera la produccion de
 codigo que no podes evaluar, que es la peor combinacion posible.
 
@@ -36,7 +66,9 @@ codigo que no podes evaluar, que es la peor combinacion posible.
 - Higiene: secretos fuera del contexto, permisos de herramientas, revisar diffs antes
   de commitear, no dejar que un agente toque `main`.
 
-## Practica
+## Práctica adicional opcional
+
+La práctica guiada y la variante de arriba constituyen el ciclo principal. Elegí una de estas extensiones solo si aporta; no se suman todas al rango de horas.
 
 - Configurar el archivo de contexto de tu repo con comandos, convenciones y limites.
   Medir la diferencia en calidad antes y despues sobre la misma tarea.
@@ -48,20 +80,16 @@ codigo que no podes evaluar, que es la peor combinacion posible.
 - Revisar un diff generado de 200+ lineas y anotar cada cosa que corregiste. Esa lista
   es tu mapa de en que no confiar.
 
-## Criterio de salida
-
-Podes delegar una tarea acotada, revisar el diff con criterio y explicar cada linea
-del resultado. Y sabes nombrar tres tipos de tarea donde delegar te sale mas caro
-que hacerlo a mano.
-
 ## Advertencia
 
 Este nivel tiene un modo de fallo propio: sentir que aprendiste porque el codigo
 funciona. El criterio de salida de todos los demas niveles sigue siendo tuyo, no del
 asistente. Si no podes reimplementar a mano lo esencial de lo que entregaste, no
-cumpliste el nivel. Ver [[04-Recursos/Anti-roadmap]].
+cumpliste el nivel. Ver [Anti-roadmap](../04-Recursos/Anti-roadmap.md).
 
-## Recursos
+## Referencias adicionales
+
+Consulta estas fuentes solo si el recurso principal no alcanza; no son una lista de cursos obligatorios.
 
 - Claude Code docs: <https://docs.claude.com/en/docs/claude-code/overview>
 - Cursor docs: <https://docs.cursor.com/>
@@ -70,8 +98,3 @@ cumpliste el nivel. Ver [[04-Recursos/Anti-roadmap]].
   <https://www.anthropic.com/engineering/claude-code-best-practices>
 - Simon Willison sobre programar con LLMs:
   <https://simonwillison.net/2025/Mar/11/using-llms-for-code/>
-
-## Siguiente
-
-- [[02 - Datos SQL visualizacion y estadistica]]
-- [[06 - LLMs aplicados]]

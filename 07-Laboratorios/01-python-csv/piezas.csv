@@ -1,0 +1,5 @@
+pieza_id,material,peso_g,ancho_mm,alto_mm,profundidad_mm
+P-001,PLA,12.5,20,10,3
+P-002,PETG,18.2,25,12,4
+P-002,ABS,-2,30,15,5
+P-004,MADERA,9,10,10,NaN

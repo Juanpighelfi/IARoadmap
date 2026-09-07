@@ -1,37 +1,18 @@
----
-tags:
-  - recursos
-  - criterio
----
+# Anti-roadmap personal
 
-# Anti-roadmap
-
-Que evitar:
-
-- Aprender 20 frameworks antes de construir un proyecto.
-- Empezar con fine-tuning sin tener evals ni datos de calidad.
-- Usar agentes donde un workflow determinista bastaba.
-- Medir prompts solo con impresion subjetiva.
-- Ignorar costos, latencia, privacidad y logs.
-- Pensar que RAG soluciona datos malos.
-- Creer que saber usar ChatGPT equivale a saber IA.
-- Saltar fundamentos si quieres trabajar en ML engineering o investigacion.
-- Perseguir cada modelo nuevo sin aprender patrones estables.
-- Estudiar y construir por separado, pagando dos veces por el mismo aprendizaje.
-- Fine-tunear antes de agotar prompting, structured outputs y retrieval.
-- Escribir evals desde la imaginacion en vez de desde trazas reales.
-- Delegar codigo a un asistente y confundir que funcione con haberlo aprendido.
-- Seguir un plan de 12 meses sin registrar las horas reales.
-
-## Que hacer en su lugar
-
-Cada linea de arriba tiene su reemplazo concreto en el vault:
-
-| En vez de | Hace esto |
+| Trampa | Qué hacer |
 | --- | --- |
-| Perseguir cada lanzamiento | [[Sistema de actualizacion]]: cadencia fija, pocas fuentes, una pregunta filtro |
-| Estudiar y construir por separado | [[02-Rutas/Si estas construyendo un producto]] |
-| Fine-tunear por reflejo | La seccion "cuando NO fine-tunear" de [[01-Niveles/05b - Post-training aplicado]] |
-| Evals imaginados | [[01-Niveles/10b - Error analysis y evals desde trazas]] |
-| Delegar sin entender | El criterio de salida de [[01-Niveles/01b - Ingenieria asistida por IA]] |
-| Un plan sin medicion | [[00-MOC/Estado actual]] y [[06-Bitacora/Como usar la bitacora]] |
+| Coleccionar cursos | Un recurso principal y un ejercicio por módulo |
+| Saltar fundamentos por usar asistentes | Diagnóstico y variante independiente |
+| Medir progreso por horas o videos | Evidencia de implementación, explicación y transferencia |
+| Perseguir un score alto | Revisar split, baseline, incertidumbre y costo del error |
+| Exigir que todo experimento mejore | Aceptar resultados negativos con comparación válida |
+| Entrenar antes de definir evaluación | Reservar datos y criterios antes del cambio |
+| Usar agentes por reflejo | Comparar con un workflow simple |
+| Comprar GPU antes del primer ejercicio | Laboratorios CPU y presupuesto medido |
+| Hacer todos los módulos b/c | Elegir según dependencias y necesidad |
+| Convertir el estudio en obligación pública | Notas privadas y comunicación opcional |
+| Reiniciar el roadmap al trabarte | Aislar el prerrequisito y rehacer un ejercicio pequeño |
+| Tratar ejemplos sintéticos como resultados propios | Etiquetar procedencia y conservar límites |
+
+Los casos simulados sirven antes de tener uso real. Después, complementalos con trazas propias. Ninguna fuente de casos reemplaza todas las demás.

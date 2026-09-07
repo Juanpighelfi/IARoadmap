@@ -1,53 +1,31 @@
 ---
-tags:
-  - plantilla
-  - bitacora
-semana: "{{YYYY-Www}}"
-nivel:
+tipo: bitacora
+ejemplo: true
+semana:
 horas: 0
 ---
 
-# Semana {{YYYY-Www}}
+# Bitácora semanal
 
-## Nivel en curso
+Copiar a `Mi-progreso/AAAA-Wnn.md`, completar semana y cambiar `ejemplo` a `false` cuando sea un registro real. Las cero horas son un valor válido, no un fallo.
 
-## Horas reales
-
-| Dia | Horas | En que |
+| Actividad | Horas reales | Evidencia |
 | --- | --- | --- |
-| Lun | | |
-| Mar | | |
-| Mie | | |
-| Jue | | |
-| Vie | | |
-| Sab | | |
-| Dom | | |
+| Teoría/problemas | | |
+| Implementación | | |
+| Corrección/depuración | | |
+| Repaso/registro | | |
 
-Total: 0 h. Objetivo: 8-10 h.
+## Qué puedo resolver ahora
 
-## Que construi
+## Dónde necesité ayuda
 
-Codigo, commits o notas concretas. Si no hay artefacto, no cuenta como construido.
+## Qué me bloqueó
 
--
+Incluí entorno, confusión conceptual o carga de trabajo si afectaron el estudio.
 
-## Que no entendi
+## Próxima sesión
 
-Lo que quedo turbio. Esto es lo mas valioso de la bitacora: es la lista de la que salen
-las tarjetas de [[04-Recursos/Repaso espaciado]] y los temas a repasar.
+Una tarea concreta, pequeña y vinculada al bloqueo o al siguiente criterio de salida.
 
--
-
-## Decisiones
-
-Que elegi y por que. Sirve para no volver a discutir lo mismo en dos meses.
-
--
-
-## Semana que viene
-
-- [ ]
-
-## Enlaces
-
--
+## Repasos previstos y realizados

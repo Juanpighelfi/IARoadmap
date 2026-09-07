@@ -1,31 +1,38 @@
 ---
-tags:
-  - plantilla
-  - proyecto
+tipo: proyecto
+ejemplo: true
 ---
 
-# {{nombre del proyecto}}
+# Proyecto
 
-## Problema
+## Problema y alcance
 
-## Usuario
+Entrada, salida, necesidad propia y límites.
 
-## Alcance
+## Hipótesis y baseline
 
-## Arquitectura
+Qué espero mejorar y con qué comparación.
 
-## Datos y herramientas
+## Datos y partición
 
-## Evals
+Procedencia, licencia, grupos, tiempo, etiquetas, train/validación/test.
 
-- [ ] Casos deterministas
-- [ ] Casos semanticos
-- [ ] Casos de seguridad
+## Entorno y presupuesto
 
-## Riesgos
+Versiones, hardware, tiempo máximo y gasto permitido.
 
-## Demo
+## Reproducción
 
-## Postmortem
+Comando, dependencias y ubicación de artefactos.
 
-## Proximos pasos
+## Resultados
+
+Métricas, variabilidad, fallos por segmento y resultados negativos.
+
+## Riesgos y límites
+
+Qué no comprobé, qué datos faltan y qué no debe hacer el sistema.
+
+## Aprendizaje
+
+Decisiones propias, ayuda usada, variante independiente y repaso posterior.

@@ -6,6 +6,8 @@ tags:
 
 # Fuentes consultadas
 
+Inventario histórico y de consulta. Para elegir qué estudiar ahora, usá la [Guía de recursos](Guia%20de%20recursos.md), con selección, acceso y límites de la revisión. No todos los enlaces de esta lista se verificaron nuevamente.
+
 ## Roadmaps
 
 - AMAI-GmbH AI Expert Roadmap: <https://github.com/AMAI-GmbH/AI-Expert-Roadmap>
@@ -52,12 +54,12 @@ tags:
 - EU AI Act, explorador del texto: <https://artificialintelligence-act.eu/>
 - Comision Europea, marco regulatorio de IA:
   <https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai>
-- Ver [[Regulacion y cumplimiento]] para el detalle de fechas y obligaciones.
+- Ver [Regulacion y cumplimiento](Regulacion%20y%20cumplimiento.md) para el detalle de fechas y obligaciones.
 
 ## Practica y actualizacion
 
 - Kaggle: <https://www.kaggle.com/>
-- Papers with Code: <https://paperswithcode.com/>
+- Hugging Face Papers: <https://huggingface.co/papers/>
 - Simon Willison: <https://simonwillison.net/>
 - Sebastian Raschka, Ahead of AI: <https://magazine.sebastianraschka.com/>
-- Ver [[Sistema de actualizacion]] para la cadencia y el criterio de filtrado.
+- Ver [Sistema de actualizacion](Sistema%20de%20actualizacion.md) para la cadencia y el criterio de filtrado.

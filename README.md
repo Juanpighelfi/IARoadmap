@@ -1,74 +1,47 @@
-# Roadmap de IA 2026
+# Mi roadmap de inteligencia artificial
 
-Repositorio/vault de Obsidian para estudiar inteligencia artificial desde cero hasta niveles avanzados.
+Plan de estudio personal para entender IA, construir sistemas y profundizar en **modelos locales, visión y robótica**. Los proyectos y las autoevaluaciones permiten ajustar el recorrido sin depender de otros estudiantes, una audiencia o una fecha de graduación.
 
-El contenido esta organizado para tres usos:
+## Empezar
 
-- Leerlo en GitHub como documentacion.
-- Abrirlo en Obsidian como vault navegable.
-- Usarlo como plan de estudio con proyectos, criterios de salida y rutas por perfil.
+1. Abrí [Empezar aquí](00-MOC/Empezar%20aqui.md): primera sesión, diagnóstico y elección del siguiente paso.
+2. Seguí [Mi ruta personal](02-Rutas/Mi%20ruta%20personal.md). No hace falta completar todas las especializaciones.
+3. Hacé los [laboratorios con autocorrección](07-Laboratorios/README.md). Los primeros funcionan con Python y biblioteca estándar, sin GPU, cuenta ni API paga.
+4. Registrá evidencia en [Estado actual](00-MOC/Estado%20actual.md). Una plantilla vacía no equivale a progreso realizado.
 
-## Abrir en Obsidian
+## Cómo está organizado
 
-1. Instala Obsidian: <https://obsidian.md/>
-2. Abre esta carpeta como vault: `IARoadmap`.
-3. Empieza por [Roadmap de IA 2026](Roadmap%20de%20IA%202026.md).
-4. Abre [Mapa visual.canvas](00-MOC/Mapa%20visual.canvas) para ver el recorrido completo.
-5. Usa el grafo local de Obsidian para ver relaciones entre niveles, rutas y recursos.
-6. Marca donde estas en [Estado actual](00-MOC/Estado%20actual.md) y abre tu primera
-   entrada de [bitacora](06-Bitacora/Como%20usar%20la%20bitacora.md).
+| Necesidad | Abrir |
+| --- | --- |
+| Saber qué hacer hoy | [Empezar aquí](00-MOC/Empezar%20aqui.md) |
+| Ver dependencias y horas | [Catálogo de módulos](00-MOC/Catalogo%20de%20modulos.md) |
+| Entender las ramas | [Mapa de estudio](00-MOC/Mapa%20de%20estudio.md) |
+| Construir algo propio | [Inspección visual de piezas](03-Proyectos/Inspeccion%20visual%20de%20piezas.md) |
+| Organizar el año | [Plan de 12 meses](03-Proyectos/Plan%20de%2012%20meses.md) |
+| Comprobar aprendizaje | [Autoevaluación y dominio](04-Recursos/Autoevaluacion%20y%20dominio.md) |
+| Elegir material | [Guía de recursos](04-Recursos/Guia%20de%20recursos.md) |
+| Navegar todo | [Índice del vault](00-MOC/Indice%20del%20vault.md) |
 
-## Estructura
+El orden real está en las rutas, no en el número del archivo. Los sufijos `b` y `c` conservan nombres y enlaces; no significan que un tema sea obligatorio u opcional. La evaluación empieza temprano. El fine-tuning, MCP y la publicación profesional entran cuando aportan a la ruta elegida.
 
-- `Roadmap de IA 2026.md`: entrada principal.
-- `00-MOC/`: mapas de contenido y canvas.
-- `01-Niveles/`: ruta progresiva por niveles.
-- `02-Rutas/`: especializaciones segun objetivo.
-- `03-Proyectos/`: portfolio y proyectos capstone.
-- `04-Recursos/`: fuentes, herramientas, glosario, regulacion y metodo de estudio.
-- `05-Plantillas/`: plantillas para seguimiento.
-- `06-Bitacora/`: registro semanal de horas, avances y dudas.
-- `CHANGELOG.md`: que se agrego y cuando se reviso por ultima vez.
+## Usar con GitHub u Obsidian
 
-## Filosofia
+Podés leer todo en GitHub. Para Obsidian, descargá o cloná este repositorio y abrí la carpeta como vault. Los enlaces Markdown relativos funcionan en ambos. El [Canvas](00-MOC/Mapa%20visual.canvas) muestra las ramas en Obsidian; el mapa Markdown ofrece una alternativa en GitHub.
 
-La version 2026 no reemplaza fundamentos por herramientas de moda. Ordena el aprendizaje en capas:
+El material curricular permanece separado de tu trabajo: guardá bitácoras, soluciones y resultados propios en `Mi-progreso/`, ignorado por Git. No subas fotografías, credenciales o datos personales por accidente. Si querés versionar un proyecto, usá un repositorio elegido para ese fin.
 
-1. Alfabetizacion en IA.
-2. Builder de IA.
-3. AI engineer.
-4. ML engineer.
-5. Investigador o especialista.
+## Mantenimiento
 
-La regla central: construir desde temprano, medir desde temprano y profundizar teoria cuando mejore tus decisiones.
+Los comandos se ejecutan desde la raíz, con Python 3.11 o posterior:
 
-Los niveles con sufijo `b` (01b, 05b, 06b, 08b, 10b, 11b, 12b) se agregaron en la
-revision de septiembre de 2026. No son material opcional: cubren context engineering,
-MCP, error analysis desde trazas reales, economia unitaria de la inferencia,
-post-training y la capa profesional, que es lo que separa un demo de un sistema que
-aguanta usuarios.
+```bash
+python scripts/check_roadmap.py
+python scripts/build_catalog.py --check
+python -m unittest discover -s tests
+python -m unittest discover -s 07-Laboratorios -p 'test_*.py'
+python scripts/estimate.py --route personal --hours 8
+```
 
-## Como se usa
+`curriculum.json` es la fuente única de módulos, prerrequisitos, rutas y rangos de horas. Después de editarlo, ejecutá `python scripts/build_catalog.py`. Las horas estiman un ciclo de práctica y deben recalibrarse con tu experiencia; no acreditan aprendizaje.
 
-El roadmap dice a donde ir. [Estado actual](00-MOC/Estado%20actual.md) dice donde
-estas y la [bitacora](06-Bitacora/Como%20usar%20la%20bitacora.md) dice a que ritmo.
-Una entrada por semana, cinco minutos. Sin ese registro, un plan de 12 meses no se
-puede corregir porque no se puede medir.
-
-## Navegacion en GitHub
-
-- [Indice del vault](00-MOC/Indice%20del%20vault.md)
-- [Estado actual](00-MOC/Estado%20actual.md)
-- [Mapa de estudio](00-MOC/Mapa%20de%20estudio.md)
-- [Analisis de roadmaps](00-MOC/Analisis%20de%20roadmaps.md)
-- [Plan de 12 meses](03-Proyectos/Plan%20de%2012%20meses.md)
-- [Portfolio minimo](03-Proyectos/Portfolio%20minimo.md)
-- [Anti-roadmap](04-Recursos/Anti-roadmap.md)
-- [Fuentes consultadas](04-Recursos/Fuentes%20consultadas.md)
-- [Regulacion y cumplimiento](04-Recursos/Regulacion%20y%20cumplimiento.md)
-- [Sistema de actualizacion](04-Recursos/Sistema%20de%20actualizacion.md)
-- [Registro de cambios](CHANGELOG.md)
-
-## Licencia
-
-MIT. Ver `LICENSE`.
+Cambios en [CHANGELOG](CHANGELOG.md). Licencia [MIT](LICENSE).

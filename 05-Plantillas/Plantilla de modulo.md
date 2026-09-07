@@ -1,28 +1,38 @@
 ---
-tags:
-  - plantilla
+tipo: nota-modulo
+ejemplo: true
+modulo:
+estado: pendiente
+dominio: sin evaluar
 ---
 
-# {{titulo}}
+# Mi trabajo en un módulo
 
-## Objetivo
+## Diagnóstico y prerrequisitos
 
-## Debo aprender
+Qué pude resolver sin ayuda; evidencia de conocimientos previos.
 
-- [ ]
+## Recurso seleccionado
 
-## Recursos
+Fuente, capítulos, idioma, acceso y qué voy a omitir.
 
--
+## Intento y predicción
 
-## Practica
+Antes de ejecutar: qué espero que ocurra y por qué.
 
-- [ ]
+## Práctica y corrección
 
-## Criterio de salida
+Comando, datos, salida, error y cambio realizado. Ayuda del asistente o solución consultada.
 
-## Notas
+## Rúbrica
 
-## Enlaces
+| Dimensión | 0–2 | Evidencia |
+| --- | --- | --- |
+| Implementación | | |
+| Comparación válida | | |
+| Explicación propia | | |
+| Transferencia | | |
 
--
+## Recuperación y repaso
+
+Qué ejercicio rehago si falla; fecha y resultado del repaso a 7 y 30 días.

@@ -1,22 +1,52 @@
 ---
-tags:
-  - nivel
-  - fine-tuning
-  - peft
-  - post-training
-duracion: 4-8 semanas
-estado: pendiente
-inicio:
-fin:
+id: "05b"
+tags: [nivel, especializacion]
+revisado: 2026-09-06
 ---
 
 # 05b - Post-training aplicado: fine-tuning, LoRA y preferencias
 
-Llena el hueco entre consumir modelos por API ([[06 - LLMs aplicados]]) y construirlos
-desde cero ([[12 - Profundizacion]]). El [[03-Proyectos/Portfolio minimo]] pide una
+## Cómo cursarlo
+
+Consultá el [catálogo de módulos](../00-MOC/Catalogo%20de%20modulos.md) para los prerrequisitos y el rango de horas de este módulo. Las horas incluyen lectura seleccionada, práctica, corrección y primer repaso; no son una promesa de dominio ni se suman a cursos completos. El ID conserva enlaces históricos y no impone orden.
+
+**Recurso principal:** <https://huggingface.co/docs/trl/>
+
+Qué estudiar: SFT Trainer y DPO Trainer como consulta; completar primero el experimento SFT. DPO es extensión optativa. Vincular con PEFT solo cuando la memoria lo requiera.
+
+### Diagnóstico breve
+
+Describí una tarea donde faltan hechos y otra donde falla el comportamiento. Diseñá una comparación justa entre prompt y ajuste. Si lo resolvés sin ayuda y lo justificás, intentá directamente la tarea independiente; omitir lectura exige evidencia, no autopercepción.
+
+### Práctica guiada
+
+Elegí una tarea de extracción. Curá un conjunto pequeño, separá entrenamiento/validación/test antes de generar variantes, medí prompting y solo entonces ensayá SFT o LoRA si hay presupuesto.
+
+Los laboratorios numerados están en el [índice ejecutable](../07-Laboratorios/README.md). Para los demás ejercicios, la consigna de esta página es la práctica; las referencias amplían el procedimiento.
+
+### Práctica independiente
+
+Probá formatos o ejemplos fuera de distribución y controles de capacidades generales. Si no entrenás, entregá un estudio de viabilidad con datos y baseline, sin marcar la práctica de entrenamiento como realizada.
+
+### Rúbrica de salida
+
+Informe de datos, costo, comparación fija y regresiones medidas; aprobar el experimento aunque no haya mejora o pérdida detectable. Para acreditar entrenamiento debe existir una corrida reproducible.
+
+Evaluá cuatro dimensiones: implementación correcta, comparación válida, explicación propia y transferencia a una variante. Cada una: 0 ausente/incorrecta, 1 con ayuda, 2 independiente. **Dominado:** al menos 7/8 y ninguna dimensión en 0; cualquier fuga de test o resultado inventado invalida la comparación. Los tests automáticos acreditan solo los casos que cubren.
+
+### Si no sale
+
+Si el eval está contaminado, rehacer split por origen. Si el costo impide el experimento, reducir modelo/dataset o posponer el módulo con motivo.
+
+### Retención
+
+A los 7 días repetí una variante breve sin mirar la solución. A los 30 días reconstruí el razonamiento central. Si no sale, registrá qué olvidaste y volvé al ejercicio correspondiente; no reinicies todo el módulo. Guardá evidencia y fechas en tu [seguimiento personal](../00-MOC/Estado%20actual.md).
+
+Llena el hueco entre consumir modelos por API ([06 - LLMs aplicados](06%20-%20LLMs%20aplicados.md)) y construirlos
+desde cero ([12 - Profundizacion](12%20-%20Profundizacion.md)). El [Portfolio minimo](../03-Proyectos/Portfolio%20minimo.md) pide una
 pieza de fine-tuning o PEFT: este es el nivel que la habilita.
 
-Requiere [[05 - Deep learning y PyTorch]]. Sin training loop, dataloaders y debugging
+Requiere [05 - Deep learning y PyTorch](05%20-%20Deep%20learning%20y%20PyTorch.md). Sin training loop, dataloaders y debugging
 de entrenamiento, un fine-tuning es una receta copiada que no vas a poder diagnosticar
 cuando salga mal.
 
@@ -25,22 +55,22 @@ cuando salga mal.
 Esta seccion va antes que el temario a proposito, porque la respuesta correcta suele
 estar aca.
 
-Antes de entrenar, agota en este orden:
+Antes de entrenar, compará las alternativas pertinentes; no todas aplican a todos los problemas:
 
 1. Mejor prompt y mejores ejemplos en contexto.
 2. Structured outputs con validacion y reintentos.
-3. Recuperacion ([[07 - RAG busqueda embeddings]]) si el problema es que al modelo le
+3. Recuperacion ([07 - RAG busqueda embeddings](07%20-%20RAG%20busqueda%20embeddings.md)) si el problema es que al modelo le
    falta informacion.
 4. Un modelo mas capaz, si el costo lo permite.
 
-Fine-tunear tiene sentido cuando queres **forma**, no **conocimiento**: un formato o un
+Fine-tunear puede adaptar comportamiento, estilo y desempeño en tareas de dominio; para hechos cambiantes, preferí recuperación verificable. Casos útiles: un formato o un
 estilo muy especifico, un dominio con jerga propia, una tarea de clasificacion o
 extraccion muy repetida que queres correr barata en un modelo chico, o latencia y costo
-que un modelo grande no te da. No sirve para meter hechos nuevos de forma confiable, y
+que un modelo grande no te da. No conviene tratarlo como una base de datos de hechos actualizables; además,
 sin evals previos no vas a poder demostrar que mejoro nada.
 
 Regla: si no tenes un eval que corra antes y despues, no estas fine-tuneando, estas
-adivinando. Ver [[10 - Evaluacion seguridad gobernanza]].
+adivinando. Ver [10 - Evaluacion seguridad gobernanza](10%20-%20Evaluacion%20seguridad%20gobernanza.md).
 
 ## Debes aprender
 
@@ -62,30 +92,27 @@ adivinando. Ver [[10 - Evaluacion seguridad gobernanza]].
 - Costos: horas de GPU, alquiler frente a API de fine-tuning gestionada, y el costo
   real de mantener un modelo propio cuando salga la proxima version base.
 - Despliegue: adaptadores LoRA servidos sobre un modelo base, versionado de pesos y
-  rollback. Conecta con [[11 - MLOps LLMOps despliegue]] y
-  [[11b - Inferencia costos y economia unitaria]].
+  rollback. Conecta con [11 - MLOps LLMOps despliegue](11%20-%20MLOps%20LLMOps%20despliegue.md) y
+  [11b - Inferencia costos y economia unitaria](11b%20-%20Inferencia%20costos%20y%20economia%20unitaria.md).
 
-## Practica
+## Práctica adicional opcional
 
-- Tomar una tarea real donde el prompting ya llego a su techo, medirla con un eval de
+La práctica guiada y la variante de arriba constituyen el ciclo principal. Elegí una de estas extensiones solo si aporta; no se suman todas al rango de horas.
+
+- Tomar una tarea con una limitación observada del prompting, medirla con un eval de
   50 casos, y recien entonces fine-tunear. Reportar la diferencia con numeros.
 - LoRA sobre un modelo abierto chico para una tarea de extraccion estructurada.
   Comparar contra el mismo modelo con prompting y contra un modelo grande por API:
   calidad, latencia y costo por 1000 requests.
-- Construir el dataset a mano: 300 ejemplos curados, con criterio de anotacion escrito
+- Construir un piloto de dataset curado, con criterio de anotación escrito
   y revision de duplicados y contaminacion.
-- Un experimento de DPO sobre pares de preferencia propios, aunque sea pequeno, para
+- Extensión opcional: un experimento de DPO sobre pares de preferencia propios para
   entender que los datos de preferencia son el cuello de botella y no el algoritmo.
-- Documentar un caso donde el fine-tuning **no** mejoro nada. Es el resultado mas
-  instructivo del nivel y va en el informe.
+- Documentar si el fine-tuning mejoró, no cambió o empeoró el resultado; no fabricar un resultado negativo para cumplir una consigna.
 
-## Criterio de salida
+## Referencias adicionales
 
-Podes justificar con datos por que fine-tuneaste en lugar de las cuatro alternativas
-mas baratas, mostrar la mejora medida sobre un eval fijo, y explicar que capacidad
-perdio el modelo a cambio.
-
-## Recursos
+Consulta estas fuentes solo si el recurso principal no alcanza; no son una lista de cursos obligatorios.
 
 - Hugging Face, curso de LLMs y capitulo de fine-tuning:
   <https://huggingface.co/learn/llm-course>
@@ -98,9 +125,3 @@ perdio el modelo a cambio.
   <https://magazine.sebastianraschka.com/>
 - Unsloth, recetas practicas de fine-tuning eficiente:
   <https://unsloth.ai/docs>
-
-## Siguiente
-
-- [[06 - LLMs aplicados]]
-- [[11b - Inferencia costos y economia unitaria]]
-- [[12 - Profundizacion]]

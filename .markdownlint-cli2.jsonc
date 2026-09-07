@@ -5,6 +5,10 @@
     "MD041": false
   },
   "ignores": [
-    ".obsidian/**"
+    ".obsidian/**",
+    "Mi-progreso/**",
+    ".venv/**",
+    "node_modules/**"
   ]
 }
+

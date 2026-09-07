@@ -1,38 +1,14 @@
----
-tags:
-  - proyectos
-  - portfolio
----
+# Evidencias mínimas por ruta
 
-# Portfolio minimo
+El portfolio es tu archivo de aprendizaje. Puede ser privado. No hay obligación de publicar, vender o crear varios productos distintos.
 
-## Builder
+| Ruta | Evidencias |
+| --- | --- |
+| Personal | Laboratorios fundamentales; inspección visual con split válido; benchmark local; simulación de robot si completaste esa extensión |
+| LLMs | Extracción validada; RAG con evidencia/abstención; workflow con trazas y límites; comparación calidad/costo |
+| ML | Pipeline reproducible, modelo pequeño entrenado, evaluación independiente y servicio recuperable |
+| Investigación | Componente implementado, reproducción acotada, ablación e informe de límites |
 
-- 1 app con LLM API.
-- 1 automatizacion util.
-- 1 README claro con demo.
+Un proyecto puede cubrir varias evidencias si cada capacidad está identificada. Fine-tuning no es requisito universal de ML engineer; entra si tu especialización implica adaptar modelos. Una publicación es una opción de comunicación, no una prueba necesaria de dominio.
 
-## AI engineer
-
-- 1 app con structured outputs y tool calling.
-- 1 RAG con citas y evals.
-- 1 agente con trazas y permisos.
-- 1 deploy con CI/CD, monitoreo y costos.
-
-## ML engineer
-
-- 1 modelo clasico con pipeline reproducible.
-- 1 modelo deep learning con PyTorch.
-- 1 fine-tuning o PEFT.
-- 1 sistema servido con monitoreo y rollback.
-
-## Investigador
-
-- 1 implementacion desde cero de un componente clave.
-- 1 reproduccion parcial de paper.
-- 1 benchmark propio.
-- 1 informe tecnico con limites y resultados negativos.
-
-## Plantilla
-
-Usa [[05-Plantillas/Plantilla de proyecto]] para documentar cada proyecto.
+Usá la [plantilla de proyecto](../05-Plantillas/Plantilla%20de%20proyecto.md) y la [rúbrica de capstone](Capstone.md).

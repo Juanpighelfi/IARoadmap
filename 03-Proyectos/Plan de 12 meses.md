@@ -1,114 +1,33 @@
----
-tags:
-  - proyectos
-  - plan
-  - 12-meses
----
-
 # Plan de 12 meses
 
-Pensado para 8 a 10 horas por semana.
+Doce meses son un horizonte de organización, no una promesa de completar toda la IA. La ruta personal tiene rangos en horas en el [catálogo](../00-MOC/Catalogo%20de%20modulos.md). Incluyen lectura seleccionada, práctica, corrección y primer repaso; no se agregan cursos completos por encima de esas horas.
 
-## Antes de empezar
+## Calcular con tu disponibilidad
 
-- Abri [[00-MOC/Estado actual]] y marca el nivel donde arrancas.
-- Lee [[06-Bitacora/Como usar la bitacora]]. Una entrada por semana, sin excepciones.
-- Elegi una ruta de `02-Rutas/`. Si ya tenes un producto en marcha, la ruta es
-  [[02-Rutas/Si estas construyendo un producto]] y este plan se reordena bastante.
+```bash
+python scripts/estimate.py --route personal --hours 8
+```
 
-Una advertencia aritmetica: el plan supone 8-10 h semanales. Si tu promedio real de las
-primeras 4 semanas es 5, no te exijas el plan de 12 meses: ajustalo a 20. Ese numero
-sale de la bitacora, no de la intencion.
+La fórmula inicial es horas pendientes / horas semanales disponibles. A 8 h/semana, 52 semanas ofrecen 416 horas antes de vacaciones o interrupciones. A 5 h son 260; a 10 h, 520. Recalibrá el rango después de cuatro semanas reales y reservá margen para semanas sin estudio. Una materia de la carrera puede reemplazar parte de un módulo cuando acreditás sus ejercicios.
 
-## Continuo, todos los meses
+## Hitos del año, en orden de dependencia
 
-- Una entrada semanal de bitacora.
-- 15-20 min, 3 veces por semana, de [[04-Recursos/Repaso espaciado]].
-- Una pasada semanal por las fuentes de [[04-Recursos/Sistema de actualizacion]].
-- Desde el mes 3, un texto publico por mes. Ver [[01-Niveles/12b - Capa profesional]].
+| Hito | Qué hacer | Cuándo avanzar |
+| --- | --- | --- |
+| Entrada | Diagnóstico, Python, evaluación inicial e IA asistida | CLI y autocorrección; sabés revisar tu código |
+| Fundamentos | Datos, matemáticas y búsqueda | Joins, gradiente y camino óptimo explicados y comprobados |
+| Aprendizaje | ML clásico, decisiones/RL y DL | Split válido, baseline, Bellman y entrenamiento depurado |
+| Proyecto visual | Visión, inferencia local y análisis de errores | Resultado en piezas reservadas y latencia medida |
+| Extensión física | Robótica en simulación | Planificación/control probados con ruido y retardo |
 
-## Mes 1
+Si al terminar el año llegás al proyecto visual con dominio demostrado, el plan funciona. Robótica puede continuar el año siguiente. Si el diagnóstico acredita una base sólida, adelantá los hitos sin repetir contenidos por calendario.
 
-- Orientacion, Python, Git, entorno.
-- [[01-Niveles/01b - Ingenieria asistida por IA]] en la segunda quincena.
-- Proyecto: CLI de procesamiento de texto con tests.
+## Semana orientativa
 
-## Mes 2
+Con 8 horas: 2 h de teoría seleccionada, 4 h de ejercicio/proyecto, 1 h de corrección y 1 h de repaso/registro. Adaptá la proporción: derivar y resolver problemas matemáticos también es práctica. No hay un porcentaje universal que obligue a escribir código cuando necesitás comprender una demostración.
 
-- Datos, SQL, Pandas, visualizacion.
-- Proyecto: analisis de dataset y reporte.
+Las lecturas de actualidad, pruebas de herramientas y publicaciones salen de ese mismo presupuesto. Durante Python o matemáticas no hace falta leer un paper nuevo cada semana. Si la semana es corta, mantené un ejercicio y un repaso; no agregues deuda por no publicar.
 
-## Mes 3
+## Evitar duplicación
 
-- Matematicas practica y ML clasico.
-- Proyecto: modelo predictivo con baseline y metricas, comparado contra el leaderboard
-  de una competencia de Kaggle ya cerrada.
-- Primer texto publico.
-
-## Mes 4
-
-- Deep learning basico con PyTorch o fast.ai.
-- Proyecto: clasificador de imagenes o texto con deploy simple.
-
-## Mes 5
-
-- LLM APIs, prompting, structured outputs.
-- Context engineering: presupuesto de tokens y politica de memoria.
-- Proyecto: asistente con JSON validado y evals.
-
-## Mes 6
-
-- Tool calling, workflows y MCP.
-- Proyecto: app que llama herramientas internas con permisos, logs y un servidor MCP
-  propio.
-
-## Mes 7
-
-- RAG y vector search.
-- Proyecto: chatbot con docs propias, citas y no-answer.
-
-## Mes 8
-
-- RAG avanzado: hybrid search, reranking, evaluacion.
-- Proyecto: suite de preguntas, eval automatica y dashboard.
-
-## Mes 9
-
-- Agentes y orquestacion.
-- Error analysis: leer 100 trazas reales y armar la taxonomia de fallas.
-- Proyecto: agente con trazas, limites y human-in-the-loop.
-
-## Mes 10
-
-- Seguridad, privacidad, gobernanza, cumplimiento y red teaming.
-- Proyecto: informe de riesgos, clasificacion segun el EU AI Act, mitigaciones y
-  ataques reproducibles.
-
-## Mes 11
-
-- LLMOps/MLOps, Docker, CI/CD, observabilidad.
-- Inferencia y costos: costo por tarea, p95 y una palanca de optimizacion aplicada.
-- Proyecto: deploy con metricas, rollback y eval gate.
-
-## Mes 12
-
-- Capstone segun ruta.
-- Proyecto: producto IA completo con README, arquitectura, evals, demo y postmortem,
-  mas el texto publico que lo explica.
-
-## Que queda fuera de estos 12 meses
-
-- [[01-Niveles/05b - Post-training aplicado]]: entra solo si tu caso lo pide, y despues
-  de agotar prompting, structured outputs y RAG.
-- [[01-Niveles/09 - Multimodalidad]]: se intercala en el mes que corresponda si tu
-  producto procesa documentos, imagenes o audio; si no, se pospone.
-- [[01-Niveles/12 - Profundizacion]]: es el ano siguiente.
-
-Posponer con motivo escrito en [[00-MOC/Estado actual]] es parte del plan. Posponer sin
-escribirlo es como se abandona un roadmap sin darse cuenta.
-
-## Revision trimestral
-
-Meses 3, 6, 9 y 12: abri las ultimas 12 entradas de bitacora y responde tres preguntas.
-Horas reales por semana, ratio construir sobre leer, y que tema se repite en "que no
-entendi". Ajusta el plan a esos numeros. La tabla esta en [[00-MOC/Estado actual]].
+Usá el mismo proyecto de piezas para datos, split, visión, inferencia y errores. Las horas de esa entrega se registran una sola vez, bajo el módulo donde trabajaste. El capstone consolida evidencia existente; no exige empezar otro producto. Fine-tuning, MCP, voz y entrevistas quedan fuera salvo necesidad concreta.
