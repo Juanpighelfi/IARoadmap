@@ -16,6 +16,8 @@ Poner una versión de prueba en funcionamiento, detectar fallos y recuperarla. E
 
 Usá [The Twelve-Factor App](https://12factor.net/) como guía conceptual de configuración, dependencias, procesos y registros. Para comandos concretos, consultá la documentación oficial del alojamiento y la base de datos que efectivamente usa el SaaS. No se elige una plataforma nueva por completar el módulo.
 
+Antes del despliegue, usar el [mapa del SaaS real](../03-Proyectos/Estudiar%20con%20el%20SaaS%20real.md): `src/server.ts`, `src/worker-app.ts`, `WORKER_MODE`, scripts y CI. Explicar cuándo el servidor ejecuta consumidores y cuándo necesita un worker separado. Revisar por separado el typecheck del servidor y el de `web`; un chequeo del catálogo conversacional no sustituye una prueba de ejecución.
+
 ## Diagnóstico
 
 Explicar cómo reproducir una versión, dónde viven sus secretos y qué harías si una actualización deja de guardar turnos. Distinguir volver al código anterior de recuperar datos dañados.
@@ -40,7 +42,7 @@ Restaurar un respaldo en una base de prueba separada y ejecutar el flujo crític
 
 ## Condiciones de salida
 
-Otra sesión puede reconstruir el entorno siguiendo el README. Hay evidencia del flujo después del despliegue, un error diagnosticado y una restauración ensayada. El presupuesto incluye alojamiento, base de datos, integraciones y tiempo de soporte, aunque algunos importes sigan como hipótesis identificadas. Nunca presentar cifras hipotéticas como gasto medido.
+Otra sesión puede reconstruir el entorno siguiendo una guía propia con comandos, versiones y configuración de prueba. Hay evidencia del flujo después del despliegue, un error diagnosticado y una restauración ensayada. El presupuesto incluye alojamiento, base de datos, integraciones y tiempo de soporte, aunque algunos importes sigan como hipótesis identificadas. Nunca presentar cifras hipotéticas como gasto medido.
 
 Cerrar el módulo no equivale a certificar que el servicio está listo para datos de salud o uso comercial; esa decisión usa los controles y el alcance del [proyecto conductor](../03-Proyectos/SaaS%20administrativo%20con%20IA.md).
 

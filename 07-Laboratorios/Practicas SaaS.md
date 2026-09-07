@@ -1,12 +1,12 @@
 # Prácticas aplicadas al SaaS
 
-Consignas con casos de aceptación para implementar progresivamente. **Estas prácticas nuevas no incluyen soluciones ni autocorrección ejecutable.** Escribí y ejecutá sus pruebas en el entorno que uses para aprender. Los [cinco laboratorios Python](README.md) conservan sus pruebas existentes; el laboratorio 01 sigue siendo el punto de entrada.
+Consignas con casos de aceptación para implementar progresivamente. **Estas prácticas nuevas no incluyen soluciones ni autocorrección ejecutable.** Escribí y ejecutá sus pruebas en el entorno que uses para aprender. Para tu producto, usá TypeScript y los [archivos y pruebas reales](../03-Proyectos/Estudiar%20con%20el%20SaaS%20real.md). Los [cinco laboratorios Python](README.md) conservan sus pruebas, pero no son requisito de entrada al SaaS. Si una capacidad ya existe, entenderla y comprobarla antes de crear otro subsistema.
 
 Usá solo datos ficticios, sin claves de proveedor ni cuentas reales. Los identificadores siguientes no corresponden a personas. Un ejercicio queda practicado cuando puede repetirse y explicarse; una respuesta generada por IA no equivale a dominio.
 
 ## A. Reporte administrativo: módulos 01 y 02
 
-Después del laboratorio 01, resolver esta variante sin consultar su solución. En 01 usar listas/CSV; en 02 implementar las consultas equivalentes en SQL.
+Después de las funciones del módulo 01, resolver esta variante sin consultar una solución. En 01 usar arrays y archivos en JavaScript/TypeScript; en 02 implementar las consultas equivalentes en SQL y reconocer luego su expresión en Drizzle. La versión Python es opcional para ese camino.
 
 ```csv
 turno_id,profesional_id,importe_centavos,estado

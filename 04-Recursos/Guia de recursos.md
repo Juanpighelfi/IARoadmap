@@ -4,19 +4,23 @@ Elegí un recurso principal por módulo. Las secciones “Qué estudiar” acota
 
 ## Selección para software y servicios: 7 de septiembre de 2026
 
-Se consultaron las páginas oficiales siguientes al adaptar la ruta; no se ejecutaron sus ejemplos ni se verificó cada enlace interno. Seguí las secciones acotadas en cada módulo. Los proveedores del SaaS se eligen después de inspeccionar su stack.
+Se consultaron las páginas oficiales siguientes al adaptar la ruta; no se ejecutaron sus ejemplos ni se verificó cada enlace interno. Seguí las secciones acotadas en cada módulo. La selección personal se vincula ahora al [código real del SaaS](../03-Proyectos/Estudiar%20con%20el%20SaaS%20real.md), sin asumir que las integraciones estén operativas.
 
 | Módulo | Recurso principal | Uso acotado |
 | --- | --- | --- |
+| 01 | [Node.js: introducción](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs) | Entender el runtime; funciones y objetos con MDN |
+| 01c | [React Learn](https://react.dev/learn) | Componentes, props, estado y eventos del panel existente |
 | 01c | [MDN Learn](https://developer.mozilla.org/en-US/docs/Learn_web_development) | Formularios, JavaScript y peticiones |
+| 02b | [Fastify](https://fastify.dev/docs/latest/Guides/Getting-Started/) y [Drizzle](https://orm.drizzle.team/docs/overview) | Leer una ruta y su consulta en el proyecto |
 | 02b | [MDN servidor](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps) | Responsabilidades del backend |
 | 02 y 02b | [PostgreSQL tutorial](https://www.postgresql.org/docs/current/tutorial.html) | SQL, relaciones y transacciones; adaptar al motor existente |
 | 10 y 02b | [OWASP Top 10](https://owasp.org/www-project-top-ten/) | Relacionar acceso y riesgos con pruebas concretas |
-| 08c | [Stripe webhooks](https://docs.stripe.com/webhooks) | Estudiar eventos y verificación; no prescribe contratar Stripe |
+| 08c | [Mercado Pago webhooks](https://www.mercadopago.com.ar/developers/es/docs/your-integrations/notifications/webhooks) | Contrastar eventos y firma con el código; verificar sandbox antes de ejecutar |
+| 08c | [BullMQ workers](https://docs.bullmq.io/guide/workers) | Productor, consumidor y reintentos en la cola existente |
 | 11d | [The Twelve-Factor App](https://12factor.net/) | Configuración, dependencias, procesos y registros |
 | 12d | [GOV.UK: necesidades de usuarios](https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs) | Observar una tarea y separar necesidades de soluciones |
 
-[TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) complementa 01c si el producto usa TypeScript, después de JavaScript. [GitHub Get Started](https://docs.github.com/en/get-started) complementa Git en 01 y 01b.
+[TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) complementa 01 y 01c después de JavaScript: el producto usa TypeScript. [GitHub Get Started](https://docs.github.com/en/get-started) complementa Git en 01 y 01b.
 
 La siguiente tabla reúne también ramas opcionales. Su presencia no las convierte en tareas de la ruta personal.
 

@@ -10,13 +10,13 @@ Consultá horas y prerrequisitos en el [catálogo](../00-MOC/Catalogo%20de%20mod
 
 ## Resultado
 
-Construir un recorrido formulario → API → base de datos y separar la información de dos profesionales. Empezar con un solo servicio y una base de datos, sin distribuir el sistema antes de necesitarlo.
+Construir un recorrido formulario → API → base de datos y separar la información de dos profesionales. Comprender primero un endpoint y su consulta; el proyecto ya tiene colas y workers, pero no es necesario dominarlos para este ejercicio.
 
 ## Recurso y lectura seleccionada
 
-Leé [primeros pasos del servidor en MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps) para ubicar sus responsabilidades; retomá tablas, consultas y transacciones del [tutorial de PostgreSQL](https://www.postgresql.org/docs/current/tutorial.html). Consultá [OWASP Top 10](https://owasp.org/www-project-top-ten/) para relacionar riesgos con pruebas concretas de acceso. La autenticación se implementa con un componente mantenido del stack elegido, siguiendo su documentación oficial.
+Leé [primeros pasos del servidor en MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps) para ubicar sus responsabilidades; retomá tablas, consultas y transacciones del [tutorial de PostgreSQL](https://www.postgresql.org/docs/current/tutorial.html). Consultá [OWASP Top 10](https://owasp.org/www-project-top-ten/) para relacionar riesgos con pruebas concretas de acceso. Consultar [Fastify](https://fastify.dev/docs/latest/Guides/Getting-Started/) para rutas y plugins, y [Drizzle](https://orm.drizzle.team/docs/overview) para reconocer consultas y esquemas. Leer el mecanismo de sesión existente antes de modificarlo.
 
-Antes de instalar un framework, inventariar el SaaS existente. Su stack aún no se ha revisado: conservarlo si permite el ejercicio; no imponer una reescritura. Si se usa un entorno didáctico separado, elegir un único backend y registrar versiones.
+El [SaaS revisado](../03-Proyectos/Estudiar%20con%20el%20SaaS%20real.md) usa Fastify, PostgreSQL, Drizzle y Zod. Seguir `src/admin/auth/scoping.ts` y `src/db/schema/appointments.ts` para entender permisos y datos. Su existencia no acredita que todos los endpoints estén protegidos; eso se comprueba con pruebas. No cambiar de framework ni reconstruir la autenticación para cursar.
 
 ## Diagnóstico
 
@@ -33,11 +33,11 @@ Dibujar dónde se guarda un turno y cómo sabe el servidor a qué profesional pe
 
 ## Práctica guiada
 
-Dos profesionales ficticios, A y B, con sus propias cuentas. Implementar crear, listar y cancelar turnos de duración fija por profesional. Guardarlos en una base de prueba y comprobar que persisten al reiniciar. Definir antes la regla de reserva: mismo profesional y mismo inicio solo admite un turno activo; cancelarlo libera ese horario.
+Dos profesionales ficticios, A y B, con sus propias cuentas. Localizar las operaciones existentes para crear, listar y cancelar turnos; escribir pruebas sobre un recorrido acotado antes de cambiarlo. Guardarlos en una base de prueba y comprobar que persisten al reiniciar. Para el ejercicio de duración fija, usar esta regla mínima: mismo profesional y mismo inicio solo admite un turno activo; cancelarlo libera ese horario. Compararla con las reglas actuales antes de editar. No resuelve por sí sola solapamientos de duraciones distintas.
 
 ## Práctica independiente
 
-Agregar una operación para registrar manualmente un cobro ficticio asociado a un turno propio. Es un registro administrativo, no mueve dinero ni emite una factura fiscal. Probar importes inválidos y acceso con otra cuenta.
+Localizar el registro de cobros y probar una operación administrativa con un cobro ficticio asociado a un turno propio; si falta, diseñar una variante pequeña en la rama de aprendizaje. Es un registro administrativo, no mueve dinero ni emite una factura fiscal. Probar importes inválidos y acceso con otra cuenta.
 
 ## Condiciones de salida
 

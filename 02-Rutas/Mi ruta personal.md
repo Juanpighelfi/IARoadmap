@@ -4,13 +4,13 @@ Objetivo: entender, construir y mantener software que mejore procesos de empresa
 
 ## Proyecto conductor
 
-[SaaS administrativo para profesionales](../03-Proyectos/SaaS%20administrativo%20con%20IA.md): recuperar comprensión del producto existente y completar un flujo pequeño, antes de ampliar funciones. El repositorio del SaaS y su tecnología todavía no se han revisado; esta ruta no prescribe migrarlo ni rehacerlo.
+[SaaS administrativo para profesionales](../03-Proyectos/SaaS%20administrativo%20con%20IA.md): recuperar comprensión del producto existente y completar un flujo pequeño. La [revisión del código real](../03-Proyectos/Estudiar%20con%20el%20SaaS%20real.md) identifica stack, archivos y pruebas; no acredita que el servicio desplegado funcione ni prescribe rehacerlo.
 
-Python se usa para aprender programación y para los laboratorios existentes. En 01c se aprende el puente a JavaScript para la web; TypeScript se incorpora si el proyecto lo utiliza. Elegir un único backend después de inspeccionar el SaaS, sin cursar dos frameworks en paralelo.
+El camino principal usa JavaScript → TypeScript/Node.js desde 01, React en 01c y Fastify/PostgreSQL/Drizzle en 02b. Redis/BullMQ y los procesos HTTP/worker entran en 08c y 11d. Python conserva sus laboratorios y su papel en ML; no se exige completar otro curso de programación antes de comprender el SaaS. No cambiar el stack ni aprender dos frameworks de backend a la vez.
 
 ## Cómo avanzar
 
-1. Empezá por 00 y el diagnóstico de Python. Haber visto videos no acredita dominio, pero una prueba independiente sí permite evitar repeticiones.
+1. Continuá 00 si ya lo empezaste; no hace falta reiniciar. Después intentá el diagnóstico de programación aplicado a horarios en 01. Haber visto videos no acredita dominio, pero una prueba independiente sí permite evitar repeticiones.
 2. Mantené un módulo principal. Aplicá revisión de código, pruebas y evaluación sobre su misma práctica.
 3. Leé o mirá el recurso seleccionado, intentá un ejercicio, corregí y explicá lo esencial sin ayuda. Después resolvé una variante.
 4. Guardá evidencia y el siguiente paso en `Mi-progreso/`. Una sesión aplicada al SaaS cuenta una sola vez dentro del presupuesto de estudio.
@@ -52,7 +52,7 @@ Los tres primeros meses son un ciclo de aprendizaje y validación, no una promes
 Los prerrequisitos aparecen antes del módulo que los requiere.
 
 - [00 - Orientacion y alfabetizacion en IA](../01-Niveles/00%20-%20Orientacion%20y%20alfabetizacion%20en%20IA.md) — 4–6 horas
-- [01 - Computacion, Python, Git y entorno](../01-Niveles/01%20-%20Computacion%20Python%20Git%20y%20entorno.md) — 35–60 horas
+- [01 - Programación, Git y entorno](../01-Niveles/01%20-%20Computacion%20Python%20Git%20y%20entorno.md) — 35–60 horas
 - [01b - Ingenieria asistida por IA](../01-Niveles/01b%20-%20Ingenieria%20asistida%20por%20IA.md) — 6–10 horas
 - [02 - Datos, SQL, visualizacion y estadistica practica](../01-Niveles/02%20-%20Datos%20SQL%20visualizacion%20y%20estadistica.md) — 25–40 horas
 - [10 - Evaluacion, seguridad, privacidad y gobernanza](../01-Niveles/10%20-%20Evaluacion%20seguridad%20gobernanza.md) — 12–20 horas

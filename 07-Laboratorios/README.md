@@ -12,7 +12,7 @@ Cinco prácticas reproducibles con Python 3.11 y biblioteca estándar. Copia cad
 
 ## Qué corresponde a la nueva ruta personal
 
-Empezá por el laboratorio 01 y continuá con las [prácticas aplicadas al SaaS](Practicas%20SaaS.md) según el módulo. Estas prácticas tienen consignas y casos de aceptación, pero todavía no soluciones ni tests ejecutables incluidos: las pruebas se escriben en tu entorno de aprendizaje.
+Para el SaaS TypeScript, empezá por el camino principal del [módulo 01](../01-Niveles/01%20-%20Computacion%20Python%20Git%20y%20entorno.md) y sus [archivos y pruebas reales](../03-Proyectos/Estudiar%20con%20el%20SaaS%20real.md). El laboratorio Python 01 queda disponible si elegís ese lenguaje. Continuá con las [prácticas aplicadas al SaaS](Practicas%20SaaS.md) según el módulo. Estas prácticas tienen consignas y casos de aceptación, pero todavía no soluciones ni tests ejecutables incluidos: las pruebas se escriben en tu entorno de aprendizaje.
 
 Los laboratorios 02–05 se conservan para matemáticas, búsqueda, ML y robótica opcionales. No hace falta completarlos todos antes de aprender web o automatización. Sus pruebas existentes pueden seguir ejecutándose para verificar este repositorio.
 

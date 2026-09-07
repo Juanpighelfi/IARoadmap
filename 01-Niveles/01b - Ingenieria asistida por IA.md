@@ -20,7 +20,7 @@ Explicá un diff de 30 líneas: identificá entrada, salida, efectos secundarios
 
 ### Práctica guiada
 
-Pedí a tu asistente una mejora acotada de la CLI del 01. Escribí antes tres criterios de aceptación, revisá el diff y ejecutá los tests.
+En tu ruta personal, pedí una variante acotada de la función de horarios del 01, vinculada al [SaaS real](../03-Proyectos/Estudiar%20con%20el%20SaaS%20real.md). En el camino Python, usá la CLI del laboratorio. Escribí antes tres criterios de aceptación, revisá el diff y ejecutá los tests.
 
 Los laboratorios numerados están en el [índice ejecutable](../07-Laboratorios/README.md). Para los demás ejercicios, la consigna de esta página es la práctica; las referencias amplían el procedimiento.
 
@@ -46,7 +46,7 @@ Transversal. Se aprende una vez, temprano, y multiplica todos los niveles siguie
 No es "usar ChatGPT para programar": es aprender a dirigir, revisar y acotar a un
 agente que escribe codigo en tu repo.
 
-Va despues de [01 - Computacion Python Git y entorno](01%20-%20Computacion%20Python%20Git%20y%20entorno.md) a proposito. Antes de saber
+Va despues de [01 - Programación, Git y entorno](01%20-%20Computacion%20Python%20Git%20y%20entorno.md) a proposito. Antes de saber
 Git, tests y estructura de proyecto, un asistente de codigo acelera la produccion de
 codigo que no podes evaluar, que es la peor combinacion posible.
 

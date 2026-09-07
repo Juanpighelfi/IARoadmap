@@ -14,7 +14,7 @@ Empezá por [Empezar aquí](Empezar%20aqui.md) y [Mi ruta personal](../02-Rutas/
 ## Módulos
 
 - [00 - Orientacion y alfabetizacion en IA](../01-Niveles/00%20-%20Orientacion%20y%20alfabetizacion%20en%20IA.md)
-- [01 - Computacion Python Git y entorno](../01-Niveles/01%20-%20Computacion%20Python%20Git%20y%20entorno.md)
+- [01 - Programación, Git y entorno](../01-Niveles/01%20-%20Computacion%20Python%20Git%20y%20entorno.md)
 - [01b - Ingenieria asistida por IA](../01-Niveles/01b%20-%20Ingenieria%20asistida%20por%20IA.md)
 - [02 - Datos SQL visualizacion y estadistica](../01-Niveles/02%20-%20Datos%20SQL%20visualizacion%20y%20estadistica.md)
 - [03 - Matematicas para ML](../01-Niveles/03%20-%20Matematicas%20para%20ML.md)
@@ -63,6 +63,7 @@ Empezá por [Empezar aquí](Empezar%20aqui.md) y [Mi ruta personal](../02-Rutas/
 - [Plan de 12 meses](../03-Proyectos/Plan%20de%2012%20meses.md)
 - [Portfolio minimo](../03-Proyectos/Portfolio%20minimo.md)
 
+- [Estudiar con el SaaS real](../03-Proyectos/Estudiar%20con%20el%20SaaS%20real.md)
 - [SaaS administrativo con IA](../03-Proyectos/SaaS%20administrativo%20con%20IA.md)
 - [Semana flexible](../03-Proyectos/Semana%20flexible.md)
 - [Plan de 12 semanas](../03-Proyectos/Plan%20de%2012%20semanas.md)

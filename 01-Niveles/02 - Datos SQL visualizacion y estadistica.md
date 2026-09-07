@@ -10,15 +10,17 @@ revisado: 2026-09-06
 
 Consultá el [catálogo de módulos](../00-MOC/Catalogo%20de%20modulos.md) para los prerrequisitos y el rango de horas de este módulo. Las horas incluyen lectura seleccionada, práctica, corrección y primer repaso; no son una promesa de dominio ni se suman a cursos completos. El ID conserva enlaces históricos y no impone orden.
 
-**Recurso principal:** <https://pandas.pydata.org/docs/getting_started/intro_tutorials/>
+**Recurso principal de la ruta personal:** [tutorial de PostgreSQL](https://www.postgresql.org/docs/current/tutorial.html). Para la rama de análisis con Python, se conservan los [tutoriales de Pandas](https://pandas.pydata.org/docs/getting_started/intro_tutorials/). Elegí un camino; no sumes ambos al módulo.
 
-Qué estudiar: Lectura de tablas, selección, columnas derivadas, estadísticas, reshape y combinación; practicar JOIN y GROUP BY en SQLite de Python.
+Qué estudiar para el SaaS: tablas, tipos, claves, SELECT, JOIN, GROUP BY, valores ausentes, transacciones y cardinalidad. Escribir primero SQL sobre datos ficticios y después reconocer su equivalente en Drizzle. La alternativa Python usa lectura y combinación de tablas con Pandas/SQLite.
 
 ### Aplicación en la ruta personal
 
 Usá el reporte administrativo de las [prácticas SaaS](../07-Laboratorios/Practicas%20SaaS.md) como práctica principal en lugar del caso de piezas de abajo. Crear tablas de profesionales, turnos y cobros ficticios. Consultar pendientes por profesional y turnos sin cobro; comprobar importes, duplicados y valores ausentes.
 
 Para la variante, agregar dos pagos parciales a un turno y explicar por qué un JOIN puede duplicar su importe esperado. Distinguir cantidad de turnos de cantidad de pagos, calcular proporción de turnos pagados con denominador explícito y graficar cobros por profesional. Aplicar la misma rúbrica; no sumar ambos proyectos como obligación.
+
+El [mapa del SaaS real](../03-Proyectos/Estudiar%20con%20el%20SaaS%20real.md) enlaza el esquema existente. PostgreSQL y Drizzle son la aplicación principal; Pandas, NumPy y el caso de piezas de abajo quedan para la rama de análisis, no como prerrequisito del backend.
 
 ### Diagnóstico breve
 
@@ -50,7 +52,7 @@ A los 7 días repetí una variante breve sin mirar la solución. A los 30 días 
 
 ## Debes aprender
 
-- Pandas, NumPy, limpieza de datos, joins, missing values, tipos.
+- Limpieza de datos, joins, valores ausentes y tipos; Pandas/NumPy solo en el camino Python.
 - SQL: SELECT, JOIN, GROUP BY, ventanas basicas.
 - Visualizacion: distribuciones, outliers, correlaciones, series temporales.
 - Estadistica practica: media, varianza, intervalos, muestreo, sesgo, leakage.
