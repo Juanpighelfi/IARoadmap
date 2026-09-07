@@ -10,7 +10,6 @@
 - Robótica e IA local preservadas como ruta opcional; navegación, mapas, catálogo, recursos y plantillas ajustados.
 - Progreso individual permanece privado y sin módulos acreditados por esta edición.
 
-
 Este vault trata un campo que se mueve rapido. Un roadmap sin fecha ni historial
 envejece en silencio: sirve saber cuando se agrego cada cosa y cuando se reviso por
 ultima vez.
