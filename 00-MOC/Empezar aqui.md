@@ -17,18 +17,22 @@ Si ya empezaste el módulo 00, continuá donde estabas. La adaptación al [SaaS 
 
 No se completa el módulo 00 ni el 01 por hacer esta sesión. El diagnóstico es una prueba de entrada; después se sigue el primer módulo sin acreditar. El laboratorio Python de piezas queda disponible para ese lenguaje, no como requisito previo al SaaS TypeScript.
 
+## Dónde escribir las respuestas
+
+Abrí la [hoja de tu módulo](../08-Ejercicios/README.md). Ya tiene las preguntas, un ejemplo y los espacios para escribir. No hace falta saber crear tablas. Si ya resolviste una parte en otra nota, conservá ese trabajo y continuá desde el primer apartado pendiente.
+
 ## Sesiones siguientes
 
 Un recurso principal, un ejercicio y una explicación propia. Terminá los ejercicios y comprobaciones del 00 y continuá 01 si falta base; después seguí la secuencia de la ruta. No saltes directamente a agentes por tener un SaaS iniciado.
 
-Cuando puedas trabajar con funciones y archivos, incorporá los [ejercicios del SaaS](../07-Laboratorios/Practicas%20SaaS.md) según sus prerrequisitos. El primer contacto con el código será la función de horarios del mapa real; después vendrán el inventario del entorno y la reproducción de un error, no una tanda de funcionalidades nuevas.
+Cuando puedas trabajar con funciones y archivos, incorporá los [ejercicios del SaaS](../07-Laboratorios/Practicas%20SaaS.md) según sus prerrequisitos. Para el módulo 00, completá el [hoja 00 lista para completar](../08-Ejercicios/00.md). El primer contacto con el código será la función de horarios del mapa real; después vendrán el inventario del entorno y la reproducción de un error, no una tanda de funcionalidades nuevas.
 
 ## Cómo elegir el siguiente paso
 
 - Si falta una habilidad de entrada, practicá ese prerrequisito.
 - Si podés explicar pero no implementar, hacé práctica guiada.
 - Si implementás mirando la solución, resolvé una variante independiente.
-- Si dominás la variante, avanzá y agendá repasos a 7 y 30 días.
+- Si dominás la variante, avanzá y retomá algún ejercicio anterior en otra sesión; no hace falta un calendario de seguimiento.
 - Si un recurso no sirve después de dos sesiones, usá una alternativa del mismo módulo. No reinicies toda la ruta.
 
 ## Tiempo y entorno

@@ -6,6 +6,8 @@ revisado: 2026-09-06
 
 # 02 - Datos, SQL, visualizacion y estadistica practica
 
+[Abrir la hoja de ejercicios 02, lista para completar](../08-Ejercicios/02.md). Resolvé ahí el diagnóstico, la práctica y las variantes. Si hay código o laboratorio, la hoja indica qué probar y dónde anotar el resultado.
+
 ## Cómo cursarlo
 
 Consultá el [catálogo de módulos](../00-MOC/Catalogo%20de%20modulos.md) para los prerrequisitos y el rango de horas de este módulo. Las horas incluyen lectura seleccionada, práctica, corrección y primer repaso; no son una promesa de dominio ni se suman a cursos completos. El ID conserva enlaces históricos y no impone orden.
@@ -30,7 +32,7 @@ Dadas dos tablas con un ID repetido, predecí cuántas filas devuelve el join y 
 
 Tomá las filas sintéticas del laboratorio 01 y creá dos tablas SQLite: piezas e inspecciones. Consultá conteos por material y piezas sin inspección; registrá duplicados y ausentes.
 
-Práctica ejecutable vinculada: [abrir laboratorio](../07-Laboratorios/01-python-csv/README.md). El [índice](../07-Laboratorios/README.md) reúne los demás. Para los demás ejercicios, la consigna de esta página es la práctica; las referencias amplían el procedimiento.
+Práctica ejecutable vinculada: [abrir laboratorio](../07-Laboratorios/01-python-csv/README.md). El [índice](../07-Laboratorios/README.md) reúne los demás. La hoja de este módulo reúne los espacios de respuesta; las referencias amplían el procedimiento.
 
 ### Práctica independiente
 

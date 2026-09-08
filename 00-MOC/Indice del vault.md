@@ -4,6 +4,8 @@ Empezá por [Empezar aquí](Empezar%20aqui.md) y [Mi ruta personal](../02-Rutas/
 
 ## Orientación
 
+- [Ejercicio 00 — Reglas y modelo](../08-Ejercicios/00.md)
+- [Hojas de ejercicios de los 30 módulos](../08-Ejercicios/README.md)
 - [Analisis de roadmaps](Analisis%20de%20roadmaps.md)
 - [Catalogo de modulos](Catalogo%20de%20modulos.md)
 - [Diagnostico inicial](Diagnostico%20inicial.md)

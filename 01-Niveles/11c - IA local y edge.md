@@ -6,6 +6,8 @@ revisado: 2026-09-06
 
 # 11c - IA local y edge
 
+[Abrir la hoja de ejercicios 11c, lista para completar](../08-Ejercicios/11c.md). Resolvé ahí el diagnóstico, la práctica y las variantes. Si hay código o laboratorio, la hoja indica qué probar y dónde anotar el resultado.
+
 ## Cómo cursarlo
 
 Consultá el [catálogo de módulos](../00-MOC/Catalogo%20de%20modulos.md) para los prerrequisitos y el rango de horas de este módulo. Las horas incluyen lectura seleccionada, práctica, corrección y primer repaso; no son una promesa de dominio ni se suman a cursos completos. El ID conserva enlaces históricos y no impone orden.
@@ -22,7 +24,7 @@ Separá memoria de pesos, activaciones y entradas. Explicá cómo verificar que 
 
 Tomá el modelo de visión o un MLP pequeño y medí inferencia CPU con batch 1. Registrar latencia extremo a extremo, tamaño del artefacto y calidad del conjunto reservado.
 
-Los laboratorios numerados están en el [índice ejecutable](../07-Laboratorios/README.md). Para los demás ejercicios, la consigna de esta página es la práctica; las referencias amplían el procedimiento.
+Los laboratorios numerados están en el [índice ejecutable](../07-Laboratorios/README.md). La hoja de este módulo reúne los espacios de respuesta; las referencias amplían el procedimiento.
 
 ### Práctica independiente
 

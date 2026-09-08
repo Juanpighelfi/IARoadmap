@@ -1,5 +1,17 @@
 # Registro de cambios
 
+## 2026-09-08 — Hojas listas para los 30 módulos
+
+- Una hoja por módulo con ejemplo breve, preguntas específicas, bloques de casos y espacios para resultados y variantes; enlaces directos desde cada temario.
+- El ejercicio 00 compara regla y modelo sobre los mismos 14 mensajes, separados del diagnóstico de cinco tareas; incluye prompt para copiar y análisis de errores observados.
+- Hojas con los tamaños de muestra requeridos, alternativas Python/TypeScript y reutilización de laboratorios/datasets; no acreditan ejecuciones ni resultados.
+- Índice único de ejercicios e instrucciones de edición en Obsidian; seguimiento breve separado de las respuestas, sin tablas que el estudiante deba diseñar.
+
+## 2026-09-07 — Ejercicios listos para completar
+
+- El módulo 00 incorpora una hoja guiada con 14 casos, ejemplo resuelto y espacios de respuesta.
+- La consigna enlaza directamente esa hoja; ya no hace falta crear tablas ni decidir dónde escribir.
+
 ## 2026-09-07 — Seguimiento simple
 
 - Un solo archivo «Mi seguimiento»: tema actual y entradas con fecha, Hice, Me costó y Cómo sigo; ejemplo e instrucciones breves.

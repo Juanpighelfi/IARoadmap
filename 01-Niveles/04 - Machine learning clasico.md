@@ -6,6 +6,8 @@ revisado: 2026-09-06
 
 # 04 - Machine learning clasico
 
+[Abrir la hoja de ejercicios 04, lista para completar](../08-Ejercicios/04.md). Resolvé ahí el diagnóstico, la práctica y las variantes. Si hay código o laboratorio, la hoja indica qué probar y dónde anotar el resultado.
+
 ## Cómo cursarlo
 
 Consultá el [catálogo de módulos](../00-MOC/Catalogo%20de%20modulos.md) para los prerrequisitos y el rango de horas de este módulo. Las horas incluyen lectura seleccionada, práctica, corrección y primer repaso; no son una promesa de dominio ni se suman a cursos completos. El ID conserva enlaces históricos y no impone orden.
@@ -22,7 +24,7 @@ Ante varias fotos de cada pieza, proponé un split para evaluar piezas nuevas. E
 
 Resolvé el laboratorio 04 de separación por grupo/tiempo. Luego usá load_breast_cancer de sklearn solo como ejercicio tabular: baseline DummyClassifier y Pipeline de StandardScaler + LogisticRegression. Fijá split y semilla antes de comparar.
 
-Práctica ejecutable vinculada: [abrir laboratorio](../07-Laboratorios/04-particion-sin-fuga/README.md). El [índice](../07-Laboratorios/README.md) reúne los demás. Para los demás ejercicios, la consigna de esta página es la práctica; las referencias amplían el procedimiento.
+Práctica ejecutable vinculada: [abrir laboratorio](../07-Laboratorios/04-particion-sin-fuga/README.md). El [índice](../07-Laboratorios/README.md) reúne los demás. La hoja de este módulo reúne los espacios de respuesta; las referencias amplían el procedimiento.
 
 ### Práctica independiente
 

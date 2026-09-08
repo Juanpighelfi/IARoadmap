@@ -6,6 +6,8 @@ revisado: 2026-09-07
 
 # 01 - Programación, Git y entorno
 
+[Abrir la hoja de ejercicios 01, lista para completar](../08-Ejercicios/01.md). Resolvé ahí el diagnóstico, la práctica y las variantes. Si hay código o laboratorio, la hoja indica qué probar y dónde anotar el resultado.
+
 ## Cómo cursarlo
 
 Consultá el [catálogo de módulos](../00-MOC/Catalogo%20de%20modulos.md) para los prerrequisitos y el rango de horas de este módulo. Las horas incluyen lectura seleccionada, práctica, corrección y primer repaso; no son una promesa de dominio ni se suman a cursos completos. El ID conserva enlaces históricos y no impone orden.
@@ -55,7 +57,7 @@ En 30 minutos, escribí una función que lea filas válidas de un CSV, rechace d
 
 Resolvé el laboratorio 01 del índice de laboratorios: validación de datos sintéticos de piezas. Agregá una CLI que reciba la ruta del archivo y un README con el comando exacto.
 
-Práctica ejecutable vinculada: [abrir laboratorio](../07-Laboratorios/01-python-csv/README.md). El [índice](../07-Laboratorios/README.md) reúne los demás. Para los demás ejercicios, la consigna de esta página es la práctica; las referencias amplían el procedimiento.
+Práctica ejecutable vinculada: [abrir laboratorio](../07-Laboratorios/01-python-csv/README.md). El [índice](../07-Laboratorios/README.md) reúne los demás. La hoja de este módulo reúne los espacios de respuesta; las referencias amplían el procedimiento.
 
 ### Práctica independiente
 

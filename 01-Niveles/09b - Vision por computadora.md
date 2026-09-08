@@ -6,6 +6,8 @@ revisado: 2026-09-06
 
 # 09b - Visión por computadora
 
+[Abrir la hoja de ejercicios 09b, lista para completar](../08-Ejercicios/09b.md). Resolvé ahí el diagnóstico, la práctica y las variantes. Si hay código o laboratorio, la hoja indica qué probar y dónde anotar el resultado.
+
 ## Cómo cursarlo
 
 Consultá el [catálogo de módulos](../00-MOC/Catalogo%20de%20modulos.md) para los prerrequisitos y el rango de horas de este módulo. Las horas incluyen lectura seleccionada, práctica, corrección y primer repaso; no son una promesa de dominio ni se suman a cursos completos. El ID conserva enlaces históricos y no impone orden.
@@ -22,7 +24,7 @@ Explicá por qué dos fotos de la misma pieza en train y test inflan la evaluaci
 
 Seguí el proyecto de inspección visual: manifest por pieza, split por pieza y sesión, baseline de atributos simples y transfer learning. Empezar con una familia de pieza y un defecto visible.
 
-Los laboratorios numerados están en el [índice ejecutable](../07-Laboratorios/README.md). Para los demás ejercicios, la consigna de esta página es la práctica; las referencias amplían el procedimiento.
+Los laboratorios numerados están en el [índice ejecutable](../07-Laboratorios/README.md). La hoja de este módulo reúne los espacios de respuesta; las referencias amplían el procedimiento.
 
 ### Práctica independiente
 

@@ -6,6 +6,8 @@ revisado: 2026-09-06
 
 # 04b - Incertidumbre, decisiones y aprendizaje por refuerzo
 
+[Abrir la hoja de ejercicios 04b, lista para completar](../08-Ejercicios/04b.md). Resolvé ahí el diagnóstico, la práctica y las variantes. Si hay código o laboratorio, la hoja indica qué probar y dónde anotar el resultado.
+
 ## Cómo cursarlo
 
 Consultá el [catálogo de módulos](../00-MOC/Catalogo%20de%20modulos.md) para los prerrequisitos y el rango de horas de este módulo. Las horas incluyen lectura seleccionada, práctica, corrección y primer repaso; no son una promesa de dominio ni se suman a cursos completos. El ID conserva enlaces históricos y no impone orden.
@@ -22,7 +24,7 @@ Diferenciá incertidumbre del sensor, estado oculto y acción. Calculá una actu
 
 Resolvé el laboratorio 05 de value iteration. Compará la política óptima con una política fija; repetí con distinta recompensa y descuento. Construí a mano una red bayesiana de defecto y alerta de sensor.
 
-Práctica ejecutable vinculada: [abrir laboratorio](../07-Laboratorios/05-value-iteration/README.md). El [índice](../07-Laboratorios/README.md) reúne los demás. Para los demás ejercicios, la consigna de esta página es la práctica; las referencias amplían el procedimiento.
+Práctica ejecutable vinculada: [abrir laboratorio](../07-Laboratorios/05-value-iteration/README.md). El [índice](../07-Laboratorios/README.md) reúne los demás. La hoja de este módulo reúne los espacios de respuesta; las referencias amplían el procedimiento.
 
 ### Práctica independiente
 

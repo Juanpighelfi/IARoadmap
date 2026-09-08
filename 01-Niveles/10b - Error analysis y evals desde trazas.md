@@ -6,6 +6,8 @@ revisado: 2026-09-06
 
 # 10b - Análisis de errores y evaluación desde trazas
 
+[Abrir la hoja de ejercicios 10b, lista para completar](../08-Ejercicios/10b.md). Resolvé ahí el diagnóstico, la práctica y las variantes. Si hay código o laboratorio, la hoja indica qué probar y dónde anotar el resultado.
+
 ## Cómo cursarlo
 
 Consultá el [catálogo de módulos](../00-MOC/Catalogo%20de%20modulos.md) para los prerrequisitos y el rango de horas de este módulo. Las horas incluyen lectura seleccionada, práctica, corrección y primer repaso; no son una promesa de dominio ni se suman a cursos completos. El ID conserva enlaces históricos y no impone orden.
@@ -30,7 +32,7 @@ Leé tres fallos completos y separá síntoma de causa; indicá qué dato falta 
 
 Generá 30–50 interacciones propias o simuladas identificadas como tales. Anotá fallos, agrupá causas y elegí una por frecuencia y severidad; no necesitás otros estudiantes.
 
-Los laboratorios numerados están en el [índice ejecutable](../07-Laboratorios/README.md). Para los demás ejercicios, la consigna de esta página es la práctica; las referencias amplían el procedimiento.
+Los laboratorios numerados están en el [índice ejecutable](../07-Laboratorios/README.md). La hoja de este módulo reúne los espacios de respuesta; las referencias amplían el procedimiento.
 
 ### Práctica independiente
 

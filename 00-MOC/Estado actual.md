@@ -1,6 +1,6 @@
 # Mi seguimiento: cómo usarlo
 
-Un solo archivo para saber dónde estás y retomar sin pensar todo de nuevo. No necesitás una nota por sesión, otra por semana y otra por módulo.
+Un solo archivo para saber dónde estás y retomar sin pensar todo de nuevo. No necesitás una ficha de progreso por sesión, otra por semana y otra por módulo. Para resolver actividades, usá la [hoja ya preparada de cada módulo](../08-Ejercicios/README.md); el seguimiento solo guarda el próximo paso.
 
 ## Prepararlo una sola vez
 
@@ -34,6 +34,6 @@ Así podría quedar una entrada; no describe progreso tuyo:
 
 Sin puntajes, estados de dominio, horas por actividad, archivos semanales ni campos técnicos. No necesitás plugins ni un calendario de repasos. Si faltaste unos días, seguí con la próxima entrada: no rellenes los días anteriores.
 
-Los ejercicios y sus pruebas quedan en sus propios archivos. Podés nombrarlos en «Hice» para encontrarlos, sin copiar sus resultados al seguimiento. Para decidir si avanzar, usá [esta comprobación breve](../04-Recursos/Autoevaluacion%20y%20dominio.md).
+Las respuestas se escriben en la [hoja del ejercicio](../08-Ejercicios/README.md). El código y sus pruebas quedan en sus propios archivos. Podés nombrarlos en «Hice» para encontrarlos, sin copiar sus resultados al seguimiento. Para decidir si avanzar, usá [esta comprobación breve](../04-Recursos/Autoevaluacion%20y%20dominio.md).
 
 La carpeta `Mi-progreso/` está excluida de Git: hacer push no respalda estas notas ni las sincroniza entre equipos. Conservá una copia propia. No guardes datos de pacientes ni credenciales en el seguimiento.

@@ -6,6 +6,8 @@ revisado: 2026-09-06
 
 # 07 - RAG, busqueda y embeddings
 
+[Abrir la hoja de ejercicios 07, lista para completar](../08-Ejercicios/07.md). Resolvé ahí el diagnóstico, la práctica y las variantes. Si hay código o laboratorio, la hoja indica qué probar y dónde anotar el resultado.
+
 ## Cómo cursarlo
 
 Consultá el [catálogo de módulos](../00-MOC/Catalogo%20de%20modulos.md) para los prerrequisitos y el rango de horas de este módulo. Las horas incluyen lectura seleccionada, práctica, corrección y primer repaso; no son una promesa de dominio ni se suman a cursos completos. El ID conserva enlaces históricos y no impone orden.
@@ -22,7 +24,7 @@ Separá un error de recuperación de uno de generación usando una pregunta y tr
 
 Indexá diez notas técnicas propias o los módulos del vault. Creá 30 preguntas respondibles y 10 sin respuesta, con documento y fragmento de evidencia. Reservá test antes de ajustar chunking.
 
-Los laboratorios numerados están en el [índice ejecutable](../07-Laboratorios/README.md). Para los demás ejercicios, la consigna de esta página es la práctica; las referencias amplían el procedimiento.
+Los laboratorios numerados están en el [índice ejecutable](../07-Laboratorios/README.md). La hoja de este módulo reúne los espacios de respuesta; las referencias amplían el procedimiento.
 
 ### Práctica independiente
 

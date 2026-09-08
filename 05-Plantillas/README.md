@@ -1,6 +1,8 @@
 # Qué plantilla usar
 
-Para estudiar, usá solo [Mi seguimiento](../00-MOC/Estado%20actual.md). La [plantilla vacía](Plantilla%20de%20progreso.md) se copia una vez; después seguís escribiendo en ese mismo archivo.
+Para registrar el progreso, usá solo [Mi seguimiento](../00-MOC/Estado%20actual.md). La [plantilla vacía](Plantilla%20de%20progreso.md) se copia una vez; después seguís escribiendo en ese mismo archivo.
+
+Para resolver las actividades, abrí las [hojas de ejercicios ya armadas](../08-Ejercicios/README.md). No se crean a partir de estas plantillas ni se completa una ficha técnica adicional si la hoja ya reúne los resultados.
 
 ## Opcionales, para una tarea concreta
 

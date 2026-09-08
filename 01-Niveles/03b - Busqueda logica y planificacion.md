@@ -6,6 +6,8 @@ revisado: 2026-09-06
 
 # 03b - Búsqueda, lógica y planificación
 
+[Abrir la hoja de ejercicios 03b, lista para completar](../08-Ejercicios/03b.md). Resolvé ahí el diagnóstico, la práctica y las variantes. Si hay código o laboratorio, la hoja indica qué probar y dónde anotar el resultado.
+
 ## Cómo cursarlo
 
 Consultá el [catálogo de módulos](../00-MOC/Catalogo%20de%20modulos.md) para los prerrequisitos y el rango de horas de este módulo. Las horas incluyen lectura seleccionada, práctica, corrección y primer repaso; no son una promesa de dominio ni se suman a cursos completos. El ID conserva enlaces históricos y no impone orden.
@@ -22,7 +24,7 @@ Representá una cuadrícula como estados y acciones. Explicá por qué una búsq
 
 Resolvé el laboratorio 03: BFS y A* con obstáculos. Compará costo del camino y estados expandidos usando Manhattan y heurística cero.
 
-Práctica ejecutable vinculada: [abrir laboratorio](../07-Laboratorios/03-busqueda-cuadricula/README.md). El [índice](../07-Laboratorios/README.md) reúne los demás. Para los demás ejercicios, la consigna de esta página es la práctica; las referencias amplían el procedimiento.
+Práctica ejecutable vinculada: [abrir laboratorio](../07-Laboratorios/03-busqueda-cuadricula/README.md). El [índice](../07-Laboratorios/README.md) reúne los demás. La hoja de este módulo reúne los espacios de respuesta; las referencias amplían el procedimiento.
 
 ### Práctica independiente
 
