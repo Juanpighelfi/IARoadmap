@@ -6,6 +6,8 @@ revisado: 2026-09-06
 
 # 11b - Inferencia, latencia y economia unitaria
 
+[Abrir la hoja de ejercicios 11b, lista para completar](../08-Ejercicios/11b.md). Resolvé ahí el diagnóstico, la práctica y las variantes. Si hay código o laboratorio, la hoja indica qué probar y dónde anotar el resultado.
+
 ## Cómo cursarlo
 
 Consultá el [catálogo de módulos](../00-MOC/Catalogo%20de%20modulos.md) para los prerrequisitos y el rango de horas de este módulo. Las horas incluyen lectura seleccionada, práctica, corrección y primer repaso; no son una promesa de dominio ni se suman a cursos completos. El ID conserva enlaces históricos y no impone orden.
@@ -22,7 +24,7 @@ Diferenciá tiempo al primer token, tiempo total y throughput. Calculá memoria 
 
 Ejecutá un conjunto fijo de tareas con un modelo que quepa en tu equipo o una API ya disponible. Medí calentamiento por separado, p50/p95, calidad y costo por tarea completa.
 
-Los laboratorios numerados están en el [índice ejecutable](../07-Laboratorios/README.md). Para los demás ejercicios, la consigna de esta página es la práctica; las referencias amplían el procedimiento.
+Los laboratorios numerados están en el [índice ejecutable](../07-Laboratorios/README.md). La hoja de este módulo reúne los espacios de respuesta; las referencias amplían el procedimiento.
 
 ### Práctica independiente
 

@@ -9,6 +9,10 @@ Plan de estudio personal para **desarrollar software con IA, construir un SaaS y
 3. En programación, seguí el camino JavaScript/TypeScript del [módulo 01](01-Niveles/01%20-%20Computacion%20Python%20Git%20y%20entorno.md) y conectalo con [el código real del SaaS](03-Proyectos/Estudiar%20con%20el%20SaaS%20real.md). Los laboratorios Python se conservan para ese lenguaje. No hace falta GPU ni API paga al inicio.
 4. Usá [Mi seguimiento](00-MOC/Estado%20actual.md): un solo archivo con fecha, «Hice», «Me costó» y «Cómo sigo». No hace falta completar otras plantillas.
 
+## Resolver ejercicios
+
+Cada módulo tiene una [hoja lista para completar](08-Ejercicios/README.md), con ejemplo, preguntas y espacios de respuesta. Para empezar ahora, abrí la [hoja 00](08-Ejercicios/00.md). No hace falta armar tablas ni copiar una plantilla vacía.
+
 ## Cómo está organizado
 
 | Necesidad | Abrir |

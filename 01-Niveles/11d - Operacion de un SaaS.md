@@ -6,6 +6,8 @@ revisado: 2026-09-07
 
 # 11d - Operación y mantenimiento de un SaaS
 
+[Abrir la hoja de ejercicios 11d, lista para completar](../08-Ejercicios/11d.md). Resolvé ahí el diagnóstico, la práctica y las variantes. Si hay código o laboratorio, la hoja indica qué probar y dónde anotar el resultado.
+
 Consultá horas y prerrequisitos en el [catálogo](../00-MOC/Catalogo%20de%20modulos.md). La carga cubre el ejercicio acotado de este módulo, con lectura, corrección y primer repaso; no un curso entero más el producto completo.
 
 ## Resultado

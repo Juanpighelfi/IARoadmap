@@ -1,5 +1,7 @@
 # Laboratorios de autoestudio
 
+Para responder los ejercicios de cualquier módulo, abrí su [hoja lista para completar](../08-Ejercicios/README.md). Para 00, empezá por [comparar reglas y modelo](../08-Ejercicios/00.md). Las hojas son espacios de trabajo; los laboratorios siguientes aportan código y pruebas a los módulos que los usan.
+
 Cinco prácticas reproducibles con Python 3.11 y biblioteca estándar. Copia cada `starter.py` a `Mi-progreso/labs/` (excluida por Git) y trabaja allí; consulta la referencia después de tu intento.
 
 | Lab | Habilidad comprobada |
