@@ -1,39 +1,64 @@
 # Mi seguimiento: cómo usarlo
 
-Un solo archivo para saber dónde estás y retomar sin pensar todo de nuevo. No necesitás una ficha de progreso por sesión, otra por semana y otra por módulo. Para resolver actividades, usá la [hoja ya preparada de cada módulo](../08-Ejercicios/README.md); el seguimiento solo guarda el próximo paso.
+Un solo lugar para saber dónde estás y retomar sin pensar todo de nuevo. Las respuestas se resuelven en la [hoja ya preparada de cada módulo](../08-Ejercicios/README.md); el seguimiento guarda solo el estado necesario para continuar.
 
-## Prepararlo una sola vez
+## Ya está preparado
 
-1. En tu copia del roadmap, creá la carpeta `Mi-progreso` si no existe.
-2. Copiá allí la [plantilla de seguimiento](../05-Plantillas/Plantilla%20de%20progreso.md) y llamá al archivo `Mi seguimiento.md`.
-3. En «Estoy estudiando», escribí el tema o módulo actual. Si ya empezaste el 00, seguí desde donde estabas.
+La carpeta `Mi-progreso/` forma parte del repositorio privado y es la fuente de verdad compartida entre tu copia local, Pi y ChatGPT.
 
-Si ya tenés notas, conservá todo. Podés usar una de ellas como archivo único; no hace falta pasar en limpio el historial.
+Usá estos dos archivos:
+
+- `Mi-progreso/Mi seguimiento.md`: tema actual y próximo paso.
+- `Mi-progreso/Conocimientos.md`: estado y evidencia por concepto.
+
+No hace falta crear otra ficha por sesión, semana o módulo.
+
+## Antes de estudiar con Pi
+
+Desde la raíz del repo, actualizá la copia local:
+
+```bash
+git pull --rebase
+```
+
+Pi tiene instrucciones de leer el seguimiento y los conocimientos antes de enseñar. Si encuentra cambios locales sin confirmar, no debe descartarlos ni hacer pull automáticamente.
 
 ## Al terminar de estudiar: dos minutos
 
-Agregá una fecha y completá tres líneas:
+Agregá una fecha y completá tres líneas en `Mi-progreso/Mi seguimiento.md`:
 
 - **Hice:** el ejercicio o tema que trabajaste; una frase alcanza.
 - **Me costó:** la duda o el bloqueo principal. Si no hubo, poné «nada en particular».
 - **Cómo sigo:** una acción pequeña para la próxima vez, como «probar una duración de turno inválida».
 
-La próxima sesión empieza leyendo el último «Cómo sigo». No copies ese paso en otra tabla. Actualizá «Estoy estudiando» solo cuando cambies de tema.
+La próxima sesión empieza leyendo el último «Cómo sigo». Actualizá «Estoy estudiando» solo cuando cambies de tema.
 
-## Ejemplo ficticio
+Pi puede hacer esta actualización al finalizar una sesión. Si cambió el progreso, sincronizá:
 
-Así podría quedar una entrada; no describe progreso tuyo:
+```bash
+git add Mi-progreso
+git commit -m "progress: update learning state"
+git push
+```
 
-### 7 de septiembre
+Si no hubo cambios, no hace falta crear un commit.
 
-- Hice: distinguí tres tareas que se resuelven con reglas de otras que podrían usar IA.
-- Me costó: decidir qué hacer cuando falta información.
-- Cómo sigo: resolver dos entradas incompletas y explicar cuándo pedir aclaración.
+Cuando estudies con ChatGPT, puede leer y editar esos mismos archivos directamente en GitHub.
+
+## Estado por concepto
+
+`Mi-progreso/Conocimientos.md` usa solo tres estados:
+
+- `pendiente`: todavía no se comprobó suficientemente.
+- `en aprendizaje`: hay comprensión parcial o errores relevantes.
+- `demostrado`: resolviste una comprobación significativa sin depender de copiar la solución.
+
+Leer una explicación o decir «entiendo» no alcanza para marcar `demostrado`; tiene que existir evidencia observable.
 
 ## Qué no hace falta completar
 
-Sin puntajes, estados de dominio, horas por actividad, archivos semanales ni campos técnicos. No necesitás plugins ni un calendario de repasos. Si faltaste unos días, seguí con la próxima entrada: no rellenes los días anteriores.
+Sin puntajes, horas por actividad, archivos semanales ni calendarios de repaso obligatorios. Si faltaste unos días, continuá desde el último «Cómo sigo».
 
-Las respuestas se escriben en la [hoja del ejercicio](../08-Ejercicios/README.md). El código y sus pruebas quedan en sus propios archivos. Podés nombrarlos en «Hice» para encontrarlos, sin copiar sus resultados al seguimiento. Para decidir si avanzar, usá [esta comprobación breve](../04-Recursos/Autoevaluacion%20y%20dominio.md).
+Las respuestas se escriben en la [hoja del ejercicio](../08-Ejercicios/README.md). El código y sus pruebas quedan en sus propios archivos. Podés nombrarlos en «Hice» sin copiar sus resultados. Para decidir si avanzar, usá [esta comprobación breve](../04-Recursos/Autoevaluacion%20y%20dominio.md).
 
-La carpeta `Mi-progreso/` está excluida de Git: hacer push no respalda estas notas ni las sincroniza entre equipos. Conservá una copia propia. No guardes datos de pacientes ni credenciales en el seguimiento.
+No guardes datos de pacientes, credenciales, secretos ni información personal sensible innecesaria en `Mi-progreso/`. Aunque el repositorio sea privado, el seguimiento debe seguir siendo mínimo.
