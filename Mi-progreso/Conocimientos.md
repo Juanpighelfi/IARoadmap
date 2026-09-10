@@ -4,10 +4,10 @@ Este archivo guarda el estado persistente por concepto. No es una calificación:
 
 | Área | Concepto | Estado | Evidencia | Última comprobación |
 | --- | --- | --- | --- | --- |
-| JavaScript | variables | en aprendizaje | Distingue `let` de `const` nominalmente, pero predijo una reasignación válida de `const` y un valor final incorrecto para `edad`. | 2026-09-09 |
-| JavaScript | tipos | en aprendizaje | Reconoce `string` y `boolean`, pero respondió `int` para `typeof 42`; en JavaScript es `number`. | 2026-09-09 |
-| JavaScript | condicionales | pendiente | Predijo correctamente un `if/else` básico; falta subir dificultad para ubicar el borde. | 2026-09-09 |
-| JavaScript | bucles | pendiente | Predijo correctamente `0, 1, 2` en un `for` básico; falta subir dificultad para ubicar el borde. | 2026-09-09 |
-| JavaScript | funciones | en aprendizaje | Predijo correctamente el resultado `5`, pero todavía no explicó el papel de parámetros y `return`. | 2026-09-09 |
-| JavaScript | arrays | pendiente | Accedió correctamente al segundo elemento con `colores[1]`; falta subir dificultad para ubicar el borde. | 2026-09-09 |
-| JavaScript | objetos | pendiente | Accedió correctamente a una propiedad con `persona.nombre`; falta subir dificultad para ubicar el borde. | 2026-09-09 |
+| JavaScript | variables | en aprendizaje | Distingue `let` de `const` nominalmente, pero todavía confunde una vinculación `const` con la inmutabilidad del objeto y antes predijo una reasignación válida de una constante. | 2026-09-10 |
+| JavaScript | tipos | en aprendizaje | Reconoce `number`, `string` y `boolean`, pero respondió `null` para `typeof undefined`; falta fijar los tipos primitivos y el resultado real de `typeof`. | 2026-09-10 |
+| JavaScript | condicionales | pendiente | Predijo correctamente `if/else` básico y una condición compuesta con `&&`; falta encontrar el límite superior de comprensión. | 2026-09-10 |
+| JavaScript | bucles | pendiente | Predijo correctamente un `for` por índice y un `for...of` sobre `[10,20,30]`; falta encontrar el límite superior. | 2026-09-10 |
+| JavaScript | funciones | en aprendizaje | Entiende que un parámetro recibe el argumento pasado al llamar la función, pero creyó que una función sin `return` devolvía el cálculo; falta fijar el valor de retorno. | 2026-09-10 |
+| JavaScript | arrays | pendiente | Accede por índice y predijo correctamente `push` y `length`; falta encontrar el límite superior. | 2026-09-10 |
+| JavaScript | objetos | pendiente | Accede y modifica propiedades correctamente, pero aún falta separar claramente objeto mutable de vinculación `const` y encontrar el límite superior. | 2026-09-10 |
