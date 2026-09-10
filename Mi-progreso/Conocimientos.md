@@ -4,7 +4,7 @@ Este archivo guarda el estado persistente por concepto. No es una calificación:
 
 | Área | Concepto | Estado | Evidencia | Última comprobación |
 | --- | --- | --- | --- | --- |
-| JavaScript | variables | en aprendizaje | Comprende que dos variables pueden referir al mismo objeto y que mutar el objeto no crea una copia; todavía no anticipó si reasignar completamente una variable `const` está permitido. | 2026-09-10 |
+| JavaScript | variables | demostrado | Distingue `let` de `const`, comprende que `const` impide reasignar la referencia pero no mutar el objeto, y diferencia modificar un objeto existente de apuntar a otro objeto. | 2026-09-10 |
 | JavaScript | tipos | demostrado | Distingue `number`, `string`, `boolean`, `undefined` y `null`; comprende que el tipo pertenece al valor, que una variable puede cambiar de tipo y recuerda la rareza `typeof null === "object"`. | 2026-09-10 |
 | JavaScript | condicionales | demostrado | Predice correctamente `if/else`, `else if`, `&&`, `||` y coerción booleana; identificó que `"false"` y `[]` son truthy mientras `""` y `null` son falsy. | 2026-09-10 |
 | JavaScript | bucles | en aprendizaje | Predice correctamente `for`, `for...of`, filtrado, acumulación y `break`, pero creyó que `continue` también detiene el bucle; falta fijar la diferencia `break` vs `continue`. | 2026-09-10 |
