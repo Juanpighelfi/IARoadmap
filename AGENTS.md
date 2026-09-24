@@ -24,6 +24,17 @@ Los únicos estados de concepto son:
 
 El contrato completo está en `Mi-progreso/README.md`.
 
+## Repaso espaciado
+
+El calendario de repaso lo lleva el plugin Obsidian Spaced Repetition, sobre `Repaso/`. No agregues columnas ni fechas de repaso a `Conocimientos.md`, y no toques `.obsidian/`.
+
+- El repaso lo hace el usuario con el plugin. Nunca edites ni borres los comentarios `<!--SR:...-->` que agrega el plugin.
+- Cuando un concepto pasa a `demostrado`, agregá su tarjeta en `Repaso/` en la misma sesión, siguiendo el formato de `Mi-progreso/README.md`.
+- Si el usuario cuenta al empezar la sesión que falló una tarjeta, hacele una pregunta nueva sobre ese concepto. Si confirma la dificultad, bajalo a `en aprendizaje` con la evidencia. Si acierta, no cambies nada.
+- Los repasos no generan una entrada en `Mi seguimiento.md`, salvo que cambien un estado.
+
+Cuando una sesión cambie `Repaso/`, incluí esa carpeta en el commit de progreso junto con `Mi-progreso/`.
+
 ## Sincronización con Git
 
 Al iniciar una sesión de aprendizaje, si el árbol de trabajo está limpio, actualizá primero la copia local:

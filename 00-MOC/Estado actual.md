@@ -57,7 +57,9 @@ Leer una explicación o decir «entiendo» no alcanza para marcar `demostrado`; 
 
 ## Qué no hace falta completar
 
-Sin puntajes, horas por actividad, archivos semanales ni calendarios de repaso obligatorios. Si faltaste unos días, continuá desde el último «Cómo sigo».
+Sin puntajes, horas por actividad ni archivos semanales. Si faltaste unos días, continuá desde el último «Cómo sigo».
+
+El repaso espaciado lo hacés con el plugin Obsidian Spaced Repetition sobre las tarjetas de `Repaso/`; el plugin lleva las fechas. Si fallás una tarjeta, contalo al empezar la sesión siguiente. Las reglas completas están en `Mi-progreso/README.md`.
 
 Las respuestas se escriben en la [hoja del ejercicio](../08-Ejercicios/README.md). El código y sus pruebas quedan en sus propios archivos. Podés nombrarlos en «Hice» sin copiar sus resultados. Para decidir si avanzar, usá [esta comprobación breve](../04-Recursos/Autoevaluacion%20y%20dominio.md).
 

@@ -44,6 +44,24 @@ Las entradas nuevas en `Mi seguimiento.md` usan este formato:
 
 Solo agregá una entrada cuando la sesión haya producido aprendizaje, práctica o una decisión concreta sobre el próximo paso.
 
+## Repaso espaciado
+
+El calendario de repaso lo lleva el plugin Obsidian Spaced Repetition, sobre las tarjetas de `Repaso/`. `Conocimientos.md` sigue guardando solo estado y evidencia: no lleva columnas ni fechas de repaso.
+
+- El repaso lo hace el usuario con el plugin. Los agentes nunca editan ni borran los comentarios `<!--SR:...-->` que agrega el plugin.
+- Cuando un concepto pasa a `demostrado`, el agente agrega su tarjeta en `Repaso/` en la misma sesión.
+- Si el usuario falla una tarjeta, lo cuenta al empezar la sesión siguiente. El agente le hace una pregunta nueva sobre ese concepto y, si confirma la dificultad, lo baja a `en aprendizaje` con la evidencia. Si acierta, no cambia nada.
+- Los repasos no generan una entrada en `Mi seguimiento.md`, salvo que cambien un estado.
+
+Formato de las tarjetas:
+
+- Un archivo por área (`Repaso/JavaScript.md`, `Repaso/TypeScript.md`, `Repaso/Node.js.md`, …) con la etiqueta `#flashcards` en la primera línea.
+- Una tarjeta por concepto `demostrado`; los conceptos `en aprendizaje` todavía no llevan tarjeta.
+- Tarjeta multilínea: pregunta arriba, una línea con solo `?` y la respuesta abajo. Una línea en blanco separa las tarjetas, así que no puede haber líneas en blanco dentro de una tarjeta (tampoco antes de un bloque de código).
+- Preguntas de predecir o explicar, nunca de recitar una definición. La respuesta da el resultado y el porqué en una o dos líneas.
+- Si la tarjeta tiene código, su salida se comprueba ejecutándolo con Node antes de escribir la respuesta.
+- No usar `::` ni `==` fuera de los bloques de código: el plugin los interpreta como otro tipo de tarjeta.
+
 ## Flujo con Pi
 
 Antes de empezar una sesión en la copia local:
